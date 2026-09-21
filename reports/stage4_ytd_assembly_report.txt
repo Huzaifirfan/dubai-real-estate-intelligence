@@ -1,0 +1,506 @@
+Dubai Real Estate Intelligence Platform
+Stage 4 - Official DLD 2026 Year-to-Date Dataset Assembly
+========================================================================
+Status: COMPLETE WITH WARNINGS
+Output CSV: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/processed/dld_transactions_2026_ytd.csv
+Scope: the nine specified January-September source files only.
+Rows per month below refer to the source's expected month, not reassigned calendar months.
+A monthly file may cover only part of a month; no complete-month coverage is assumed.
+
+Rows per source month:
+  2026-01: 22,492 | dld_transactions_sample_2026_01.csv
+  2026-02: 21,606 | dld_transactions_2026_02.csv
+  2026-03: 17,340 | dld_transactions_2026_03.csv
+  2026-04: 18,851 | dld_transactions_2026_04.csv
+  2026-05: 13,804 | dld_transactions_2026_05.csv
+  2026-06: 18,641 | dld_transactions_2026_06.csv
+  2026-07: 19,167 | dld_transactions_2026_07.csv
+  2026-08: 15,946 | dld_transactions_2026_08.csv
+  2026-09: 11,607 | dld_transactions_2026_09.csv
+Total rows before concatenation (readable sources): 159,454
+
+Expected original column order from January:
+TRANSACTION_NUMBER, INSTANCE_DATE, GROUP_EN, PROCEDURE_EN, IS_OFFPLAN_EN, IS_FREE_HOLD_EN, USAGE_EN, AREA_EN, PROP_TYPE_EN, PROP_SB_TYPE_EN, TRANS_VALUE, PROCEDURE_AREA, ACTUAL_AREA, ROOMS_EN, PARKING, NEAREST_METRO_EN, NEAREST_MALL_EN, NEAREST_LANDMARK_EN, TOTAL_BUYER, TOTAL_SELLER, MASTER_PROJECT_EN, PROJECT_EN
+Schema validation result: PASS
+Records outside expected source month: 1,128
+Month mismatches are reported, not filtered, corrected, or reassigned.
+
+Total combined rows: 159,454
+Combined column count: 22
+Earliest INSTANCE_DATE: 2026-01-01 16:21:33
+Latest INSTANCE_DATE: 2026-09-21 17:55:06
+Records outside January-September 2026: 0
+Exact duplicate count: 231
+Unique TRANSACTION_NUMBER count: 154,432
+Repeated TRANSACTION_NUMBER occurrences: 5,022
+Missing TRANSACTION_NUMBER values: 0
+Duplicate counts are additional occurrences after the first; no duplicates were removed.
+Repeated transaction numbers may legitimately represent multiple properties or records.
+
+Missing values per column in the combined dataset:
+  TRANSACTION_NUMBER: 0
+  INSTANCE_DATE: 0
+  GROUP_EN: 0
+  PROCEDURE_EN: 0
+  IS_OFFPLAN_EN: 0
+  IS_FREE_HOLD_EN: 0
+  USAGE_EN: 0
+  AREA_EN: 0
+  PROP_TYPE_EN: 0
+  PROP_SB_TYPE_EN: 1,976
+  TRANS_VALUE: 0
+  PROCEDURE_AREA: 4
+  ACTUAL_AREA: 0
+  ROOMS_EN: 18,709
+  PARKING: 35,404
+  NEAREST_METRO_EN: 82,092
+  NEAREST_MALL_EN: 83,826
+  NEAREST_LANDMARK_EN: 61,949
+  TOTAL_BUYER: 0
+  TOTAL_SELLER: 0
+  MASTER_PROJECT_EN: 158,891
+  PROJECT_EN: 20,274
+
+Preservation conventions:
+All source fields were loaded as text, without stripping whitespace or changing numeric text.
+Missing-value counts describe blank CSV fields; literal NA strings and whitespace are preserved.
+Date parsing used separate validation/sort keys; original INSTANCE_DATE text is retained.
+No date columns or source labels were added. No missing values were filled or cleaned.
+The output is stably sorted by parsed INSTANCE_DATE, with unparseable/missing dates last.
+The pandas index is not exported. No work beyond Stage 4 was performed.
+
+Validation checks:
+  PASS: Exactly nine monthly source files were successfully processed
+  PASS: All sources have January's original 22 columns in identical order
+  PASS: January through September are all represented by valid dates
+  PASS: Each source contains records from its expected month
+  PASS: Combined row count equals the sum of source row counts
+  PASS: Output contains exactly the 22 original columns and no derived columns
+  PASS: Parsed dates are sorted ascending
+  PASS: Every source SHA-256 hash is unchanged
+
+Source files were not modified: CONFIRMED - all nine before/after SHA-256 hashes match.
+
+ALL SOURCE FILES AND VALIDATION DETAILS
+
+------------------------------------------------------------------------
+Source: dld_transactions_sample_2026_01.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/raw/dld_transactions_sample_2026_01.csv
+Expected month: 2026-01
+File size: 5,514,415 bytes
+Row count: 22,492
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-01-01 16:21:33
+Latest INSTANCE_DATE / actual maximum date: 2026-01-31 15:13:55
+Records within expected month: 22,492
+Records outside expected month: 0
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Input encoding: UTF-8
+SHA-256 before processing: fc741ffcb79dc2ddbace178dfad050ba6c852738cce9370e08870ff148da6f17
+SHA-256 after processing: fc741ffcb79dc2ddbace178dfad050ba6c852738cce9370e08870ff148da6f17
+Source hash unchanged: YES
+
+------------------------------------------------------------------------
+Source: dld_transactions_2026_02.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/external/2026_monthly/dld_transactions_2026_02.csv
+Expected month: 2026-02
+File size: 5,294,034 bytes
+Row count: 21,606
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-02-01 15:50:48
+Latest INSTANCE_DATE / actual maximum date: 2026-02-28 15:13:28
+Records within expected month: 21,606
+Records outside expected month: 0
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Input encoding: UTF-8
+SHA-256 before processing: 5d88f530239c67dd864828b4121ffc2f5ba2cb6b4b3f5e89983e70e982eb6bd8
+SHA-256 after processing: 5d88f530239c67dd864828b4121ffc2f5ba2cb6b4b3f5e89983e70e982eb6bd8
+Source hash unchanged: YES
+
+------------------------------------------------------------------------
+Source: dld_transactions_2026_03.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/external/2026_monthly/dld_transactions_2026_03.csv
+Expected month: 2026-03
+File size: 4,235,282 bytes
+Row count: 17,340
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-03-01 15:47:32
+Latest INSTANCE_DATE / actual maximum date: 2026-03-31 15:14:59
+Records within expected month: 17,340
+Records outside expected month: 0
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Input encoding: UTF-8
+SHA-256 before processing: 17959df02f421180ea26962e1fbaac7f0e55f7b8ec692f058df704a84c85e203
+SHA-256 after processing: 17959df02f421180ea26962e1fbaac7f0e55f7b8ec692f058df704a84c85e203
+Source hash unchanged: YES
+
+------------------------------------------------------------------------
+Source: dld_transactions_2026_04.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/external/2026_monthly/dld_transactions_2026_04.csv
+Expected month: 2026-04
+File size: 4,620,832 bytes
+Row count: 18,851
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-03-31 15:15:34
+Latest INSTANCE_DATE / actual maximum date: 2026-04-30 15:13:20
+Records within expected month: 18,559
+Records outside expected month: 292
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Outside-month dates and record counts:
+  2026-03-31: 292
+Input encoding: UTF-8
+SHA-256 before processing: 46d402b2c50880363b99c714822971808517ce58ed4f482f2c656661e6b8e830
+SHA-256 after processing: 46d402b2c50880363b99c714822971808517ce58ed4f482f2c656661e6b8e830
+Source hash unchanged: YES
+WARNING: 292 records fall outside expected month 2026-04; ALL are retained.
+
+------------------------------------------------------------------------
+Source: dld_transactions_2026_05.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/external/2026_monthly/dld_transactions_2026_05.csv
+Expected month: 2026-05
+File size: 3,387,991 bytes
+Row count: 13,804
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-04-30 15:17:29
+Latest INSTANCE_DATE / actual maximum date: 2026-05-30 19:12:06
+Records within expected month: 13,571
+Records outside expected month: 233
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Outside-month dates and record counts:
+  2026-04-30: 233
+Input encoding: UTF-8
+SHA-256 before processing: 0d0888acf3156293c09161bab4330c8c319b106a89abbb72c77ea445e08c11cc
+SHA-256 after processing: 0d0888acf3156293c09161bab4330c8c319b106a89abbb72c77ea445e08c11cc
+Source hash unchanged: YES
+WARNING: 233 records fall outside expected month 2026-05; ALL are retained.
+
+------------------------------------------------------------------------
+Source: dld_transactions_2026_06.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/external/2026_monthly/dld_transactions_2026_06.csv
+Expected month: 2026-06
+File size: 4,581,731 bytes
+Row count: 18,641
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-05-29 11:50:10
+Latest INSTANCE_DATE / actual maximum date: 2026-06-30 15:14:54
+Records within expected month: 18,600
+Records outside expected month: 41
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Outside-month dates and record counts:
+  2026-05-29: 15
+  2026-05-30: 25
+  2026-05-31: 1
+Input encoding: UTF-8
+SHA-256 before processing: 494f353f3499951f359f7df28a046a0c4fa74988b18463516a55f9c25063c538
+SHA-256 after processing: 494f353f3499951f359f7df28a046a0c4fa74988b18463516a55f9c25063c538
+Source hash unchanged: YES
+WARNING: 41 records fall outside expected month 2026-06; ALL are retained.
+
+------------------------------------------------------------------------
+Source: dld_transactions_2026_07.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/external/2026_monthly/dld_transactions_2026_07.csv
+Expected month: 2026-07
+File size: 4,711,663 bytes
+Row count: 19,167
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-06-30 15:15:03
+Latest INSTANCE_DATE / actual maximum date: 2026-07-31 11:44:25
+Records within expected month: 18,895
+Records outside expected month: 272
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Outside-month dates and record counts:
+  2026-06-30: 272
+Input encoding: UTF-8
+SHA-256 before processing: f2b29dcb2b86f0a72babed07f687eddb24e3e7d4cabba79d9c8cbf1c89efa93d
+SHA-256 after processing: f2b29dcb2b86f0a72babed07f687eddb24e3e7d4cabba79d9c8cbf1c89efa93d
+Source hash unchanged: YES
+WARNING: 272 records fall outside expected month 2026-07; ALL are retained.
+
+------------------------------------------------------------------------
+Source: dld_transactions_2026_08.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/external/2026_monthly/dld_transactions_2026_08.csv
+Expected month: 2026-08
+File size: 3,895,489 bytes
+Row count: 15,946
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-08-01 15:25:50
+Latest INSTANCE_DATE / actual maximum date: 2026-08-31 15:13:45
+Records within expected month: 15,946
+Records outside expected month: 0
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Input encoding: UTF-8
+SHA-256 before processing: d7a3139823243647c2e70a1333e6520d2322a0fa5bfb35a19251ca71bbbfcd1f
+SHA-256 after processing: d7a3139823243647c2e70a1333e6520d2322a0fa5bfb35a19251ca71bbbfcd1f
+Source hash unchanged: YES
+
+------------------------------------------------------------------------
+Source: dld_transactions_2026_09.csv
+Path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/external/2026_monthly/dld_transactions_2026_09.csv
+Expected month: 2026-09
+File size: 2,853,370 bytes
+Row count: 11,607
+Column count: 22
+Complete column names:
+  1. TRANSACTION_NUMBER
+  2. INSTANCE_DATE
+  3. GROUP_EN
+  4. PROCEDURE_EN
+  5. IS_OFFPLAN_EN
+  6. IS_FREE_HOLD_EN
+  7. USAGE_EN
+  8. AREA_EN
+  9. PROP_TYPE_EN
+  10. PROP_SB_TYPE_EN
+  11. TRANS_VALUE
+  12. PROCEDURE_AREA
+  13. ACTUAL_AREA
+  14. ROOMS_EN
+  15. PARKING
+  16. NEAREST_METRO_EN
+  17. NEAREST_MALL_EN
+  18. NEAREST_LANDMARK_EN
+  19. TOTAL_BUYER
+  20. TOTAL_SELLER
+  21. MASTER_PROJECT_EN
+  22. PROJECT_EN
+Schema validation: PASS
+Missing columns: None
+Unexpected columns: None
+Column order differs: No
+Earliest INSTANCE_DATE / actual minimum date: 2026-08-31 15:16:32
+Latest INSTANCE_DATE / actual maximum date: 2026-09-21 17:55:06
+Records within expected month: 11,317
+Records outside expected month: 290
+Missing INSTANCE_DATE values: 0
+Date conversion failures: 0
+Outside-month dates and record counts:
+  2026-08-31: 290
+Input encoding: UTF-8
+SHA-256 before processing: 241c5715cc10564c081145ad67448da9cc0d16625a052bae3a238bd6e28357e5
+SHA-256 after processing: 241c5715cc10564c081145ad67448da9cc0d16625a052bae3a238bd6e28357e5
+Source hash unchanged: YES
+WARNING: 290 records fall outside expected month 2026-09; ALL are retained.

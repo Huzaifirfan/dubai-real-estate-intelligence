@@ -4,3 +4,4 @@ __pycache__/
 .env
 *.pyc
 data/processed/*.csv
+data/external/**/*.csv
