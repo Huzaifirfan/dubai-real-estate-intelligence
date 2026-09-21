@@ -1,0 +1,99 @@
+Dubai Real Estate Intelligence Platform
+Stage 3 - Data Cleaning and Safe Transformation
+========================================================================
+Raw file name: dld_transactions_sample_2026_01.csv
+Raw path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/raw/dld_transactions_sample_2026_01.csv
+Output file name: dld_transactions_clean_2026_01.csv
+Output path: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/processed/dld_transactions_clean_2026_01.csv
+Input encoding: utf-8
+Output encoding: UTF-8
+Raw SHA-256: fc741ffcb79dc2ddbace178dfad050ba6c852738cce9370e08870ff148da6f17
+Raw-file protection: separate output paths; raw fingerprint verified before saving.
+
+Raw row count: 22,492
+Cleaned row count: 22,461
+Exact duplicates removed: 31
+Duplicates compared across all original columns BEFORE transformations.
+Raw column count: 22
+Cleaned column count: 29
+New derived columns:
+  - TRANSACTION_DATE
+  - TRANSACTION_YEAR
+  - TRANSACTION_MONTH
+  - TRANSACTION_MONTH_NAME
+  - TRANSACTION_DAY
+  - TRANSACTION_DAY_NAME
+  - TRANSACTION_HOUR
+
+Date conversion failures: 0
+Failures count non-missing values after trimming that could not be parsed.
+Dates use ISO format; rows with missing or failed dates remain, sorted last.
+Numeric conversion issues (non-missing values converted to missing):
+  TRANS_VALUE: 0
+  PROCEDURE_AREA: 0
+  ACTUAL_AREA: 0
+  TOTAL_BUYER: 0
+  TOTAL_SELLER: 0
+
+Missing-value counts after cleaning:
+  TRANSACTION_NUMBER: 0
+  INSTANCE_DATE: 0
+  GROUP_EN: 0
+  PROCEDURE_EN: 0
+  IS_OFFPLAN_EN: 0
+  IS_FREE_HOLD_EN: 0
+  USAGE_EN: 0
+  AREA_EN: 0
+  PROP_TYPE_EN: 0
+  PROP_SB_TYPE_EN: 432
+  TRANS_VALUE: 0
+  PROCEDURE_AREA: 1
+  ACTUAL_AREA: 0
+  ROOMS_EN: 3,570
+  PARKING: 6,010
+  NEAREST_METRO_EN: 11,001
+  NEAREST_MALL_EN: 11,293
+  NEAREST_LANDMARK_EN: 8,347
+  TOTAL_BUYER: 0
+  TOTAL_SELLER: 0
+  MASTER_PROJECT_EN: 22,378
+  PROJECT_EN: 3,110
+  TRANSACTION_DATE: 0
+  TRANSACTION_YEAR: 0
+  TRANSACTION_MONTH: 0
+  TRANSACTION_MONTH_NAME: 0
+  TRANSACTION_DAY: 0
+  TRANSACTION_DAY_NAME: 0
+  TRANSACTION_HOUR: 0
+
+Repeated TRANSACTION_NUMBER values retained: YES.
+Every source row remains except exact duplicate rows across all original columns.
+Repeated transaction numbers may legitimately represent multiple properties or records.
+Repeated counts below mean additional occurrences after the first, excluding missing IDs.
+Raw repeated TRANSACTION_NUMBER count: 643
+Cleaned repeated TRANSACTION_NUMBER count: 612
+Unique TRANSACTION_NUMBER count: 21,849
+Newly missing TRANSACTION_NUMBER values: 0
+Remaining exact duplicate count: 0
+Minimum INSTANCE_DATE: 2026-01-01 16:21:33
+Maximum INSTANCE_DATE: 2026-01-31 15:13:55
+
+Validation checks before saving:
+  PASS: Cleaned rows must not exceed raw rows
+  PASS: Only exact duplicate source rows may be removed
+  PASS: All retained source rows must remain
+  PASS: No exact duplicates may remain
+  PASS: Transaction numbers must not gain missing values
+  PASS: All original columns must remain in their original order
+  PASS: All original DLD columns must exist
+  PASS: All derived date columns must exist
+  PASS: All transaction numbers must be retained apart from whitespace trimming
+  PASS: All required numeric columns must be numeric
+  PASS: Valid timestamps must be sorted ascending
+
+Original column names, official name capitalization, and spelling were retained.
+Missing values were preserved; no property details were invented or filled.
+No outliers or high-value records were removed or capped.
+TOTAL_BUYER and TOTAL_SELLER were retained, including their zero values.
+Index reset; pandas index not saved as a CSV column.
+No price-per-square-metre calculation or work beyond Stage 3 was performed.
