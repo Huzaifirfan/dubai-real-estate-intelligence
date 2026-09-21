@@ -1,0 +1,133 @@
+Dubai Real Estate Intelligence Platform
+Stage 6 - Analytics Feature Engineering
+========================================================================
+Input file: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/processed/dld_transactions_2026_ytd_clean.csv
+Output file: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/processed/dld_transactions_2026_ytd_features.csv
+Input encoding: UTF-8
+Output encoding: UTF-8
+Input rows: 159,223
+Output rows: 159,223
+Input columns: 30
+Output columns: 41
+
+Complete list of Stage 6 features:
+  - IS_SALE_TRANSACTION
+  - IS_RESIDENTIAL_FLAG
+  - IS_OFFPLAN_FLAG
+  - IS_FREEHOLD_FLAG
+  - PROPERTY_SIZE_SQFT
+  - VALID_SALE_PRICE_METRIC
+  - SALE_PRICE_PER_SQM
+  - SALE_PRICE_PER_SQFT
+  - TRANSACTION_VALUE_BAND
+  - PROPERTY_SIZE_BAND
+  - BEDROOM_COUNT
+
+Total Sales records: 119,549
+Total non-Sales records: 39,674
+Valid sale-price-metric records: 119,549
+Records without a sale price metric (including non-Sales): 39,674
+Sales records where sale price metrics could not be calculated: 0
+Non-Sales records are intentionally ineligible, regardless of their transaction value or area.
+
+Price-per-area statistics (validation/reporting only; no outliers removed or capped):
+  SALE_PRICE_PER_SQM
+    Minimum: 1.91
+    Median: 18,479.41
+    Mean: 20,666.05
+    Maximum: 2,207,992.93
+  SALE_PRICE_PER_SQFT
+    Minimum: 0.18
+    Median: 1,716.79
+    Mean: 1,919.94
+    Maximum: 205,129.26
+Statistics exclude missing metrics; report numbers are rounded to two decimal places only for display.
+
+Counts for TRANSACTION_VALUE_BAND:
+  Under 500K: 7,846
+  500K - 1M: 43,852
+  1M - 2M: 48,945
+  2M - 5M: 42,804
+  5M - 10M: 8,824
+  10M+: 6,952
+  Missing: 0
+
+Counts for PROPERTY_SIZE_BAND:
+  Under 50 sqm: 34,146
+  50 - 100 sqm: 55,523
+  100 - 200 sqm: 43,145
+  200 - 500 sqm: 15,270
+  500+ sqm: 11,139
+  Missing: 0
+
+Counts for BEDROOM_COUNT:
+  0: 33,858
+  1: 48,783
+  2: 30,064
+  3: 12,326
+  4: 7,130
+  5: 1,791
+  6: 73
+  7: 13
+  Missing / unmapped: 25,185
+Unrecognized room categories remain unchanged in ROOMS_EN and receive no guessed bedroom count.
+
+Residential vs non-residential:
+  Residential: 154,058
+  Non-residential / other: 5,165
+
+Off-plan vs ready:
+  Off-Plan: 83,008
+  Ready: 76,215
+  Missing / unexpected category: 0
+
+Freehold vs non-freehold:
+  Free Hold: 151,838
+  Non Free Hold: 7,385
+  Missing / unexpected category: 0
+
+Numeric interpretation issues in temporary calculation Series:
+  TRANS_VALUE: 0
+  ACTUAL_AREA: 0
+The original numeric fields were not converted or overwritten in the exported source columns.
+
+Square metres to square feet conversion factor: 10.7639104167
+Value bands use inclusive lower and exclusive upper boundaries, for all transaction groups.
+Size bands require positive ACTUAL_AREA. Bedrooms use only Studio and 1-7 B/R mappings.
+Sales status uses GROUP_EN only, never PROCEDURE_EN.
+Existing empty CSV fields, literal text such as NA, names, and date columns are preserved.
+
+Source SHA-256 before processing: b27e19c482dc663aca9008b809bbca01194a6581eaae3b81aa26bc89d6387901
+Source SHA-256 after processing: b27e19c482dc663aca9008b809bbca01194a6581eaae3b81aa26bc89d6387901
+Source unchanged: YES - hashes match
+
+Validation results:
+  PASS: Output row count exactly equals input row count
+  PASS: All existing 30 columns retain their original names and order
+  PASS: All 11 Stage 6 features exist in the expected order
+  PASS: Output has exactly 41 columns
+  PASS: No source column values were overwritten and no source rows were removed
+  PASS: Source row order is unchanged
+  PASS: Transaction-number count and every repeated occurrence are unchanged
+  PASS: Sales flag uses only GROUP_EN
+  PASS: Residential flag follows USAGE_EN
+  PASS: Sale price validity flag requires Sales and positive value/area
+  PASS: Sale price per sqm is populated exactly on valid sale rows
+  PASS: Sale price per sqft is populated exactly on valid sale rows
+  PASS: No non-sale record has a sale price-per-area metric
+  PASS: Property size sqft is populated only for positive numeric area
+  PASS: Property size sqft is positive whenever populated
+  PASS: Bedroom counts follow only the defined mappings
+  PASS: Unexpected or missing bedroom categories have no guessed count
+  PASS: IS_SALE_TRANSACTION contains only 0/1 with no missing flags
+  PASS: IS_RESIDENTIAL_FLAG contains only 0/1 with no missing flags
+  PASS: VALID_SALE_PRICE_METRIC contains only 0/1 with no missing flags
+  PASS: IS_OFFPLAN_FLAG has defined 0/1 mappings; unknown values remain missing
+  PASS: IS_FREEHOLD_FLAG has defined 0/1 mappings; unknown values remain missing
+  PASS: TRANSACTION_VALUE_BAND has correct boundaries and missing-value rules
+  PASS: PROPERTY_SIZE_BAND has correct boundaries and missing-value rules
+  PASS: Stage 5 source SHA-256 is unchanged
+
+All source rows, values, and repeated transaction numbers were retained.
+No existing missing DLD fields were filled. No rankings, predictions, or market conclusions were produced.
+Only the eleven requested Stage 6 features were added. The pandas index was not exported.
