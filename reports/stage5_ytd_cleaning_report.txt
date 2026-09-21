@@ -1,0 +1,106 @@
+Dubai Real Estate Intelligence Platform
+Stage 5 - 2026 YTD Data Cleaning and Deduplication
+========================================================================
+Source file: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/processed/dld_transactions_2026_ytd.csv
+Output file: /Users/huzaifirfan2505/Desktop/D.A Projects/dubai-real-estate-intelligence/data/processed/dld_transactions_2026_ytd_clean.csv
+Source encoding: UTF-8
+Output encoding: UTF-8
+
+Source row count: 159,454
+Cleaned row count: 159,223
+Exact duplicate rows removed: 231
+Duplicates identified across the original 22 source fields before trimming or conversion.
+Source column count: 22
+Cleaned column count: 30
+Derived columns:
+  - TRANSACTION_DATE
+  - TRANSACTION_YEAR
+  - TRANSACTION_MONTH
+  - TRANSACTION_MONTH_NAME
+  - TRANSACTION_QUARTER
+  - TRANSACTION_DAY
+  - TRANSACTION_DAY_NAME
+  - TRANSACTION_HOUR
+
+Earliest INSTANCE_DATE: 2026-01-01 16:21:33
+Latest INSTANCE_DATE: 2026-09-21 17:55:06
+Missing date values before parsing: 0
+Date parsing failures: 0
+Missing date values after parsing: 0
+Missing/conversion counts above and below use retained rows after exact deduplication.
+Dates are parsed as ISO dates; failed conversions are retained as missing, not dropped.
+
+Numeric conversion issues (non-missing values converted to missing):
+  TRANS_VALUE: 0
+  PROCEDURE_AREA: 0
+  ACTUAL_AREA: 0
+  TOTAL_BUYER: 0
+  TOTAL_SELLER: 0
+
+Missing values per column after cleaning:
+  TRANSACTION_NUMBER: 0
+  INSTANCE_DATE: 0
+  GROUP_EN: 0
+  PROCEDURE_EN: 0
+  IS_OFFPLAN_EN: 0
+  IS_FREE_HOLD_EN: 0
+  USAGE_EN: 0
+  AREA_EN: 0
+  PROP_TYPE_EN: 0
+  PROP_SB_TYPE_EN: 1,976
+  TRANS_VALUE: 0
+  PROCEDURE_AREA: 4
+  ACTUAL_AREA: 0
+  ROOMS_EN: 18,699
+  PARKING: 35,307
+  NEAREST_METRO_EN: 82,046
+  NEAREST_MALL_EN: 83,780
+  NEAREST_LANDMARK_EN: 61,913
+  TOTAL_BUYER: 0
+  TOTAL_SELLER: 0
+  MASTER_PROJECT_EN: 158,660
+  PROJECT_EN: 20,220
+  TRANSACTION_DATE: 0
+  TRANSACTION_YEAR: 0
+  TRANSACTION_MONTH: 0
+  TRANSACTION_MONTH_NAME: 0
+  TRANSACTION_QUARTER: 0
+  TRANSACTION_DAY: 0
+  TRANSACTION_DAY_NAME: 0
+  TRANSACTION_HOUR: 0
+
+Unique TRANSACTION_NUMBER count: 154,432
+Repeated TRANSACTION_NUMBER occurrences retained: 4,791
+Source repeated TRANSACTION_NUMBER occurrences: 5,022
+Repeated counts are additional occurrences after the first, excluding missing identifiers.
+Repeated identifiers can represent multiple units, properties, or lines within one transaction.
+No record was removed merely because its transaction number appeared more than once.
+New missing TRANSACTION_NUMBER values: 0
+Remaining exact duplicate count: 0
+
+Source SHA-256 before processing: 1d2a39631424a2b240e0320d86c373891f3efbcd666720a1d9a9954cef885fa0
+Source SHA-256 after processing: 1d2a39631424a2b240e0320d86c373891f3efbcd666720a1d9a9954cef885fa0
+Stage 4 source unchanged: YES - hashes match
+The raw January and February-September external CSVs were not opened for writing.
+
+Validation results before publishing outputs:
+  PASS: Cleaned rows do not exceed source rows
+  PASS: Only exact source duplicates were removed
+  PASS: Every nonduplicate source record is retained
+  PASS: All original 22 columns and their names/order are unchanged
+  PASS: All eight derived date columns exist
+  PASS: No other columns were added
+  PASS: No exact duplicates remain across the original 22 columns
+  PASS: No new missing transaction numbers were introduced
+  PASS: Repeated transaction numbers are retained except in exact duplicate rows
+  PASS: All five numeric columns have numeric pandas types
+  PASS: Valid dates are sorted ascending
+  PASS: Quarter values are Q1, Q2, Q3, Q4 or missing
+  PASS: Stage 4 source SHA-256 is unchanged
+
+Text was trimmed; empty/whitespace-only strings became missing values.
+Official column names, capitalization, and spelling were retained.
+Missing project, room, and master-project values were not filled or guessed.
+No outliers were removed, transaction values capped, or business metrics created.
+Dates sorted ascending; missing dates last; index reset and not exported.
+Work remains within Stage 5.
