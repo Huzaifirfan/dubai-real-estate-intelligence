@@ -2,6 +2,6 @@ pandas
 numpy
 openpyxl
 sqlalchemy
-pymysql
+pymysql[rsa]
 python-dotenv
 jupyter
