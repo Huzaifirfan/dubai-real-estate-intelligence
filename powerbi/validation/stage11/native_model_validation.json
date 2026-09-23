@@ -1,0 +1,494 @@
+{
+    "evidence":  "Local native metadata parsing and structural assertions; no data refresh or DAX/M execution",
+    "validated_at_utc":  "2026-09-23T20:18:17.0454388Z",
+    "native_parser_pass":  true,
+    "parser_assembly":  "Microsoft.PowerBI.Tabular, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91",
+    "compatibility_level":  1606,
+    "source_query_culture":  "en-US",
+    "tables":  [
+                   {
+                       "name":  "FactTransactions",
+                       "data_category":  "",
+                       "columns":  [
+                                       {
+                                           "name":  "TRANSACTION_NUMBER",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "INSTANCE_DATE",
+                                           "data_type":  "DateTime",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "GROUP_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "PROCEDURE_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "IS_OFFPLAN_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "IS_FREE_HOLD_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "USAGE_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "AREA_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "PROP_TYPE_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "PROP_SB_TYPE_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANS_VALUE",
+                                           "data_type":  "Double",
+                                           "is_key":  false,
+                                           "hidden":  true,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "PROCEDURE_AREA",
+                                           "data_type":  "Double",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "ACTUAL_AREA",
+                                           "data_type":  "Double",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "ROOMS_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "PARKING",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "NEAREST_METRO_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "NEAREST_MALL_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "NEAREST_LANDMARK_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TOTAL_BUYER",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TOTAL_SELLER",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "MASTER_PROJECT_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "PROJECT_EN",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_DATE",
+                                           "data_type":  "DateTime",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_YEAR",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_MONTH",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_MONTH_NAME",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_QUARTER",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_DAY",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_DAY_NAME",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_HOUR",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "IS_SALE_TRANSACTION",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "IS_RESIDENTIAL_FLAG",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "IS_OFFPLAN_FLAG",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "IS_FREEHOLD_FLAG",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "PROPERTY_SIZE_SQFT",
+                                           "data_type":  "Double",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "VALID_SALE_PRICE_METRIC",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "SALE_PRICE_PER_SQM",
+                                           "data_type":  "Double",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "SALE_PRICE_PER_SQFT",
+                                           "data_type":  "Double",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_VALUE_BAND",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  "TRANSACTION_VALUE_BAND_SORT"
+                                       },
+                                       {
+                                           "name":  "PROPERTY_SIZE_BAND",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  "PROPERTY_SIZE_BAND_SORT"
+                                       },
+                                       {
+                                           "name":  "BEDROOM_COUNT",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "TRANSACTION_VALUE_BAND_SORT",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  true,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "PROPERTY_SIZE_BAND_SORT",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  true,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       }
+                                   ],
+                       "measures":  [
+                                        "Sales Records",
+                                        "Distinct Sales Transaction Numbers",
+                                        "Non-Sales Records",
+                                        "Valid Sale Price Records",
+                                        "Median Sale Price per Sqft",
+                                        "Average Sale Price per Sqft",
+                                        "Off-Plan Sales Records",
+                                        "Ready Sales Records",
+                                        "Off-Plan Share",
+                                        "Ready Share",
+                                        "Residential Sales Records",
+                                        "Residential Share",
+                                        "Commercial Sales Records",
+                                        "Freehold Sales Records",
+                                        "Non-Freehold Sales Records",
+                                        "Previous Month Sales Records",
+                                        "MoM Sales Record Growth %",
+                                        "Top Area by Sales Records",
+                                        "Latest Data Date",
+                                        "Data Coverage Label",
+                                        "Partial Month Warning"
+                                    ],
+                       "partitions":  [
+                                          {
+                                              "name":  "FactTransactions",
+                                              "mode":  "Import",
+                                              "source_type":  "MPartitionSource"
+                                          }
+                                      ]
+                   },
+                   {
+                       "name":  "DimDate",
+                       "data_category":  "Time",
+                       "columns":  [
+                                       {
+                                           "name":  "Date",
+                                           "data_type":  "DateTime",
+                                           "is_key":  true,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "Year",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "Month Number",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "Month Name",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  "Month Number"
+                                       },
+                                       {
+                                           "name":  "Month Short",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  "Month Number"
+                                       },
+                                       {
+                                           "name":  "Year Month",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  "Year Month Sort"
+                                       },
+                                       {
+                                           "name":  "Year Month Sort",
+                                           "data_type":  "Int64",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       },
+                                       {
+                                           "name":  "Quarter",
+                                           "data_type":  "String",
+                                           "is_key":  false,
+                                           "hidden":  false,
+                                           "summarize_by":  "None",
+                                           "sort_by_column":  null
+                                       }
+                                   ],
+                       "measures":  [
+
+                                    ],
+                       "partitions":  [
+                                          {
+                                              "name":  "DimDate",
+                                              "mode":  "Import",
+                                              "source_type":  "MPartitionSource"
+                                          }
+                                      ]
+                   }
+               ],
+    "relationships":  [
+                          {
+                              "name":  "8a8e84c1-0a59-5f2a-ac8e-073f2114e759",
+                              "active":  true,
+                              "from_table":  "FactTransactions",
+                              "from_column":  "TRANSACTION_DATE",
+                              "from_cardinality":  "Many",
+                              "to_table":  "DimDate",
+                              "to_column":  "Date",
+                              "to_cardinality":  "One",
+                              "cross_filtering_behavior":  "OneDirection"
+                          }
+                      ],
+    "expressions":  [
+                        {
+                            "name":  "SourceFile",
+                            "kind":  "M"
+                        }
+                    ],
+    "limitations":  [
+                        "Native deserialization validates TMDL metadata and resolves object references, not DAX formula execution.",
+                        "Power Query M and local CSV refresh must be tested in Power BI Desktop.",
+                        "Report rendering and slicer interactions must be tested in Power BI Desktop."
+                    ]
+}

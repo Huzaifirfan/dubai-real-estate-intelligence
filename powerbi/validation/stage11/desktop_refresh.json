@@ -1,0 +1,22 @@
+﻿{
+    "checked_utc":  "2026-09-23T19:04:21.1825123Z",
+    "desktop_pid":  20584,
+    "port":  56921,
+    "database":  "65e26a19-2e53-4285-bceb-e28992130c16",
+    "model_collation":  "Latin1_General_100_CS_AS",
+    "database_collation":  null,
+    "refresh_requested":  true,
+    "refresh_passed":  true,
+    "partitions":  [
+                       {
+                           "table":  "FactTransactions",
+                           "state":  "Ready",
+                           "refreshed":  "2026-09-23T19:04:38.1200000"
+                       },
+                       {
+                           "table":  "DimDate",
+                           "state":  "Ready",
+                           "refreshed":  "2026-09-23T19:04:30.2433330"
+                       }
+                   ]
+}

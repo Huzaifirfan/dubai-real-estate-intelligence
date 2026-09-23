@@ -3,9 +3,9 @@
   "name": "chart_top10_areas",
   "position": {
     "x": 616,
-    "y": 352,
+    "y": 384,
     "z": 20000,
-    "height": 300,
+    "height": 268,
     "width": 400,
     "tabOrder": 20000
   },

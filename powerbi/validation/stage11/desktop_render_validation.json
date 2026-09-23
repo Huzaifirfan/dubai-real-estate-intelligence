@@ -1,0 +1,65 @@
+{
+  "checked_utc": "2026-09-23T20:18:48.688233+00:00",
+  "evidence": "Actual native Power BI Desktop PrintWindow screenshots, inspected visually",
+  "desktop_version": "2.157.1354.0",
+  "pbip_opened": true,
+  "full_native_engine_refresh_passed": true,
+  "refresh_evidence": "desktop_refresh.json",
+  "pages": {
+    "Executive Overview": {
+      "render": "PASS",
+      "screenshot": "executive_overview_cleared.png",
+      "sha256": "9dc6d0da6fed834736b913a058cd271c2c86d7999e7493df9748b8f06e6d5dad",
+      "broken_visuals_observed": false,
+      "coverage_and_partial_warning_visible": true,
+      "selected_navigation_state_visible": true
+    },
+    "Market Trends": {
+      "render": "PASS",
+      "screenshot": "market_trends.png",
+      "sha256": "9fc30eb6ebf20ddce443e08620e4e394dbf6086e3b57589b6a2f71ba85907070",
+      "broken_visuals_observed": false,
+      "coverage_and_partial_warning_visible": true,
+      "selected_navigation_state_visible": true
+    },
+    "Area Intelligence": {
+      "render": "PASS",
+      "screenshot": "area_intelligence.png",
+      "sha256": "f605a6140952e84e131cd81628f20bed6297854f427335be76c224d816be7b21",
+      "broken_visuals_observed": false,
+      "coverage_and_partial_warning_visible": true,
+      "selected_navigation_state_visible": true
+    },
+    "Property & Pricing": {
+      "render": "PASS",
+      "screenshot": "property_pricing.png",
+      "sha256": "806b552689f711ac01b231a957aacd095ce24706da6447047b852a83067f3629",
+      "broken_visuals_observed": false,
+      "coverage_and_partial_warning_visible": true,
+      "selected_navigation_state_visible": true
+    }
+  },
+  "navigation": "PASS: native page navigator used between pages with Ctrl+click in Desktop edit mode",
+  "native_slicer_test": {
+    "page": "Executive Overview",
+    "field": "IS_OFFPLAN_EN",
+    "selection": "Ready",
+    "sales_records": 38042,
+    "ready_share": 1,
+    "visuals_filtered": true,
+    "screenshot": "slicer_interaction.png",
+    "cleared_after_test": true,
+    "cleared_sales_records": 119549
+  },
+  "live_filter_tests": [
+    "Ready",
+    "September"
+  ],
+  "scope_limits": [
+    "All four pages visually inspected; not every possible slicer combination tested.",
+    "Some chart and table contents scroll at 1024x768.",
+    "Area comparison uses the permitted table fallback.",
+    "No Power BI Service deployment or other Desktop-version testing."
+  ],
+  "final_desktop_state": "Saved with selections cleared, returned to Executive Overview, then closed normally."
+}

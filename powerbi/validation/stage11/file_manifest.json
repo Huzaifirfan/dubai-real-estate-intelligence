@@ -1,0 +1,490 @@
+{
+  "generated_utc": "2026-09-23T20:20:43.128010+00:00",
+  "branch": "main",
+  "head": "a63223ce5c1ee7b3f8eda30b7a6bf7b2ba36ef3a",
+  "committed": false,
+  "staged_files": [],
+  "modified_tracked_count": 20,
+  "created_untracked_count": 99,
+  "modified": [
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_monthly_sales/visual.json",
+      "sha256": "8b3139d509be14d40d107b279163ccb2c0899ff725128a13802096838adb2667"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_offplan_ready/visual.json",
+      "sha256": "039c51e9e9667aa895c7fbcb98a83707d97de41bdf90a895a916bf8b67a664ba"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_property_mix/visual.json",
+      "sha256": "d1b911a50b2e7bbb57bb10fcd89027a085ea3128b3d6cfdcd2a193764a0a2111"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_top10_areas/visual.json",
+      "sha256": "7cd42ed9aacf97e8f176781ac8e72834a9f0aa4db57ab6d976e48950bd1feb0c"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_distinct_sales/visual.json",
+      "sha256": "a176e5a54af60eb5ef60ba7e160206d8a88d68f6d43aa670cd1dcfa8d698fdb7"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_median_price/visual.json",
+      "sha256": "e1706b578c039f826162dec0ce5e58fa75ec53993a2550091ebcce4056864cdf"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_offplan_share/visual.json",
+      "sha256": "89cec264647580d6a94d7f1bd0af87cd083fb358e4ee284e5a3c6cb2d0dd98fb"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_ready_share/visual.json",
+      "sha256": "48071918bc30deaf86af149d62a858c4231677e4b747c9ce4cfd0ebaf0b2d4f8"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_residential_share/visual.json",
+      "sha256": "6d997e6ff5c902cfe31c9ea030909b9694301e8c07a003fbb0432d21a147b9fa"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_sales_records/visual.json",
+      "sha256": "dd76cd2336a1264788991e220a671a7acd65ae0fb36fb0c884b9a30616dcf5e9"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_top_area/visual.json",
+      "sha256": "e08c95539cdfd7b05bfdef671c2fa25fcd4ade18f68d49a9628c56806bda9c49"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_valid_price/visual.json",
+      "sha256": "ba8662e6d6653d5e738fbd14640ee3c71bddcdf56de7c877fa59d907e9386860"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_area/visual.json",
+      "sha256": "7a75a97a0542ab4a1167e198abb74faff4f02bd67d834dab65c9f5fefcc5dfe0"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_month/visual.json",
+      "sha256": "0691e64e54baffd7d953a73cc2af3e2d5ee9453e7d532f127795989491e238d9"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_offplan/visual.json",
+      "sha256": "44bc03072f68c6039979b318065c5d255039d1529a497c6ea2cf1d13fa8242ba"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_property/visual.json",
+      "sha256": "25ebd694ee2f42cd4e83817fa74dc590eb29ad298948d2c26ddef8d722d2e499"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_value_band/visual.json",
+      "sha256": "cd8d5b8c92021e86ea60bf98b48cd1c3995a725490eec595389edbe26b223ffd"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/pages.json",
+      "sha256": "9633eeb801ec5830ec9ecd7f2f03be50fdc52ea226c69d1859a1fe027c89c585"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/model.tmdl",
+      "sha256": "060dbfd0740529c4747d3ac543e98a39fc5deec2a1419d0fd1ed5d44ba98cad5"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/FactTransactions.tmdl",
+      "sha256": "8efa7619a9b465fe639f204ddbf8b66646d6588fe7161e88454ac27a0622b2f3"
+    }
+  ],
+  "created": [
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/page.json",
+      "sha256": "2c73f6cb819931b92d7d8e256da1a2530cd38a3e5dbd5aaf8ca2059bb280e64d"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/area_activity_price/visual.json",
+      "sha256": "5a8a4a4cd102474827fd4b4d0b2d2d391e1c8178c3fb0b9c48d33186d20956d2"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/area_detail/visual.json",
+      "sha256": "5650b540c1544a90dd005d51bfd1f014ec2d76b0bda140c82371e7d857dacdca"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/area_median/visual.json",
+      "sha256": "cf262d26c80946bd05cbb25add60f05a632c3253565af9bfc186bd64caa2baae"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/area_top15/visual.json",
+      "sha256": "ce9a88af9484b1f8bd9dcef49c3a69ad732ab2e21be4b986a51a6954cda89c00"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_coverage/visual.json",
+      "sha256": "5ba3fd9a701355d08e867e573fae05c77cb7aa3a6218e30e8cd7a5008ecd4304"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_footer/visual.json",
+      "sha256": "6be109060eee0c3fa3e6af691957147329464dfd54b54eb50ab556f50db4c05f"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_kpi_1/visual.json",
+      "sha256": "1e67adad08f21839a162182f9f6d66fb243ee4eef7ba31394e0ad1872e6fcde5"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_kpi_2/visual.json",
+      "sha256": "30b71bf7ba4b3d8f4795080c53d977d0b4a42c8ccab4262df8fbbf83a98fb6d6"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_kpi_3/visual.json",
+      "sha256": "0462140485d9f01b4ae21279eea84f0f648edf67126e54875ac6fb56744d787f"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_kpi_4/visual.json",
+      "sha256": "cffede20d0abac80e1be3032a9ae108cb88592a24bbc6733829e590af340a1ed"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_page_navigation/visual.json",
+      "sha256": "181e5a1b02d8c6cb411dc212a4c542134f348ed90df02a472e6f6c047f642683"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_partial/visual.json",
+      "sha256": "fa0b3157e23e491ca9cfa02202a0fc2121fde881fe64698f709047210ee41ae9"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_slicer_1/visual.json",
+      "sha256": "75e596769c69cce163694f362e32fb49301a76023f762990309cbc89928e1355"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_slicer_2/visual.json",
+      "sha256": "8e5c53ae0c364efb95542faa08947231d8080b65dacec4db2aad01d9d2158b97"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_slicer_3/visual.json",
+      "sha256": "c691897fae474b0f577645ce86e242645d4c4b85ad1f23c212f922f5cd5284a4"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_slicer_4/visual.json",
+      "sha256": "d0d8244a94293aebb6f2d179a249bb32d8d44d29f2c5d0f64df5f7f85dba3a9f"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_subtitle/visual.json",
+      "sha256": "388254948a547026bfaba022d48f67e814d44287d6f5f58ee5ea28ce777d03a7"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_title/visual.json",
+      "sha256": "14f4cbec4635d526b585ff8ba372babc4933eb0dd706f5b98ccf81a8b7e08bf7"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/stage11_page_navigation/visual.json",
+      "sha256": "181e5a1b02d8c6cb411dc212a4c542134f348ed90df02a472e6f6c047f642683"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/page.json",
+      "sha256": "dbad549570e80a92eb9745ffb9204df3f94dc81bd4867d552332e6f4a3ffe3a2"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/monthly_mix/visual.json",
+      "sha256": "798739edbbd32ce50d7308c8fe5d73f0511ec62835f63145fedf0dfb65a8c2cc"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/monthly_price/visual.json",
+      "sha256": "eb8dc3cd099a0c80fd7cf95760a3fef5d44fc16ce16f32aa5e109168fa4b2158"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/monthly_residential/visual.json",
+      "sha256": "4d176ccbf6f67243f6df9d7595eb19999f03cd21ed59f15f3dac00c572d09636"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/monthly_sales/visual.json",
+      "sha256": "02f897caa477a6eadd40d6d47b7e36ee0355eff75109c86fca640ca2cb9b88be"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_coverage/visual.json",
+      "sha256": "5ba3fd9a701355d08e867e573fae05c77cb7aa3a6218e30e8cd7a5008ecd4304"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_footer/visual.json",
+      "sha256": "29294cf5252491195ca475a35a54ceac780e6b8ce4b29e4e4e7f7f5d4a20102d"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_kpi_1/visual.json",
+      "sha256": "1babda13babdcf0e0362f1d1d0a3916eea2bdf9cbab7aa48def8b661f6e2b487"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_kpi_2/visual.json",
+      "sha256": "2c24bbbf595639c7382d5ea355a1112088c0a7fdf3e310f9ff6c2f00cafe8085"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_kpi_3/visual.json",
+      "sha256": "f6c7ae9d1f35430b7f9cd0e8149488231bda8e033c7ad086fa22fd443c545172"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_kpi_4/visual.json",
+      "sha256": "cffede20d0abac80e1be3032a9ae108cb88592a24bbc6733829e590af340a1ed"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_page_navigation/visual.json",
+      "sha256": "181e5a1b02d8c6cb411dc212a4c542134f348ed90df02a472e6f6c047f642683"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_partial/visual.json",
+      "sha256": "fa0b3157e23e491ca9cfa02202a0fc2121fde881fe64698f709047210ee41ae9"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_slicer_1/visual.json",
+      "sha256": "0d266121a2f07e7577b9ab069bece1bada6806d96a872efd434efe60052bb691"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_slicer_2/visual.json",
+      "sha256": "2a2d06026e3350607ffaf524e6645f0c4b22f800c9931c24446fa0e49d7986e4"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_slicer_3/visual.json",
+      "sha256": "f1466bdf90d8682ee85d3723532142092ae43db6e5877078868485940fd0c2dd"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_subtitle/visual.json",
+      "sha256": "19a110f2c135721895f2daff690405627c16890d4eb8079322a9e0cce6b16b74"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_title/visual.json",
+      "sha256": "ec6747906a080d209a3b8f38cb332d16e9cba91c24be7d8a44b539f25f1754dd"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/page.json",
+      "sha256": "5fcb24b12cad1154672a00a990fc2b0be15bb65f02cc8f2aa93f00046309fa5e"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/bedrooms/visual.json",
+      "sha256": "a1ac876a278bae8b86b57ea3be7252843026d5ce518187b31319e7869c4c863e"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/property_mix/visual.json",
+      "sha256": "77b3f7a18a6849937425f4de8ff575313823448de97a62c5faa8eed50ddf476d"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/property_subtypes/visual.json",
+      "sha256": "ff8d60976a90d474dec94e799dd5b8ace487e486c2d4a15fb066a20e79966845"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/size_bands/visual.json",
+      "sha256": "3dafff5f5f361c9e2a9ef57bd6be51964fa686150ea760c49396b4f0c8ef042d"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_coverage/visual.json",
+      "sha256": "5ba3fd9a701355d08e867e573fae05c77cb7aa3a6218e30e8cd7a5008ecd4304"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_footer/visual.json",
+      "sha256": "e376c869fc9eb06e219d94b9ac5455b9917a56df40d72e5e0569edc5e2ff91d5"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_kpi_1/visual.json",
+      "sha256": "1babda13babdcf0e0362f1d1d0a3916eea2bdf9cbab7aa48def8b661f6e2b487"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_kpi_2/visual.json",
+      "sha256": "60de59a321cd38c8ea2b77dd66c99ab1e819b6f639bf99e83f9673b95d712181"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_kpi_3/visual.json",
+      "sha256": "0462140485d9f01b4ae21279eea84f0f648edf67126e54875ac6fb56744d787f"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_kpi_4/visual.json",
+      "sha256": "78575fa91f06715fce8c4b0f400295064140f23e0ebc65b5e3ed93c1dcfb86b0"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_page_navigation/visual.json",
+      "sha256": "181e5a1b02d8c6cb411dc212a4c542134f348ed90df02a472e6f6c047f642683"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_partial/visual.json",
+      "sha256": "fa0b3157e23e491ca9cfa02202a0fc2121fde881fe64698f709047210ee41ae9"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_slicer_1/visual.json",
+      "sha256": "9072a4d080bd8d81d8e5037c4e3ce7f6bd21d6dfed0d1a090248525833612e45"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_slicer_2/visual.json",
+      "sha256": "775601c2c108585076271641ab1bb972aa0a383041a4e21cde94db8298ad16d0"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_slicer_3/visual.json",
+      "sha256": "c691897fae474b0f577645ce86e242645d4c4b85ad1f23c212f922f5cd5284a4"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_slicer_4/visual.json",
+      "sha256": "d0d8244a94293aebb6f2d179a249bb32d8d44d29f2c5d0f64df5f7f85dba3a9f"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_subtitle/visual.json",
+      "sha256": "f09dd4979196551ff278a7622675f42c58529f5a23cb2e9a376ab9707d6d8cf3"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_title/visual.json",
+      "sha256": "fe0f640ea49f85bac68dfc15b9fe90101d0621b5ef6ff50eae2d9ad5fff44b12"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/transaction_bands/visual.json",
+      "sha256": "ea3896cafaf0c98037f565a8061a6900ff7b45e785a0e01ac464c56d26901d1a"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/type_price/visual.json",
+      "sha256": "0625da1cc8c955ad83441dad7a51e53e0306d31283d85d63d69e2fa3e7d4e76a"
+    },
+    {
+      "path": "powerbi/Stage11_Advanced_DAX_Measures.txt",
+      "sha256": "a3cb8cf927b7a8d2a51e573a36e2ce1d63ab496e7403b05f8b31b0101f219cfb"
+    },
+    {
+      "path": "powerbi/Stage11_Visual_Specification.md",
+      "sha256": "8b00cf73c3f2da7ec3ef6aeef739c78fc74d3f3cdd276362938fad002e31a4d9"
+    },
+    {
+      "path": "powerbi/Stage11_build_report.md",
+      "sha256": "ca15cca18f0a117dbfa2431bba9880266fc21a3f64448fd50c8f6ae8f9d22fd1"
+    },
+    {
+      "path": "powerbi/validation/stage11/Capture-Stage11FinalPages.ps1",
+      "sha256": "4ca7229013644ff25bbed28980b47424dbd7f7f17a71678da40fba8775d1311e"
+    },
+    {
+      "path": "powerbi/validation/stage11/Capture-Stage11Window.ps1",
+      "sha256": "b0d46dca19970f56b5802a19336db7df168f0115d62b6ab74a5a6fcb51524247"
+    },
+    {
+      "path": "powerbi/validation/stage11/Click-Stage11Point.ps1",
+      "sha256": "1abc931257c5d20f89466241542f59677d8f1761883635b30ff4e349127cb9cc"
+    },
+    {
+      "path": "powerbi/validation/stage11/Inspect-Stage11UI.ps1",
+      "sha256": "9c9cde0b231bd46aa978d2ff6872644668a1ad5cda83ca51dfafa116c8c7a336"
+    },
+    {
+      "path": "powerbi/validation/stage11/README.md",
+      "sha256": "79d41ad1acb8c5f6e0ce6d1b5d2dcaa8076bbdae7920a295bd6d91cc691a6cbb"
+    },
+    {
+      "path": "powerbi/validation/stage11/Refresh-Stage11Desktop.ps1",
+      "sha256": "cc07a2d6dacde1b80fdee3e014fc42ac27f60d186190b8fc77b4981b28c19b88"
+    },
+    {
+      "path": "powerbi/validation/stage11/Test-Stage11Live.ps1",
+      "sha256": "d808f69b3dc999f436e5aa213dbdddafd435a89670fab9e60ebce7e47443bd52"
+    },
+    {
+      "path": "powerbi/validation/stage11/Validate-Stage11Model.ps1",
+      "sha256": "20c7dfc259a149ed7fb0fddb0b343668e604f9235db215166448c3dc538c51cd"
+    },
+    {
+      "path": "powerbi/validation/stage11/area_intelligence.png",
+      "sha256": "f605a6140952e84e131cd81628f20bed6297854f427335be76c224d816be7b21"
+    },
+    {
+      "path": "powerbi/validation/stage11/area_intelligence_ui.json",
+      "sha256": "9e8e4da9aa67d0f2d5fb5430765e785bfc4906a65140f7da0d49b0258e6b661b"
+    },
+    {
+      "path": "powerbi/validation/stage11/build_missing_stage11.py",
+      "sha256": "b8931a39c2bbf535065873653e4992db3c9d0801fec1e972cadb7fba4010134e"
+    },
+    {
+      "path": "powerbi/validation/stage11/continuation_checkpoint.json",
+      "sha256": "24c481fdcfb801d5aca87e081b308c55cc2d47448544d00704bffae434e3b32e"
+    },
+    {
+      "path": "powerbi/validation/stage11/desktop_probe.json",
+      "sha256": "0fbc810981e24d9cf86c6b06d9ce4213ab6315674adf539ad441c3cf198d4aa5"
+    },
+    {
+      "path": "powerbi/validation/stage11/desktop_process.json",
+      "sha256": "364973c873218b1fd912a4226b93a3d6c64cea8d4b6afa76d32a047b7d8ab315"
+    },
+    {
+      "path": "powerbi/validation/stage11/desktop_refresh.json",
+      "sha256": "82b150117db84647280112d7584e713031fbac36ae0da709b128e44f21324148"
+    },
+    {
+      "path": "powerbi/validation/stage11/desktop_render_validation.json",
+      "sha256": "bb1357e4f48fa78d88ada80d293b2aa6db648e93c0a12027e93f0bd188ad12f0"
+    },
+    {
+      "path": "powerbi/validation/stage11/desktop_window_final.png",
+      "sha256": "743047d9c9223bdc600752fb5167edf326c9b89428d2168f7d4b4eac8bc6f61c"
+    },
+    {
+      "path": "powerbi/validation/stage11/executive_overview.png",
+      "sha256": "d1378a4451e69c28aad10d45fb02aa3285150e232b8c354aafb88a005bcb1abd"
+    },
+    {
+      "path": "powerbi/validation/stage11/executive_overview_cleared.png",
+      "sha256": "9dc6d0da6fed834736b913a058cd271c2c86d7999e7493df9748b8f06e6d5dad"
+    },
+    {
+      "path": "powerbi/validation/stage11/file_manifest.json",
+      "sha256": null
+    },
+    {
+      "path": "powerbi/validation/stage11/git_status_final.txt",
+      "sha256": "8b9eb308c75f7b9af33d6123536b8ac5c0586447b9cb0cf9cda920c9057d5cce"
+    },
+    {
+      "path": "powerbi/validation/stage11/live_dax_validation.json",
+      "sha256": "1f834959fb86b2e1d91f4bcceae81615480895f9c4a2cf48a13c8b8ad9b7346e"
+    },
+    {
+      "path": "powerbi/validation/stage11/live_segment_validation.json",
+      "sha256": "6649ff85d438f2abc5a2d163903af5d06c8698273530232d5291d104e72d0c67"
+    },
+    {
+      "path": "powerbi/validation/stage11/market_trends.png",
+      "sha256": "9fc30eb6ebf20ddce443e08620e4e394dbf6086e3b57589b6a2f71ba85907070"
+    },
+    {
+      "path": "powerbi/validation/stage11/market_trends_ui.json",
+      "sha256": "708760f3090272a0f9a4da10544dd33d9426d5071772e22ac1194f58db761aed"
+    },
+    {
+      "path": "powerbi/validation/stage11/native_model_validation.json",
+      "sha256": "e1165387fb12f8a9325da54b8054f2bd34b8e11dadd6ece02d1e1a8481cd8bde"
+    },
+    {
+      "path": "powerbi/validation/stage11/probe_stage11_desktop.ps1",
+      "sha256": "3a12ff75559f44773b02f24b0602a65e8ecd06a47b42ca60ff8a9ca1d963319c"
+    },
+    {
+      "path": "powerbi/validation/stage11/property_pricing.png",
+      "sha256": "806b552689f711ac01b231a957aacd095ce24706da6447047b852a83067f3629"
+    },
+    {
+      "path": "powerbi/validation/stage11/property_pricing_ui.json",
+      "sha256": "343dd27d5497ed78787ff042ab1439b1e2dcc5dbaf7a0ca1fca35385a40d361c"
+    },
+    {
+      "path": "powerbi/validation/stage11/protection_audit.json",
+      "sha256": "44041fa0787d8b31a5e47fe2573a64876ca5e8df1d73560542d7543b476f625c"
+    },
+    {
+      "path": "powerbi/validation/stage11/recovery_baseline.json",
+      "sha256": "b37054fac2d60c317007fdfcaa25d60d99eabb6d99cef1b2ae98b412727f6e07"
+    },
+    {
+      "path": "powerbi/validation/stage11/segment_reconciliation.json",
+      "sha256": "bb2fd143b7dc1ba1722bc4437428f4b6e48ce7a12682cbe6c5eedb0ba396e50f"
+    },
+    {
+      "path": "powerbi/validation/stage11/slicer_interaction.png",
+      "sha256": "86e414c3326736cb82c4b9de7dee05b847e2c97f7dc6a1f2ca54a59efbc16009"
+    },
+    {
+      "path": "powerbi/validation/stage11/slicer_options_ui.json",
+      "sha256": "ff7ec2ca1f8d413837dd7ed68f257eefdf5c536ba2fb6b5073602bf0640330f6"
+    },
+    {
+      "path": "powerbi/validation/stage11/stage11_validation.json",
+      "sha256": "6da586955e2e0f6acede0893297e0b648694ada591b56cb2672440c57f13ddcb"
+    },
+    {
+      "path": "powerbi/validation/stage11/validate_stage11.py",
+      "sha256": "e2faef193a28e18a2877e06d65b101ba820658c4e619dca9c0b1597828babc06"
+    },
+    {
+      "path": "reports/stage11_powerbi_advanced_report.txt",
+      "sha256": "be14552732eb98d248e68d7acfb954c9180c23c161f199fcfc47d6e3589b4675"
+    }
+  ],
+  "note": "Paths relative to project root. Manifest self-hash intentionally omitted. All additions are Stage 11; baseline inventory and latest continuation classification are separate evidence."
+}

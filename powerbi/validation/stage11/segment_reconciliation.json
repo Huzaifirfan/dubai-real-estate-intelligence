@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "errors": [],
+  "case_sensitive_sales_areas": 251,
+  "actual_sales_areas": 251,
+  "all_area_sales_counts_match_source_exactly": true,
+  "case_variants_example": {
+    "BUSINESS BAY": 4623,
+    "Business Bay": 208,
+    "PALM JUMEIRAH": 792,
+    "Palm Jumeirah": 29
+  },
+  "valid_price_areas_at_least_30": 142,
+  "band_order_passed": true,
+  "bedroom_counts_passed": true
+}

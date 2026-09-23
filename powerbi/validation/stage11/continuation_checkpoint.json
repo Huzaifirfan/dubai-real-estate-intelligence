@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-09-23T20:05:57.744769+00:00",
+  "branch": "main",
+  "head": "a63223c",
+  "working_tree": "Stage 11 modifications present and uncommitted",
+  "pages_before_this_checkpoint": [
+    "Executive Overview",
+    "Market Trends",
+    "Area Intelligence",
+    "Property & Pricing"
+  ],
+  "complete": [
+    "PBIP references and JSON",
+    "Semantic model, unchanged 21 measures and date relationship",
+    "Two hidden band-sort helpers",
+    "Case-sensitive area label preservation (251 sales areas reconciled)",
+    "Four page definitions and navigation",
+    "Stage11_Advanced_DAX_Measures.txt",
+    "Stage11_Visual_Specification.md",
+    "Native full refresh and live DAX validation",
+    "Source/core metric and segment reconciliation"
+  ],
+  "partial": [
+    "Final screenshots after small Stage 11 layout repairs",
+    "Final interaction evidence",
+    "Final source/protected-file audit"
+  ],
+  "missing": [
+    "powerbi/Stage11_build_report.md",
+    "reports/stage11_powerbi_advanced_report.txt"
+  ],
+  "invalid_components": [],
+  "note": "Continuation checkpoint after the user repeated recovery instructions. Original clean-tree baseline is preserved in recovery_baseline.json."
+}

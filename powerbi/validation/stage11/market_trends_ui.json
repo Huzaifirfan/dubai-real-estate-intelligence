@@ -1,0 +1,4382 @@
+﻿[
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/reportView.html",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1028,780"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/reportView.html - Web content",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1028,780"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.ToolBar",
+        "id":  "",
+        "bounds":  "108,100,1028,34"
+    },
+    {
+        "name":  "Save",
+        "type":  "ControlType.Button",
+        "id":  "save",
+        "bounds":  "118,100,30,31"
+    },
+    {
+        "name":  "Undo",
+        "type":  "ControlType.Button",
+        "id":  "undo",
+        "bounds":  "148,100,30,31"
+    },
+    {
+        "name":  "Redo",
+        "type":  "ControlType.Button",
+        "id":  "redo",
+        "bounds":  "178,100,30,31"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence · Last saved: Yesterday at 11:37 PM (Power BI Project)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "210,105,468,24"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "210,106,161,22"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Edit",
+        "id":  "TellMe-SearchBox",
+        "bounds":  "756,106,152,22"
+    },
+    {
+        "name":  "Sign in",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "912,100,92,34"
+    },
+    {
+        "name":  "Minimize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1004,100,44,34"
+    },
+    {
+        "name":  "Maximize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1048,100,44,34"
+    },
+    {
+        "name":  "Close",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1092,100,44,34"
+    },
+    {
+        "name":  "File",
+        "type":  "ControlType.TabItem",
+        "id":  "Ribbon-file",
+        "bounds":  "108,134,66,31"
+    },
+    {
+        "name":  "Ribbon tabs",
+        "type":  "ControlType.Group",
+        "id":  "tablist",
+        "bounds":  "173,134,435,31"
+    },
+    {
+        "name":  "Home",
+        "type":  "ControlType.TabItem",
+        "id":  "home",
+        "bounds":  "173,134,70,31"
+    },
+    {
+        "name":  "Insert",
+        "type":  "ControlType.TabItem",
+        "id":  "insert",
+        "bounds":  "243,134,65,31"
+    },
+    {
+        "name":  "Modeling",
+        "type":  "ControlType.TabItem",
+        "id":  "modeling",
+        "bounds":  "309,134,90,31"
+    },
+    {
+        "name":  "View",
+        "type":  "ControlType.TabItem",
+        "id":  "view",
+        "bounds":  "400,134,60,31"
+    },
+    {
+        "name":  "Optimize",
+        "type":  "ControlType.TabItem",
+        "id":  "optimize",
+        "bounds":  "461,134,87,31"
+    },
+    {
+        "name":  "Help",
+        "type":  "ControlType.TabItem",
+        "id":  "help",
+        "bounds":  "548,134,60,31"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Button",
+        "id":  "odspShareFlyout",
+        "bounds":  "1046,138,84,24"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1077,142,30,16"
+    },
+    {
+        "name":  "Share this document, and see who it\u0027s shared with.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1087,149,58,145"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Group",
+        "id":  "clipboardGroupMlr-group",
+        "bounds":  "116,170,64,90"
+    },
+    {
+        "name":  "Paste",
+        "type":  "ControlType.Button",
+        "id":  "paste",
+        "bounds":  "116,172,40,73"
+    },
+    {
+        "name":  "Cut",
+        "type":  "ControlType.Button",
+        "id":  "cut",
+        "bounds":  "156,170,24,24"
+    },
+    {
+        "name":  "Copy",
+        "type":  "ControlType.Button",
+        "id":  "copy",
+        "bounds":  "156,194,24,24"
+    },
+    {
+        "name":  "Format painter",
+        "type":  "ControlType.Button",
+        "id":  "formatPainter",
+        "bounds":  "156,218,24,24"
+    },
+    {
+        "name":  "Like the formatting of something in your document? Use Format painter to apply that look to other content. 1. Select content with formatting you like. 2. On the Home tab, choose Format painter. 3. Select something else to apply the formatting.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "157,229,1501,20"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "126,246,44,14"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Group",
+        "id":  "dataGroup-group",
+        "bounds":  "197,170,283,90"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,172,40,73"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,172,40,37"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,208,40,37"
+    },
+    {
+        "name":  "Get",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "207,208,20,17"
+    },
+    {
+        "name":  "data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "199,224,24,17"
+    },
+    {
+        "name":  "Excel workbook",
+        "type":  "ControlType.Button",
+        "id":  "getDataExcel",
+        "bounds":  "237,170,109,24"
+    },
+    {
+        "name":  "OneLake ​​catalog",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "237,194,126,24"
+    },
+    {
+        "name":  "OneLake ​​catalog",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "237,194,114,24"
+    },
+    {
+        "name":  "SQL Server",
+        "type":  "ControlType.Button",
+        "id":  "getDataSQL",
+        "bounds":  "237,218,84,24"
+    },
+    {
+        "name":  "Enter data",
+        "type":  "ControlType.Button",
+        "id":  "enterData",
+        "bounds":  "362,170,81,24"
+    },
+    {
+        "name":  "Dataverse",
+        "type":  "ControlType.Button",
+        "id":  "getDataDataverse",
+        "bounds":  "362,194,80,24"
+    },
+    {
+        "name":  "Recent sources",
+        "type":  "ControlType.Button",
+        "id":  "getDataRecent",
+        "bounds":  "362,218,118,24"
+    },
+    {
+        "name":  "Recent sources",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "386,222,80,16"
+    },
+    {
+        "name":  "Manage and connect to recent sources.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "363,229,244,20"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "328,246,21,14"
+    },
+    {
+        "name":  "Queries",
+        "type":  "ControlType.Group",
+        "id":  "queriesGroup-group",
+        "bounds":  "496,170,119,90"
+    },
+    {
+        "name":  "Transform data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "496,170,119,24"
+    },
+    {
+        "name":  "Transform data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "496,170,107,24"
+    },
+    {
+        "name":  "Refresh",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "496,194,78,24"
+    },
+    {
+        "name":  "Refresh",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "496,194,66,24"
+    },
+    {
+        "name":  "Queries",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "538,246,35,14"
+    },
+    {
+        "name":  "Insert",
+        "type":  "ControlType.Group",
+        "id":  "insertGroup-group",
+        "bounds":  "631,170,105,90"
+    },
+    {
+        "name":  "New visual",
+        "type":  "ControlType.Button",
+        "id":  "insertVisual",
+        "bounds":  "631,170,83,24"
+    },
+    {
+        "name":  "Text box",
+        "type":  "ControlType.Button",
+        "id":  "insertTextbox",
+        "bounds":  "631,194,70,24"
+    },
+    {
+        "name":  "More visuals",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "631,218,105,24"
+    },
+    {
+        "name":  "More visuals",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "631,218,93,24"
+    },
+    {
+        "name":  "Insert",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "670,246,26,14"
+    },
+    {
+        "name":  "Calculations",
+        "type":  "ControlType.Group",
+        "id":  "homeCalculationsGroup-group",
+        "bounds":  "752,170,155,90"
+    },
+    {
+        "name":  "New visual calculation",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "752,170,155,24"
+    },
+    {
+        "name":  "New visual calculation",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "752,170,143,24"
+    },
+    {
+        "name":  "New measure",
+        "type":  "ControlType.Button",
+        "id":  "newMeasure",
+        "bounds":  "752,194,99,24"
+    },
+    {
+        "name":  "Quick measure",
+        "type":  "ControlType.Button",
+        "id":  "newQuickMeasure",
+        "bounds":  "752,218,105,24"
+    },
+    {
+        "name":  "Calculations",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "803,246,54,14"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Group",
+        "id":  "informationProtectionGroup-group",
+        "bounds":  "924,170,57,90"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Button",
+        "id":  "classifyFlyout",
+        "bounds":  "924,172,57,73"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "926,208,53,17"
+    },
+    {
+        "name":  "Apply a label to classify the sensitivity of your report and protect its content.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "951,173,471,20"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "930,246,45,14"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Group",
+        "id":  "shareGroup-group",
+        "bounds":  "997,170,44,90"
+    },
+    {
+        "name":  "Publish",
+        "type":  "ControlType.Button",
+        "id":  "publish",
+        "bounds":  "997,172,44,73"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1006,246,26,14"
+    },
+    {
+        "name":  "Copilot",
+        "type":  "ControlType.Group",
+        "id":  "copilotGroup-group",
+        "bounds":  "1057,170,116,90"
+    },
+    {
+        "name":  "Prep data for AI",
+        "type":  "ControlType.Button",
+        "id":  "copilotToolingDialog",
+        "bounds":  "1057,172,74,73"
+    },
+    {
+        "name":  "Copilot",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1098,246,33,14"
+    },
+    {
+        "name":  "Switch ribbons",
+        "type":  "ControlType.Button",
+        "id":  "RibbonModeToggle",
+        "bounds":  "1116,244,20,16"
+    },
+    {
+        "name":  "Report view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,260,40,40"
+    },
+    {
+        "name":  "Table view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,300,40,40"
+    },
+    {
+        "name":  "Model view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,340,40,40"
+    },
+    {
+        "name":  "DAX query view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,380,40,40"
+    },
+    {
+        "name":  "TMDL View",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,420,40,40"
+    },
+    {
+        "name":  "Show keyboard shortcuts",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "148,259,1,19"
+    },
+    {
+        "name":  "Show keyboard shortcuts",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "148,258,158,21"
+    },
+    {
+        "name":  "Power BI Report",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "149,339,716,403"
+    },
+    {
+        "name":  "Power BI Report",
+        "type":  "ControlType.Text",
+        "id":  "defaultTitle",
+        "bounds":  "149,339,84,112"
+    },
+    {
+        "name":  "Market Trends",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "162,348,111,22"
+    },
+    {
+        "name":  "Data through 21 September 2026",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "666,352,129,12"
+    },
+    {
+        "name":  "September 2026 is a partial month.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "666,370,116,10"
+    },
+    {
+        "name":  "Dubai Property Sales Activity | 2026 YTD",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "162,371,145,12"
+    },
+    {
+        "name":  "Visual container header",
+        "type":  "ControlType.ToolBar",
+        "id":  "",
+        "bounds":  "815,363,36,25"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "828,367,22,19"
+    },
+    {
+        "name":  "",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "831,367,16,17"
+    },
+    {
+        "name":  "Executive Overview Market Trends Area Intelligence Property \u0026 Pricing",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "162,387,690,16"
+    },
+    {
+        "name":  "Executive Overview",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "162,387,166,16"
+    },
+    {
+        "name":  "Executive Overview",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "162,387,166,16"
+    },
+    {
+        "name":  "Market Trends",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "327,387,176,16"
+    },
+    {
+        "name":  "Market Trends",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "336,387,167,16"
+    },
+    {
+        "name":  "Area Intelligence",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "502,387,175,16"
+    },
+    {
+        "name":  "Area Intelligence",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "511,387,166,16"
+    },
+    {
+        "name":  "Property \u0026 Pricing",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "676,387,176,16"
+    },
+    {
+        "name":  "Property \u0026 Pricing",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "685,387,167,16"
+    },
+    {
+        "name":  "Area ",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "162,411,226,36"
+    },
+    {
+        "name":  "Area",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "162,411,226,12"
+    },
+    {
+        "name":  "Area",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "166,425,16,10"
+    },
+    {
+        "name":  "AREA_EN",
+        "type":  "ControlType.ComboBox",
+        "id":  "",
+        "bounds":  "164,438,221,16"
+    },
+    {
+        "name":  "All",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "168,441,9,11"
+    },
+    {
+        "name":  "",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "373,443,9,8"
+    },
+    {
+        "name":  "Property type ",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "394,411,226,36"
+    },
+    {
+        "name":  "Property type",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "394,411,226,12"
+    },
+    {
+        "name":  "Area",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "398,425,16,10"
+    },
+    {
+        "name":  "PROP_TYPE_EN",
+        "type":  "ControlType.ComboBox",
+        "id":  "",
+        "bounds":  "396,438,221,16"
+    },
+    {
+        "name":  "All",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "400,441,9,11"
+    },
+    {
+        "name":  "",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "605,443,9,8"
+    },
+    {
+        "name":  "Off-plan / ready ",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "626,411,226,36"
+    },
+    {
+        "name":  "Off-plan / ready",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "626,411,226,12"
+    },
+    {
+        "name":  "Area",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "630,425,16,10"
+    },
+    {
+        "name":  "IS_OFFPLAN_EN",
+        "type":  "ControlType.ComboBox",
+        "id":  "",
+        "bounds":  "628,438,221,16"
+    },
+    {
+        "name":  "All",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "632,441,9,11"
+    },
+    {
+        "name":  "",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "837,443,9,8"
+    },
+    {
+        "name":  "Card",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "168,459,155,35"
+    },
+    {
+        "name":  "Sales Records, 1,19,549 card",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "168,459,155,35"
+    },
+    {
+        "name":  "Sales Records, 1,19,549 card",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "168,459,155,35"
+    },
+    {
+        "name":  "Sales Records, 1,19,549 card",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "168,459,155,35"
+    },
+    {
+        "name":  "Sales Records",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "169,459,72,10"
+    },
+    {
+        "name":  "Card",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "342,459,155,35"
+    },
+    {
+        "name":  "Previous Month Sales Records, 11,844 card",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "342,459,155,35"
+    },
+    {
+        "name":  "Previous Month Sales Records, 11,844 card",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "342,459,155,35"
+    },
+    {
+        "name":  "Previous Month Sales Records, 11,844 card",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "342,459,155,35"
+    },
+    {
+        "name":  "Previous Month Sales Records",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "343,459,99,10"
+    },
+    {
+        "name":  "Card",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "516,459,155,35"
+    },
+    {
+        "name":  "MoM Sales Record Growth %, -33.14% card",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "516,459,155,35"
+    },
+    {
+        "name":  "MoM Sales Record Growth %, -33.14% card",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "516,459,155,35"
+    },
+    {
+        "name":  "MoM Sales Record Growth %, -33.14% card",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "516,459,155,35"
+    },
+    {
+        "name":  "MoM Sales Record Growth %",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "517,459,96,10"
+    },
+    {
+        "name":  "Card",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "690,459,155,35"
+    },
+    {
+        "name":  "Off-Plan Share, 68.18% card",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "690,459,155,35"
+    },
+    {
+        "name":  "Off-Plan Share, 68.18% card",
+        "type":  "ControlType.DataItem",
+        "id":  "",
+        "bounds":  "690,459,155,35"
+    },
+    {
+        "name":  "Off-Plan Share, 68.18% card",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "690,459,155,35"
+    },
+    {
+        "name":  "Off-Plan Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "691,459,63,10"
+    },
+    {
+        "name":  "Monthly Sales Activity ",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "162,507,342,99"
+    },
+    {
+        "name":  "Monthly Sales Activity",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "167,512,331,12"
+    },
+    {
+        "name":  "0K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "171,581,9,10"
+    },
+    {
+        "name":  "0K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "171,581,8,10"
+    },
+    {
+        "name":  "10K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "167,551,13,10"
+    },
+    {
+        "name":  "10K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "167,551,12,10"
+    },
+    {
+        "name":  "Year Month",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "186,587,310,10"
+    },
+    {
+        "name":  "2026-01",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "186,587,26,10"
+    },
+    {
+        "name":  "2026-01",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "186,587,25,10"
+    },
+    {
+        "name":  "2026-02",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "221,587,26,10"
+    },
+    {
+        "name":  "2026-02",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "221,587,26,10"
+    },
+    {
+        "name":  "2026-03",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "257,587,26,10"
+    },
+    {
+        "name":  "2026-03",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "257,587,25,10"
+    },
+    {
+        "name":  "2026-04",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "292,587,26,10"
+    },
+    {
+        "name":  "2026-04",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "292,587,26,10"
+    },
+    {
+        "name":  "2026-05",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "328,587,26,10"
+    },
+    {
+        "name":  "2026-05",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "328,587,25,10"
+    },
+    {
+        "name":  "2026-06",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "364,587,25,10"
+    },
+    {
+        "name":  "2026-06",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "364,587,25,10"
+    },
+    {
+        "name":  "2026-07",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "399,587,26,10"
+    },
+    {
+        "name":  "2026-07",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "399,587,25,10"
+    },
+    {
+        "name":  "2026-08",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "435,587,25,10"
+    },
+    {
+        "name":  "2026-08",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "435,587,25,10"
+    },
+    {
+        "name":  "2026-09",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "470,587,26,10"
+    },
+    {
+        "name":  "2026-09",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "470,587,26,10"
+    },
+    {
+        "name":  "Plot area",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "195,531,291,35"
+    },
+    {
+        "name":  "Year Month 2026-01. Sales Records 17,374.",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "196,531,5,6"
+    },
+    {
+        "name":  "Monthly Off-Plan vs Ready ",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "510,507,342,99"
+    },
+    {
+        "name":  "Monthly Off-Plan vs Ready",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "515,512,331,12"
+    },
+    {
+        "name":  "0K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "519,565,9,10"
+    },
+    {
+        "name":  "0K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "519,565,8,10"
+    },
+    {
+        "name":  "5K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "519,554,9,10"
+    },
+    {
+        "name":  "5K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "519,554,8,10"
+    },
+    {
+        "name":  "10K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "515,543,13,10"
+    },
+    {
+        "name":  "10K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "515,543,12,10"
+    },
+    {
+        "name":  "Year Month",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "546,572,287,10"
+    },
+    {
+        "name":  "2026-01",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "546,572,26,10"
+    },
+    {
+        "name":  "2026-01",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "546,572,25,10"
+    },
+    {
+        "name":  "2026-02",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "578,572,26,10"
+    },
+    {
+        "name":  "2026-02",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "578,572,26,10"
+    },
+    {
+        "name":  "2026-03",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "611,572,26,10"
+    },
+    {
+        "name":  "2026-03",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "611,572,25,10"
+    },
+    {
+        "name":  "2026-04",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "644,572,25,10"
+    },
+    {
+        "name":  "2026-04",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "644,572,25,10"
+    },
+    {
+        "name":  "2026-05",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "676,572,26,10"
+    },
+    {
+        "name":  "2026-05",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "676,572,26,10"
+    },
+    {
+        "name":  "2026-06",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "709,572,26,10"
+    },
+    {
+        "name":  "2026-06",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "709,572,25,10"
+    },
+    {
+        "name":  "2026-07",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "742,572,25,10"
+    },
+    {
+        "name":  "2026-07",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "742,572,25,10"
+    },
+    {
+        "name":  "2026-08",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "774,572,26,10"
+    },
+    {
+        "name":  "2026-08",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "774,572,26,10"
+    },
+    {
+        "name":  "2026-09",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "807,572,26,10"
+    },
+    {
+        "name":  "2026-09",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "807,572,25,10"
+    },
+    {
+        "name":  "Plot area",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "545,545,288,26"
+    },
+    {
+        "name":  "Off-Plan Sales Records",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "545,545,275,26"
+    },
+    {
+        "name":  "11168",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "545,545,14,26"
+    },
+    {
+        "name":  "10541",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "578,546,13,25"
+    },
+    {
+        "name":  "9454",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "610,549,14,22"
+    },
+    {
+        "name":  "10218",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "643,547,14,24"
+    },
+    {
+        "name":  "7420",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "675,553,14,18"
+    },
+    {
+        "name":  "10094",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "708,547,14,24"
+    },
+    {
+        "name":  "9441",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "741,549,13,22"
+    },
+    {
+        "name":  "7969",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "773,552,14,19"
+    },
+    {
+        "name":  "5202",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "806,558,14,13"
+    },
+    {
+        "name":  "Ready Sales Records",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "558,555,275,16"
+    },
+    {
+        "name":  "6206",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "558,556,13,15"
+    },
+    {
+        "name":  "6448",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "590,555,14,16"
+    },
+    {
+        "name":  "4030",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "623,561,14,10"
+    },
+    {
+        "name":  "3799",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "656,561,13,10"
+    },
+    {
+        "name":  "2849",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "688,563,14,8"
+    },
+    {
+        "name":  "3837",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "721,561,14,10"
+    },
+    {
+        "name":  "4281",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "753,560,14,11"
+    },
+    {
+        "name":  "3875",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "786,561,14,10"
+    },
+    {
+        "name":  "2717",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "819,564,14,7"
+    },
+    {
+        "name":  "11.2K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "543,532,17,10"
+    },
+    {
+        "name":  "10.5K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "576,534,17,10"
+    },
+    {
+        "name":  "9.5K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "610,536,14,10"
+    },
+    {
+        "name":  "10.2K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "641,535,17,10"
+    },
+    {
+        "name":  "7.4K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "676,541,13,10"
+    },
+    {
+        "name":  "10.1K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "706,535,18,10"
+    },
+    {
+        "name":  "9.4K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "741,536,13,10"
+    },
+    {
+        "name":  "8.0K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "773,540,14,10"
+    },
+    {
+        "name":  "5.2K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "806,546,14,10"
+    },
+    {
+        "name":  "6.2K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "558,544,13,10"
+    },
+    {
+        "name":  "6.4K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "590,543,14,10"
+    },
+    {
+        "name":  "4.0K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "623,548,14,10"
+    },
+    {
+        "name":  "3.8K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "656,549,13,10"
+    },
+    {
+        "name":  "2.8K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "688,551,14,10"
+    },
+    {
+        "name":  "3.8K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "721,549,14,10"
+    },
+    {
+        "name":  "4.3K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "754,548,13,10"
+    },
+    {
+        "name":  "3.9K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "786,549,14,10"
+    },
+    {
+        "name":  "2.7K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "819,551,13,10"
+    },
+    {
+        "name":  "Legend",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "515,584,331,16"
+    },
+    {
+        "name":  "Legend",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "515,584,147,16"
+    },
+    {
+        "name":  "Off-Plan Sales Records",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "515,584,77,16"
+    },
+    {
+        "name":  "Off-Plan Sales Records",
+        "type":  "ControlType.Image",
+        "id":  "",
+        "bounds":  "516,589,6,7"
+    },
+    {
+        "name":  "Ready Sales Records",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "591,584,71,16"
+    },
+    {
+        "name":  "Ready Sales Records",
+        "type":  "ControlType.Image",
+        "id":  "",
+        "bounds":  "592,589,6,7"
+    },
+    {
+        "name":  "Monthly Median Sale Price per Sqft ",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "162,612,342,99"
+    },
+    {
+        "name":  "Monthly Median Sale Price per Sqft",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "167,617,331,12"
+    },
+    {
+        "name":  "AED 0K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "166,686,25,10"
+    },
+    {
+        "name":  "AED 0K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "167,686,23,10"
+    },
+    {
+        "name":  "AED 1K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "166,658,25,10"
+    },
+    {
+        "name":  "AED 1K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "167,658,23,10"
+    },
+    {
+        "name":  "Year Month",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "196,692,300,10"
+    },
+    {
+        "name":  "2026-01",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "196,692,26,10"
+    },
+    {
+        "name":  "2026-01",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "196,692,25,10"
+    },
+    {
+        "name":  "2026-02",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "230,692,26,10"
+    },
+    {
+        "name":  "2026-02",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "230,692,26,10"
+    },
+    {
+        "name":  "2026-03",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "265,692,25,10"
+    },
+    {
+        "name":  "2026-03",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "265,692,25,10"
+    },
+    {
+        "name":  "2026-04",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "299,692,26,10"
+    },
+    {
+        "name":  "2026-04",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "299,692,25,10"
+    },
+    {
+        "name":  "2026-05",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "333,692,26,10"
+    },
+    {
+        "name":  "2026-05",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "333,692,25,10"
+    },
+    {
+        "name":  "2026-06",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "367,692,26,10"
+    },
+    {
+        "name":  "2026-06",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "367,692,26,10"
+    },
+    {
+        "name":  "2026-07",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "402,692,25,10"
+    },
+    {
+        "name":  "2026-07",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "402,692,25,10"
+    },
+    {
+        "name":  "2026-08",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "436,692,26,10"
+    },
+    {
+        "name":  "2026-08",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "436,692,25,10"
+    },
+    {
+        "name":  "2026-09",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "470,692,26,10"
+    },
+    {
+        "name":  "2026-09",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "470,692,26,10"
+    },
+    {
+        "name":  "Plot area",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "205,636,281,12"
+    },
+    {
+        "name":  "Year Month 2026-01. Median Sale Price per Sqft AED 1,788.13.",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "206,637,6,6"
+    },
+    {
+        "name":  "Monthly Residential Sales ",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "510,612,342,99"
+    },
+    {
+        "name":  "Monthly Residential Sales",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "515,617,331,12"
+    },
+    {
+        "name":  "0K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "519,686,9,10"
+    },
+    {
+        "name":  "0K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "519,686,8,10"
+    },
+    {
+        "name":  "10K",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "515,662,13,10"
+    },
+    {
+        "name":  "10K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "515,662,12,10"
+    },
+    {
+        "name":  "Year Month",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "546,692,287,10"
+    },
+    {
+        "name":  "2026-01",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "546,692,26,10"
+    },
+    {
+        "name":  "2026-01",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "546,692,25,10"
+    },
+    {
+        "name":  "2026-02",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "578,692,26,10"
+    },
+    {
+        "name":  "2026-02",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "578,692,26,10"
+    },
+    {
+        "name":  "2026-03",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "611,692,26,10"
+    },
+    {
+        "name":  "2026-03",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "611,692,25,10"
+    },
+    {
+        "name":  "2026-04",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "644,692,25,10"
+    },
+    {
+        "name":  "2026-04",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "644,692,25,10"
+    },
+    {
+        "name":  "2026-05",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "676,692,26,10"
+    },
+    {
+        "name":  "2026-05",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "676,692,26,10"
+    },
+    {
+        "name":  "2026-06",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "709,692,26,10"
+    },
+    {
+        "name":  "2026-06",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "709,692,25,10"
+    },
+    {
+        "name":  "2026-07",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "742,692,25,10"
+    },
+    {
+        "name":  "2026-07",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "742,692,25,10"
+    },
+    {
+        "name":  "2026-08",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "774,692,26,10"
+    },
+    {
+        "name":  "2026-08",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "774,692,26,10"
+    },
+    {
+        "name":  "2026-09",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "807,692,26,10"
+    },
+    {
+        "name":  "2026-09",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "807,692,25,10"
+    },
+    {
+        "name":  "Plot area",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "545,650,288,41"
+    },
+    {
+        "name":  "Residential Sales Records",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "545,650,288,41"
+    },
+    {
+        "name":  "17094",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "545,650,26,41"
+    },
+    {
+        "name":  "16274",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "578,652,26,39"
+    },
+    {
+        "name":  "12859",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "610,660,27,31"
+    },
+    {
+        "name":  "13732",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "643,658,26,33"
+    },
+    {
+        "name":  "10119",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "675,666,27,25"
+    },
+    {
+        "name":  "13568",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "708,658,27,33"
+    },
+    {
+        "name":  "13499",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "741,658,26,33"
+    },
+    {
+        "name":  "11523",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "773,663,27,28"
+    },
+    {
+        "name":  "7701",
+        "type":  "ControlType.ListItem",
+        "id":  "",
+        "bounds":  "806,672,27,19"
+    },
+    {
+        "name":  "17K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "552,637,12,10"
+    },
+    {
+        "name":  "16K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "585,639,12,10"
+    },
+    {
+        "name":  "13K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "617,648,13,10"
+    },
+    {
+        "name":  "14K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "650,645,12,10"
+    },
+    {
+        "name":  "10K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "683,654,12,10"
+    },
+    {
+        "name":  "14K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "715,646,12,10"
+    },
+    {
+        "name":  "13K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "748,646,12,10"
+    },
+    {
+        "name":  "12K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "781,651,12,10"
+    },
+    {
+        "name":  "8K",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "815,660,9,10"
+    },
+    {
+        "name":  "September is partial. MoM compares the latest selected month with the full previous month. No forecast. Market value is excluded.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "162,719,386,10"
+    },
+    {
+        "name":  "",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "878,271,16,16"
+    },
+    {
+        "name":  "Filters",
+        "type":  "ControlType.Text",
+        "id":  "outspace-pane-title",
+        "bounds":  "902,268,84,21"
+    },
+    {
+        "name":  "Show the filter pane, Show or hide the filter pane from report readers",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1014,271,12,16"
+    },
+    {
+        "name":  "Collapse or expand the filter pane while editing. This also determines how report readers see it",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1042,271,16,16"
+    },
+    {
+        "name":  "Search Filters on this page",
+        "type":  "ControlType.Edit",
+        "id":  "mat-input-0",
+        "bounds":  "910,312,143,20"
+    },
+    {
+        "name":  "Filters on this page",
+        "type":  "ControlType.Text",
+        "id":  "filterPanePageHeader",
+        "bounds":  "874,359,168,22"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1042,359,12,22"
+    },
+    {
+        "name":  "Add data fields here",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "912,399,108,17"
+    },
+    {
+        "name":  "Filters on all pages",
+        "type":  "ControlType.Text",
+        "id":  "filterPaneReportHeader",
+        "bounds":  "874,456,168,22"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1042,456,12,22"
+    },
+    {
+        "name":  "Add data fields here",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "912,496,108,17"
+    },
+    {
+        "name":  "Desktop layout",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "149,825,44,27"
+    },
+    {
+        "name":  "Desktop layout",
+        "type":  "ControlType.Image",
+        "id":  "",
+        "bounds":  "161,825,20,21"
+    },
+    {
+        "name":  "Mobile layout",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "193,825,44,27"
+    },
+    {
+        "name":  "Mobile layout",
+        "type":  "ControlType.Image",
+        "id":  "",
+        "bounds":  "205,825,20,21"
+    },
+    {
+        "name":  "Previous pages",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "237,821,20,35"
+    },
+    {
+        "name":  "Next pages",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "257,821,20,35"
+    },
+    {
+        "name":  "Executive Overview",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "277,821,142,35"
+    },
+    {
+        "name":  "Market Trends",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "419,821,119,35"
+    },
+    {
+        "name":  "Area Intelligence",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "538,821,129,35"
+    },
+    {
+        "name":  "Property \u0026 Pricing",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "667,821,139,35"
+    },
+    {
+        "name":  "New page",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "806,821,40,35"
+    },
+    {
+        "name":  "Visualizations",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1075,268,18,580"
+    },
+    {
+        "name":  "Visualizations",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1073,305,22,100"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1110,268,18,580"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1108,305,22,35"
+    },
+    {
+        "name":  "Page 2 of 4",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "112,860,60,17"
+    },
+    {
+        "name":  "Zoom Out",
+        "type":  "ControlType.Button",
+        "id":  "zoomOutButton",
+        "bounds":  "919,858,15,17"
+    },
+    {
+        "name":  "Zoom In",
+        "type":  "ControlType.Button",
+        "id":  "zoomInButton",
+        "bounds":  "1033,858,19,17"
+    },
+    {
+        "name":  "Zoom level. Click to open the Zoom dialog box",
+        "type":  "ControlType.Button",
+        "id":  "zoomValueButton",
+        "bounds":  "1056,858,40,19"
+    },
+    {
+        "name":  "Fit to page",
+        "type":  "ControlType.Button",
+        "id":  "fitToPageButton",
+        "bounds":  "1102,860,16,17"
+    },
+    {
+        "name":  "Power BI Desktop",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "575,109,94,16"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/dataExploreView.html",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1024,727"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/dataExploreView.html - Web content",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1024,727"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.ToolBar",
+        "id":  "",
+        "bounds":  "108,100,1024,34"
+    },
+    {
+        "name":  "Save",
+        "type":  "ControlType.Button",
+        "id":  "save",
+        "bounds":  "118,100,30,31"
+    },
+    {
+        "name":  "Undo",
+        "type":  "ControlType.Button",
+        "id":  "undo",
+        "bounds":  "148,100,30,31"
+    },
+    {
+        "name":  "Redo",
+        "type":  "ControlType.Button",
+        "id":  "redo",
+        "bounds":  "178,100,30,31"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence · Last saved: Yesterday at 11:37 PM (Power BI Project)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "210,105,468,24"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "210,106,161,22"
+    },
+    {
+        "name":  "Sign in",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "908,100,92,34"
+    },
+    {
+        "name":  "Minimize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1000,100,44,34"
+    },
+    {
+        "name":  "Maximize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1044,100,44,34"
+    },
+    {
+        "name":  "Close",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1088,100,44,34"
+    },
+    {
+        "name":  "File",
+        "type":  "ControlType.TabItem",
+        "id":  "Ribbon-file",
+        "bounds":  "108,134,66,31"
+    },
+    {
+        "name":  "Ribbon tabs",
+        "type":  "ControlType.Group",
+        "id":  "tablist",
+        "bounds":  "173,134,130,31"
+    },
+    {
+        "name":  "Home",
+        "type":  "ControlType.TabItem",
+        "id":  "home",
+        "bounds":  "173,134,70,31"
+    },
+    {
+        "name":  "Help",
+        "type":  "ControlType.TabItem",
+        "id":  "help",
+        "bounds":  "242,134,60,31"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Button",
+        "id":  "odspShareFlyout",
+        "bounds":  "1042,138,84,24"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1073,142,30,16"
+    },
+    {
+        "name":  "Share this document, and see who it\u0027s shared with.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1083,149,58,145"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Group",
+        "id":  "clipboardGroupMlr-group",
+        "bounds":  "116,170,64,90"
+    },
+    {
+        "name":  "Paste",
+        "type":  "ControlType.Button",
+        "id":  "paste",
+        "bounds":  "116,172,40,73"
+    },
+    {
+        "name":  "Cut",
+        "type":  "ControlType.Button",
+        "id":  "cut",
+        "bounds":  "156,170,24,24"
+    },
+    {
+        "name":  "Copy",
+        "type":  "ControlType.Button",
+        "id":  "copy",
+        "bounds":  "156,194,24,24"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "126,246,44,14"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Group",
+        "id":  "dataGroup-group",
+        "bounds":  "197,170,283,90"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,172,40,73"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,172,40,37"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,208,40,37"
+    },
+    {
+        "name":  "Get",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "207,208,20,17"
+    },
+    {
+        "name":  "data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "199,224,24,17"
+    },
+    {
+        "name":  "Excel workbook",
+        "type":  "ControlType.Button",
+        "id":  "getDataExcel",
+        "bounds":  "237,170,109,24"
+    },
+    {
+        "name":  "OneLake ​​catalog",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "237,194,126,24"
+    },
+    {
+        "name":  "OneLake ​​catalog",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "237,194,114,24"
+    },
+    {
+        "name":  "SQL Server",
+        "type":  "ControlType.Button",
+        "id":  "getDataSQL",
+        "bounds":  "237,218,84,24"
+    },
+    {
+        "name":  "Enter data",
+        "type":  "ControlType.Button",
+        "id":  "enterData",
+        "bounds":  "362,170,81,24"
+    },
+    {
+        "name":  "Dataverse",
+        "type":  "ControlType.Button",
+        "id":  "getDataDataverse",
+        "bounds":  "362,194,80,24"
+    },
+    {
+        "name":  "Recent sources",
+        "type":  "ControlType.Button",
+        "id":  "getDataRecent",
+        "bounds":  "362,218,118,24"
+    },
+    {
+        "name":  "Recent sources",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "386,222,80,16"
+    },
+    {
+        "name":  "Manage and connect to recent sources.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "363,229,244,20"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "328,246,21,14"
+    },
+    {
+        "name":  "Queries",
+        "type":  "ControlType.Group",
+        "id":  "queriesGroup-group",
+        "bounds":  "496,170,101,90"
+    },
+    {
+        "name":  "Transform data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "496,172,58,73"
+    },
+    {
+        "name":  "Transform data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "496,172,58,37"
+    },
+    {
+        "name":  "Transform data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "496,208,58,37"
+    },
+    {
+        "name":  "Transform",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "498,208,54,17"
+    },
+    {
+        "name":  "data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "507,224,24,17"
+    },
+    {
+        "name":  "Refresh",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "553,172,44,73"
+    },
+    {
+        "name":  "Refresh",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "553,172,44,37"
+    },
+    {
+        "name":  "Refresh",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "553,208,44,37"
+    },
+    {
+        "name":  "Refresh",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "555,208,40,17"
+    },
+    {
+        "name":  "Queries",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "529,246,35,14"
+    },
+    {
+        "name":  "Relationships",
+        "type":  "ControlType.Group",
+        "id":  "relationshipsSection-group",
+        "bounds":  "613,170,72,90"
+    },
+    {
+        "name":  "Manage relationships",
+        "type":  "ControlType.Button",
+        "id":  "manageRelationships",
+        "bounds":  "613,172,72,73"
+    },
+    {
+        "name":  "Relationships",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "620,246,59,14"
+    },
+    {
+        "name":  "Calculations",
+        "type":  "ControlType.Group",
+        "id":  "calculationsSection-group",
+        "bounds":  "701,170,182,90"
+    },
+    {
+        "name":  "New measure",
+        "type":  "ControlType.Button",
+        "id":  "newMeasure",
+        "bounds":  "701,172,50,73"
+    },
+    {
+        "name":  "Quick measure",
+        "type":  "ControlType.Button",
+        "id":  "newQuickMeasure",
+        "bounds":  "750,172,50,73"
+    },
+    {
+        "name":  "New column",
+        "type":  "ControlType.Button",
+        "id":  "newCalcColumn",
+        "bounds":  "799,172,44,73"
+    },
+    {
+        "name":  "New table",
+        "type":  "ControlType.Button",
+        "id":  "newCalcTable",
+        "bounds":  "842,172,41,73"
+    },
+    {
+        "name":  "Calculations",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "765,246,54,14"
+    },
+    {
+        "name":  "Security",
+        "type":  "ControlType.Group",
+        "id":  "securitySection-group",
+        "bounds":  "899,170,88,90"
+    },
+    {
+        "name":  "Manage roles",
+        "type":  "ControlType.Button",
+        "id":  "manageRoles",
+        "bounds":  "899,172,48,73"
+    },
+    {
+        "name":  "View as",
+        "type":  "ControlType.Button",
+        "id":  "viewAsRole",
+        "bounds":  "946,172,41,73"
+    },
+    {
+        "name":  "Security",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "925,246,36,14"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Group",
+        "id":  "informationProtectionGroup-group",
+        "bounds":  "1003,170,58,90"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Button",
+        "id":  "classifyFlyout",
+        "bounds":  "1003,172,58,73"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1005,208,54,17"
+    },
+    {
+        "name":  "Apply a label to classify the sensitivity of your report and protect its content.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1031,173,471,20"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1010,246,45,14"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Group",
+        "id":  "shareGroup-group",
+        "bounds":  "1077,170,44,90"
+    },
+    {
+        "name":  "Publish",
+        "type":  "ControlType.Button",
+        "id":  "publish",
+        "bounds":  "1077,172,44,73"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1086,246,26,14"
+    },
+    {
+        "name":  "Switch ribbons",
+        "type":  "ControlType.Button",
+        "id":  "RibbonModeToggle",
+        "bounds":  "1112,244,20,16"
+    },
+    {
+        "name":  "Report view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,260,40,40"
+    },
+    {
+        "name":  "Table view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,300,40,40"
+    },
+    {
+        "name":  "Model view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,340,40,40"
+    },
+    {
+        "name":  "DAX query view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,380,40,40"
+    },
+    {
+        "name":  "TMDL View",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,420,40,40"
+    },
+    {
+        "name":  "Formula bar",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "153,264,734,28"
+    },
+    {
+        "name":  "Expand to full page",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "867,268,16,16"
+    },
+    {
+        "name":  "Cancel",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "160,266,25,24"
+    },
+    {
+        "name":  "Commit",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "191,266,24,24"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "900,268,224,21"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "900,268,34,21"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "896,305,232,24"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Edit",
+        "id":  "",
+        "bounds":  "930,307,188,20"
+    },
+    {
+        "name":  "Table DimDate",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "897,338,230,24"
+    },
+    {
+        "name":  "DimDate",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "903,338,16,24"
+    },
+    {
+        "name":  "This field or table is visible in report view. Select to hide it.",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "Empty"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,338,12,24"
+    },
+    {
+        "name":  "Table FactTransactions",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "897,362,230,24"
+    },
+    {
+        "name":  "FactTransactions",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "903,362,16,24"
+    },
+    {
+        "name":  "This field or table is visible in report view. Select to hide it.",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "Empty"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,362,12,24"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/modelView.html",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1024,727"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/modelView.html - Web content",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1024,727"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.ToolBar",
+        "id":  "",
+        "bounds":  "108,100,1024,34"
+    },
+    {
+        "name":  "Save",
+        "type":  "ControlType.Button",
+        "id":  "save",
+        "bounds":  "118,100,30,31"
+    },
+    {
+        "name":  "Undo",
+        "type":  "ControlType.Button",
+        "id":  "undo",
+        "bounds":  "148,100,30,31"
+    },
+    {
+        "name":  "Redo",
+        "type":  "ControlType.Button",
+        "id":  "redo",
+        "bounds":  "178,100,30,31"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence · Last saved: Yesterday at 11:37 PM (Power BI Project)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "210,105,468,24"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "210,106,161,22"
+    },
+    {
+        "name":  "Sign in",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "908,100,92,34"
+    },
+    {
+        "name":  "Minimize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1000,100,44,34"
+    },
+    {
+        "name":  "Maximize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1044,100,44,34"
+    },
+    {
+        "name":  "Close",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1088,100,44,34"
+    },
+    {
+        "name":  "File",
+        "type":  "ControlType.TabItem",
+        "id":  "Ribbon-file",
+        "bounds":  "108,134,66,31"
+    },
+    {
+        "name":  "Ribbon tabs",
+        "type":  "ControlType.Group",
+        "id":  "tablist",
+        "bounds":  "173,134,130,31"
+    },
+    {
+        "name":  "Home",
+        "type":  "ControlType.TabItem",
+        "id":  "home",
+        "bounds":  "173,134,70,31"
+    },
+    {
+        "name":  "Help",
+        "type":  "ControlType.TabItem",
+        "id":  "help",
+        "bounds":  "242,134,60,31"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Button",
+        "id":  "odspShareFlyout",
+        "bounds":  "1042,138,84,24"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1073,142,30,16"
+    },
+    {
+        "name":  "Share this document, and see who it\u0027s shared with.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1083,149,58,145"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Group",
+        "id":  "clipboardGroupMlr-group",
+        "bounds":  "116,170,64,90"
+    },
+    {
+        "name":  "Paste",
+        "type":  "ControlType.Button",
+        "id":  "paste",
+        "bounds":  "116,172,40,73"
+    },
+    {
+        "name":  "Cut",
+        "type":  "ControlType.Button",
+        "id":  "cut",
+        "bounds":  "156,170,24,24"
+    },
+    {
+        "name":  "Copy",
+        "type":  "ControlType.Button",
+        "id":  "copy",
+        "bounds":  "156,194,24,24"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "126,246,44,14"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Group",
+        "id":  "dataGroup-group",
+        "bounds":  "197,170,108,90"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,172,40,73"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,172,40,37"
+    },
+    {
+        "name":  "Get data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "197,208,40,37"
+    },
+    {
+        "name":  "Get",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "207,208,20,17"
+    },
+    {
+        "name":  "data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "199,224,24,17"
+    },
+    {
+        "name":  "Excel workbook",
+        "type":  "ControlType.Button",
+        "id":  "getDataExcel",
+        "bounds":  "237,170,24,24"
+    },
+    {
+        "name":  "OneLake ​​catalog",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "237,194,34,24"
+    },
+    {
+        "name":  "OneLake ​​catalog",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "237,194,22,24"
+    },
+    {
+        "name":  "SQL Server",
+        "type":  "ControlType.Button",
+        "id":  "getDataSQL",
+        "bounds":  "237,218,24,24"
+    },
+    {
+        "name":  "Enter data",
+        "type":  "ControlType.Button",
+        "id":  "enterData",
+        "bounds":  "271,170,24,24"
+    },
+    {
+        "name":  "Dataverse",
+        "type":  "ControlType.Button",
+        "id":  "getDataDataverse",
+        "bounds":  "271,194,24,24"
+    },
+    {
+        "name":  "Recent sources",
+        "type":  "ControlType.Button",
+        "id":  "getDataRecent",
+        "bounds":  "271,218,34,24"
+    },
+    {
+        "name":  "Manage and connect to recent sources.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "272,229,243,20"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "240,246,22,14"
+    },
+    {
+        "name":  "Queries",
+        "type":  "ControlType.Group",
+        "id":  "queriesGroup-group",
+        "bounds":  "322,170,78,90"
+    },
+    {
+        "name":  "Transform data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "322,170,34,24"
+    },
+    {
+        "name":  "Transform data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "322,170,22,24"
+    },
+    {
+        "name":  "Refresh",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "322,194,78,24"
+    },
+    {
+        "name":  "Refresh",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "322,194,66,24"
+    },
+    {
+        "name":  "Queries",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "343,246,35,14"
+    },
+    {
+        "name":  "Relationships",
+        "type":  "ControlType.Group",
+        "id":  "relationshipsSection-group",
+        "bounds":  "416,170,72,90"
+    },
+    {
+        "name":  "Manage relationships",
+        "type":  "ControlType.Button",
+        "id":  "manageRelationships",
+        "bounds":  "416,172,72,73"
+    },
+    {
+        "name":  "Relationships",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "422,246,59,14"
+    },
+    {
+        "name":  "Calculations",
+        "type":  "ControlType.Group",
+        "id":  "calculationsSubSection-group",
+        "bounds":  "504,170,195,90"
+    },
+    {
+        "name":  "New measure",
+        "type":  "ControlType.Button",
+        "id":  "newMeasure",
+        "bounds":  "504,172,49,73"
+    },
+    {
+        "name":  "New column",
+        "type":  "ControlType.Button",
+        "id":  "newCalcColumn",
+        "bounds":  "552,172,45,73"
+    },
+    {
+        "name":  "New table",
+        "type":  "ControlType.Button",
+        "id":  "newCalcTable",
+        "bounds":  "596,172,41,73"
+    },
+    {
+        "name":  "Calculation group",
+        "type":  "ControlType.Button",
+        "id":  "newCalculationGroup",
+        "bounds":  "636,172,63,73"
+    },
+    {
+        "name":  "Calculations",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "574,246,55,14"
+    },
+    {
+        "name":  "Parameters",
+        "type":  "ControlType.Group",
+        "id":  "parameterSection-group",
+        "bounds":  "715,170,72,90"
+    },
+    {
+        "name":  "New parameter",
+        "type":  "ControlType.Button",
+        "id":  "parameters",
+        "bounds":  "715,172,72,73"
+    },
+    {
+        "name":  "New",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "739,208,25,17"
+    },
+    {
+        "name":  "parameter",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "717,224,56,17"
+    },
+    {
+        "name":  "Add parameters to visuals and DAX expressions to act as variables. Report readers can use slicers to adjust the inputs and see different outcomes.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "750,173,896,20"
+    },
+    {
+        "name":  "Parameters",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "726,246,50,14"
+    },
+    {
+        "name":  "Security",
+        "type":  "ControlType.Group",
+        "id":  "securitySection-group",
+        "bounds":  "803,170,36,90"
+    },
+    {
+        "name":  "Manage roles",
+        "type":  "ControlType.Button",
+        "id":  "manageRoles",
+        "bounds":  "808,170,25,24"
+    },
+    {
+        "name":  "View as",
+        "type":  "ControlType.Button",
+        "id":  "viewAsRole",
+        "bounds":  "808,194,25,24"
+    },
+    {
+        "name":  "Security",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "803,246,36,14"
+    },
+    {
+        "name":  "Q\u0026A",
+        "type":  "ControlType.Group",
+        "id":  "qnaGroup-group",
+        "bounds":  "855,170,132,90"
+    },
+    {
+        "name":  "Q\u0026A setup",
+        "type":  "ControlType.Button",
+        "id":  "qnaTooling",
+        "bounds":  "855,170,86,24"
+    },
+    {
+        "name":  "Language",
+        "type":  "ControlType.Button",
+        "id":  "qnaLanguageFlyout",
+        "bounds":  "855,194,91,24"
+    },
+    {
+        "name":  "Language",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "879,198,53,16"
+    },
+    {
+        "name":  "Change the language used to ask questions in Q\u0026A.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "856,205,323,20"
+    },
+    {
+        "name":  "Linguistic schema",
+        "type":  "ControlType.Button",
+        "id":  "qnaLinguisticSchemaFlyout",
+        "bounds":  "855,218,132,24"
+    },
+    {
+        "name":  "Linguistic schema",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "879,222,94,16"
+    },
+    {
+        "name":  "Import or export a file containing important information Q\u0026A uses to understand your dataset and the custom terms you\u0027ve taught Q\u0026A to understand.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "856,229,940,20"
+    },
+    {
+        "name":  "Q\u0026A",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "909,246,23,14"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Group",
+        "id":  "informationProtectionGroup-group",
+        "bounds":  "1003,170,58,90"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Button",
+        "id":  "classifyFlyout",
+        "bounds":  "1003,172,58,73"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1005,208,54,17"
+    },
+    {
+        "name":  "Apply a label to classify the sensitivity of your report and protect its content.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1031,173,470,20"
+    },
+    {
+        "name":  "Sensitivity",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1009,246,45,14"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Group",
+        "id":  "shareGroup-group",
+        "bounds":  "1077,170,43,90"
+    },
+    {
+        "name":  "Publish",
+        "type":  "ControlType.Button",
+        "id":  "publish",
+        "bounds":  "1077,172,43,73"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1086,246,25,14"
+    },
+    {
+        "name":  "Switch ribbons",
+        "type":  "ControlType.Button",
+        "id":  "RibbonModeToggle",
+        "bounds":  "1112,244,20,16"
+    },
+    {
+        "name":  "Report view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,260,40,40"
+    },
+    {
+        "name":  "Table view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,300,40,40"
+    },
+    {
+        "name":  "Model view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,340,40,40"
+    },
+    {
+        "name":  "DAX query view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,380,40,40"
+    },
+    {
+        "name":  "TMDL View",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,420,40,40"
+    },
+    {
+        "name":  "Many to one relationship from FactTransactions to DimDate",
+        "type":  "ControlType.Image",
+        "id":  "",
+        "bounds":  "468,395,130,80"
+    },
+    {
+        "name":  " DimDate table 1 of 2 Unselected 8 Columns ",
+        "type":  "ControlType.Group",
+        "id":  "w_DimDate",
+        "bounds":  "558,335,234,272"
+    },
+    {
+        "name":  "table content",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "558,375,230,200"
+    },
+    {
+        "name":  " FactTransactions table 2 of 2 Unselected 64 Columns ",
+        "type":  "ControlType.Group",
+        "id":  "w_FactTransactions",
+        "bounds":  "274,335,234,300"
+    },
+    {
+        "name":  "FactTransactions",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "312,347,104,20"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "476,343,24,24"
+    },
+    {
+        "name":  "table content",
+        "type":  "ControlType.List",
+        "id":  "",
+        "bounds":  "274,375,230,228"
+    },
+    {
+        "name":  "Collapse",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "477,611,15,16"
+    },
+    {
+        "name":  "Previous pages",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "149,768,20,35"
+    },
+    {
+        "name":  "Next pages",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "169,768,20,35"
+    },
+    {
+        "name":  "All tables",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "189,768,94,35"
+    },
+    {
+        "name":  "All tables",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "189,768,94,35"
+    },
+    {
+        "name":  "New Layout",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "282,768,40,35"
+    },
+    {
+        "name":  "Properties",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "579,268,264,21"
+    },
+    {
+        "name":  "Properties",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "579,268,75,21"
+    },
+    {
+        "name":  "Cards",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "571,297,280,42"
+    },
+    {
+        "name":  "Cards",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "571,339,280,230"
+    },
+    {
+        "name":  "Show the database in the header when applicable",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "581,344,212,32"
+    },
+    {
+        "name":  "Show related fields when card is collapsed",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "581,434,230,16"
+    },
+    {
+        "name":  "Pin related fields to top of card",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "581,508,169,16"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "860,268,264,21"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "860,268,34,21"
+    },
+    {
+        "name":  "Tables",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "852,297,76,44"
+    },
+    {
+        "name":  "Model",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "927,297,76,44"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "856,349,272,24"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Edit",
+        "id":  "",
+        "bounds":  "890,351,228,20"
+    },
+    {
+        "name":  "Table DimDate",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,382,270,24"
+    },
+    {
+        "name":  "DimDate",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "863,382,16,24"
+    },
+    {
+        "name":  "This field or table is visible in report view. Select to hide it.",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "Empty"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,382,12,24"
+    },
+    {
+        "name":  "Table FactTransactions",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,406,270,24"
+    },
+    {
+        "name":  "FactTransactions",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "863,406,16,24"
+    },
+    {
+        "name":  "This field or table is visible in report view. Select to hide it.",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "Empty"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,406,12,24"
+    },
+    {
+        "name":  "Zoom Out",
+        "type":  "ControlType.Button",
+        "id":  "zoomOutButton",
+        "bounds":  "875,805,15,17"
+    },
+    {
+        "name":  "Zoom In",
+        "type":  "ControlType.Button",
+        "id":  "zoomInButton",
+        "bounds":  "989,805,19,17"
+    },
+    {
+        "name":  "100%",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1016,806,30,17"
+    },
+    {
+        "name":  "Reset layout",
+        "type":  "ControlType.Button",
+        "id":  "resetLayoutButton",
+        "bounds":  "1062,805,20,21"
+    },
+    {
+        "name":  "Fit to page",
+        "type":  "ControlType.Button",
+        "id":  "fitToPageButton",
+        "bounds":  "1094,805,20,21"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/daxQueryView.html",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1024,727"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/daxQueryView.html - Web content",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1024,727"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.ToolBar",
+        "id":  "",
+        "bounds":  "108,100,1024,34"
+    },
+    {
+        "name":  "Save",
+        "type":  "ControlType.Button",
+        "id":  "save",
+        "bounds":  "118,100,30,31"
+    },
+    {
+        "name":  "Undo",
+        "type":  "ControlType.Button",
+        "id":  "undo",
+        "bounds":  "148,100,30,31"
+    },
+    {
+        "name":  "Redo",
+        "type":  "ControlType.Button",
+        "id":  "redo",
+        "bounds":  "178,100,30,31"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence · Last saved: Yesterday at 11:37 PM (Power BI Project)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "210,105,468,24"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "210,106,161,22"
+    },
+    {
+        "name":  "Sign in",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "908,100,92,34"
+    },
+    {
+        "name":  "Minimize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1000,100,44,34"
+    },
+    {
+        "name":  "Maximize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1044,100,44,34"
+    },
+    {
+        "name":  "Close",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1088,100,44,34"
+    },
+    {
+        "name":  "File",
+        "type":  "ControlType.TabItem",
+        "id":  "Ribbon-file",
+        "bounds":  "108,134,66,31"
+    },
+    {
+        "name":  "Ribbon tabs",
+        "type":  "ControlType.Group",
+        "id":  "tablist",
+        "bounds":  "173,134,130,31"
+    },
+    {
+        "name":  "Home",
+        "type":  "ControlType.TabItem",
+        "id":  "home",
+        "bounds":  "173,134,70,31"
+    },
+    {
+        "name":  "Help",
+        "type":  "ControlType.TabItem",
+        "id":  "help",
+        "bounds":  "242,134,60,31"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Button",
+        "id":  "odspShareFlyout",
+        "bounds":  "1042,138,84,24"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1073,142,30,16"
+    },
+    {
+        "name":  "Share this document, and see who it\u0027s shared with.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1083,149,58,145"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Group",
+        "id":  "clipboardGroupMlr-group",
+        "bounds":  "116,170,94,90"
+    },
+    {
+        "name":  "Paste",
+        "type":  "ControlType.Button",
+        "id":  "paste",
+        "bounds":  "116,172,40,73"
+    },
+    {
+        "name":  "Cut",
+        "type":  "ControlType.Button",
+        "id":  "cut",
+        "bounds":  "156,170,45,24"
+    },
+    {
+        "name":  "Copy",
+        "type":  "ControlType.Button",
+        "id":  "copy",
+        "bounds":  "156,194,54,24"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "141,246,44,14"
+    },
+    {
+        "name":  "Editing",
+        "type":  "ControlType.Group",
+        "id":  "editingSection-group",
+        "bounds":  "226,170,312,90"
+    },
+    {
+        "name":  "Format",
+        "type":  "ControlType.Button",
+        "id":  "daxFormatQuery",
+        "bounds":  "226,172,42,73"
+    },
+    {
+        "name":  "Comment",
+        "type":  "ControlType.Button",
+        "id":  "daxComment",
+        "bounds":  "267,172,58,73"
+    },
+    {
+        "name":  "Uncomment",
+        "type":  "ControlType.Button",
+        "id":  "daxUncomment",
+        "bounds":  "324,172,70,73"
+    },
+    {
+        "name":  "Find",
+        "type":  "ControlType.Button",
+        "id":  "daxFind",
+        "bounds":  "393,172,41,73"
+    },
+    {
+        "name":  "Replace",
+        "type":  "ControlType.Button",
+        "id":  "daxReplace",
+        "bounds":  "433,172,46,73"
+    },
+    {
+        "name":  "Command palette",
+        "type":  "ControlType.Button",
+        "id":  "daxCommandPalette",
+        "bounds":  "478,172,60,73"
+    },
+    {
+        "name":  "Editing",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "366,246,32,14"
+    },
+    {
+        "name":  "Copilot",
+        "type":  "ControlType.Group",
+        "id":  "copilotSection-group",
+        "bounds":  "554,170,44,90"
+    },
+    {
+        "name":  "Copilot",
+        "type":  "ControlType.Button",
+        "id":  "daxCopilot",
+        "bounds":  "554,172,44,73"
+    },
+    {
+        "name":  "Copilot",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "559,246,33,14"
+    },
+    {
+        "name":  "Switch ribbons",
+        "type":  "ControlType.Button",
+        "id":  "RibbonModeToggle",
+        "bounds":  "1112,244,20,16"
+    },
+    {
+        "name":  "Report view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,260,40,40"
+    },
+    {
+        "name":  "Table view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,300,40,40"
+    },
+    {
+        "name":  "Model view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,340,40,40"
+    },
+    {
+        "name":  "DAX query view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,380,40,40"
+    },
+    {
+        "name":  "TMDL View",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,420,40,40"
+    },
+    {
+        "name":  "DAX queries will be saved to your model",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "187,268,221,16"
+    },
+    {
+        "name":  "  They won\u0027t be visible when published in the Power BI service. ",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "187,268,507,32"
+    },
+    {
+        "name":  "https://go.microsoft.com/fwlink/?linkid=2247952",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "728,268,83,35"
+    },
+    {
+        "name":  "Learn more Opens in new window",
+        "type":  "ControlType.Hyperlink",
+        "id":  "",
+        "bounds":  "728,268,60,35"
+    },
+    {
+        "name":  "Expand",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "819,260,32,32"
+    },
+    {
+        "name":  "Run the selected portion of the DAX query or the whole thing if nothing is selected (F5 or CTRL + SHIFT + E)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "157,317,74,25"
+    },
+    {
+        "name":  "Update model with changes (0)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "234,317,249,25"
+    },
+    {
+        "name":  "Editor content;Press Alt+F1 for Accessibility Options.",
+        "type":  "ControlType.Edit",
+        "id":  "",
+        "bounds":  "209,450,534,2"
+    },
+    {
+        "name":  "Toggle results container",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "814,497,32,33"
+    },
+    {
+        "name":  "Results",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "173,502,70,22"
+    },
+    {
+        "name":  "Your query results will show up here",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "336,704,328,28"
+    },
+    {
+        "name":  "Previous pages",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "149,768,20,35"
+    },
+    {
+        "name":  "Next pages",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "169,768,20,35"
+    },
+    {
+        "name":  "Query 1",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "189,768,87,35"
+    },
+    {
+        "name":  "Query 1",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "189,768,87,35"
+    },
+    {
+        "name":  "New query",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "275,768,40,35"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "860,268,264,21"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "860,268,34,21"
+    },
+    {
+        "name":  "Tables",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "852,297,76,44"
+    },
+    {
+        "name":  "Model",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "927,297,76,44"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "856,349,272,24"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Edit",
+        "id":  "",
+        "bounds":  "890,351,228,20"
+    },
+    {
+        "name":  "Table DimDate",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,382,270,24"
+    },
+    {
+        "name":  "DimDate",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "863,382,16,24"
+    },
+    {
+        "name":  "This field or table is visible in report view. Select to hide it.",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "Empty"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,388,12,12"
+    },
+    {
+        "name":  "Table FactTransactions",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,406,270,24"
+    },
+    {
+        "name":  "FactTransactions",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "863,406,16,24"
+    },
+    {
+        "name":  "This field or table is visible in report view. Select to hide it.",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "Empty"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,412,12,12"
+    },
+    {
+        "name":  "Query 1 of 1",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "112,807,66,17"
+    },
+    {
+        "name":  "Zoom Out",
+        "type":  "ControlType.Button",
+        "id":  "zoomOutButton",
+        "bounds":  "943,803,15,21"
+    },
+    {
+        "name":  "Zoom In",
+        "type":  "ControlType.Button",
+        "id":  "zoomInButton",
+        "bounds":  "1057,803,19,21"
+    },
+    {
+        "name":  "Zoom level. Click to open the Zoom dialog box",
+        "type":  "ControlType.Button",
+        "id":  "zoomValueButton",
+        "bounds":  "1080,806,40,17"
+    },
+    {
+        "name":  "Run DAX queries on your model",
+        "type":  "ControlType.Window",
+        "id":  "mat-mdc-dialog-0",
+        "bounds":  "370,206,500,515"
+    },
+    {
+        "name":  "Run DAX queries on your model",
+        "type":  "ControlType.Text",
+        "id":  "mat-mdc-dialog-title-0",
+        "bounds":  "394,218,408,33"
+    },
+    {
+        "name":  "Close Dialog",
+        "type":  "ControlType.Button",
+        "id":  "closeButton",
+        "bounds":  "814,218,32,33"
+    },
+    {
+        "name":  "DAX queries are here to help you quickly explore and gain insights from your semantic data model. Let\u0027s get started by right-clicking items in the Data pane to generate DAX queries such as top 100 rows and showing the values in a data column.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "394,501,446,83"
+    },
+    {
+        "name":  "Once you get going, turn on Copilot with CTRL-I to also help you write the DAX query you need!",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "394,599,435,41"
+    },
+    {
+        "name":  "Take a tour",
+        "type":  "ControlType.Button",
+        "id":  "okButton",
+        "bounds":  "744,664,102,33"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/tmdlView.html",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1024,727"
+    },
+    {
+        "name":  "ms-pbi.pbi.microsoft.com/minerva/tmdlView.html - Web content",
+        "type":  "ControlType.Pane",
+        "id":  "",
+        "bounds":  "108,100,1024,727"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.ToolBar",
+        "id":  "",
+        "bounds":  "108,100,1024,34"
+    },
+    {
+        "name":  "Save",
+        "type":  "ControlType.Button",
+        "id":  "save",
+        "bounds":  "117,100,31,31"
+    },
+    {
+        "name":  "Undo",
+        "type":  "ControlType.Button",
+        "id":  "undo",
+        "bounds":  "147,100,31,31"
+    },
+    {
+        "name":  "Redo",
+        "type":  "ControlType.Button",
+        "id":  "redo",
+        "bounds":  "177,100,31,31"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence · Last saved: Yesterday at 11:37 PM (Power BI Project)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "209,105,469,24"
+    },
+    {
+        "name":  "Dubai_Real_Estate_Intelligence",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "209,106,162,22"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Edit",
+        "id":  "TellMe-SearchBox",
+        "bounds":  "756,106,148,22"
+    },
+    {
+        "name":  "Sign in",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "908,100,92,34"
+    },
+    {
+        "name":  "Minimize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1000,100,44,34"
+    },
+    {
+        "name":  "Maximize",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1044,100,44,34"
+    },
+    {
+        "name":  "Close",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1088,100,44,34"
+    },
+    {
+        "name":  "File",
+        "type":  "ControlType.TabItem",
+        "id":  "Ribbon-file",
+        "bounds":  "108,134,66,31"
+    },
+    {
+        "name":  "Ribbon tabs",
+        "type":  "ControlType.Group",
+        "id":  "tablist",
+        "bounds":  "173,134,130,31"
+    },
+    {
+        "name":  "Home",
+        "type":  "ControlType.TabItem",
+        "id":  "home",
+        "bounds":  "173,134,70,31"
+    },
+    {
+        "name":  "Help",
+        "type":  "ControlType.TabItem",
+        "id":  "help",
+        "bounds":  "242,134,60,31"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Button",
+        "id":  "odspShareFlyout",
+        "bounds":  "1042,138,84,24"
+    },
+    {
+        "name":  "Share",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1073,142,30,16"
+    },
+    {
+        "name":  "Share this document, and see who it\u0027s shared with.",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "1083,149,58,145"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Group",
+        "id":  "clipboardGroupMlr-group",
+        "bounds":  "116,170,94,90"
+    },
+    {
+        "name":  "Paste",
+        "type":  "ControlType.Button",
+        "id":  "paste",
+        "bounds":  "116,172,40,73"
+    },
+    {
+        "name":  "Cut",
+        "type":  "ControlType.Button",
+        "id":  "cut",
+        "bounds":  "156,170,45,24"
+    },
+    {
+        "name":  "Copy",
+        "type":  "ControlType.Button",
+        "id":  "copy",
+        "bounds":  "156,194,54,24"
+    },
+    {
+        "name":  "Clipboard",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "141,246,44,14"
+    },
+    {
+        "name":  "Editing",
+        "type":  "ControlType.Group",
+        "id":  "editingSection-group",
+        "bounds":  "226,170,186,90"
+    },
+    {
+        "name":  "Format",
+        "type":  "ControlType.Button",
+        "id":  "tmdlFormat",
+        "bounds":  "226,172,42,73"
+    },
+    {
+        "name":  "Find",
+        "type":  "ControlType.Button",
+        "id":  "tmdlFind",
+        "bounds":  "267,172,41,73"
+    },
+    {
+        "name":  "Replace",
+        "type":  "ControlType.Button",
+        "id":  "tmdlReplace",
+        "bounds":  "307,172,46,73"
+    },
+    {
+        "name":  "Command palette",
+        "type":  "ControlType.Button",
+        "id":  "tmdlCommandPalette",
+        "bounds":  "352,172,60,73"
+    },
+    {
+        "name":  "Editing",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "303,246,32,14"
+    },
+    {
+        "name":  "Switch ribbons",
+        "type":  "ControlType.Button",
+        "id":  "RibbonModeToggle",
+        "bounds":  "1112,244,20,16"
+    },
+    {
+        "name":  "Report view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,260,40,40"
+    },
+    {
+        "name":  "Table view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,300,40,40"
+    },
+    {
+        "name":  "Model view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,340,40,40"
+    },
+    {
+        "name":  "DAX query view",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,380,40,40"
+    },
+    {
+        "name":  "TMDL View",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "108,420,40,40"
+    },
+    {
+        "name":  "Switch to editing mode to apply your changes.",
+        "type":  "ControlType.Button",
+        "id":  "tmdl-apply-button",
+        "bounds":  "157,266,88,24"
+    },
+    {
+        "name":  "Preview how the script would change the semantic model.",
+        "type":  "ControlType.Button",
+        "id":  "tmdl-preview-button",
+        "bounds":  "248,266,76,24"
+    },
+    {
+        "name":  "Editor content;Press Alt+F1 for Accessibility Options.",
+        "type":  "ControlType.Edit",
+        "id":  "",
+        "bounds":  "201,308,541,1"
+    },
+    {
+        "name":  "Problems 0",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "179,728,113,35"
+    },
+    {
+        "name":  "Output 0",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "291,728,83,35"
+    },
+    {
+        "name":  "Expand/Collapse toggle bottom",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "789,729,32,33"
+    },
+    {
+        "name":  "Previous pages",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "149,768,20,35"
+    },
+    {
+        "name":  "Next pages",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "169,768,20,35"
+    },
+    {
+        "name":  "Script 1",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "189,768,85,35"
+    },
+    {
+        "name":  "Script 1",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "189,768,85,35"
+    },
+    {
+        "name":  "New script",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "273,768,40,35"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "860,268,264,21"
+    },
+    {
+        "name":  "Data",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "860,268,34,21"
+    },
+    {
+        "name":  "Tables",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "852,297,74,44"
+    },
+    {
+        "name":  "Model",
+        "type":  "ControlType.TabItem",
+        "id":  "",
+        "bounds":  "925,297,78,44"
+    },
+    {
+        "name":  "View and organize all of the items in your semantic model. ",
+        "type":  "ControlType.Text",
+        "id":  "",
+        "bounds":  "896,358,179,32"
+    },
+    {
+        "name":  "Learn how ",
+        "type":  "ControlType.Hyperlink",
+        "id":  "",
+        "bounds":  "896,374,159,32"
+    },
+    {
+        "name":  "Close",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1084,358,32,32"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Group",
+        "id":  "",
+        "bounds":  "856,427,272,24"
+    },
+    {
+        "name":  "Search",
+        "type":  "ControlType.Edit",
+        "id":  "",
+        "bounds":  "890,429,228,20"
+    },
+    {
+        "name":  " Semantic model",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,460,270,24"
+    },
+    {
+        "name":  "Semantic model",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "863,460,16,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,466,12,12"
+    },
+    {
+        "name":  " Calculation groups (0)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,484,270,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,490,12,12"
+    },
+    {
+        "name":  " Cultures (0)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,508,270,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,514,12,12"
+    },
+    {
+        "name":  " Expressions (1)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,532,270,24"
+    },
+    {
+        "name":  "Expressions (1)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "878,532,16,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,538,12,12"
+    },
+    {
+        "name":  " Functions (0)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,556,270,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,562,12,12"
+    },
+    {
+        "name":  " Measures (0)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,580,270,24"
+    },
+    {
+        "name":  "Measures (21)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "878,580,16,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,586,12,12"
+    },
+    {
+        "name":  " Perspectives (0)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,604,270,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,610,12,12"
+    },
+    {
+        "name":  " Relationships (1)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,628,270,24"
+    },
+    {
+        "name":  "Relationships (1)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "878,628,16,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,634,12,12"
+    },
+    {
+        "name":  " Roles (0)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,652,270,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,658,12,12"
+    },
+    {
+        "name":  " Tables (2)",
+        "type":  "ControlType.TreeItem",
+        "id":  "",
+        "bounds":  "857,676,270,24"
+    },
+    {
+        "name":  "Tables (2)",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "878,676,16,24"
+    },
+    {
+        "name":  "More options",
+        "type":  "ControlType.Button",
+        "id":  "",
+        "bounds":  "1127,682,12,12"
+    },
+    {
+        "name":  "Zoom Out",
+        "type":  "ControlType.Button",
+        "id":  "zoomOutButton",
+        "bounds":  "943,803,15,21"
+    },
+    {
+        "name":  "Zoom In",
+        "type":  "ControlType.Button",
+        "id":  "zoomInButton",
+        "bounds":  "1057,803,19,21"
+    },
+    {
+        "name":  "Zoom level. Click to open the Zoom dialog box",
+        "type":  "ControlType.Button",
+        "id":  "zoomValueButton",
+        "bounds":  "1080,806,40,17"
+    }
+]

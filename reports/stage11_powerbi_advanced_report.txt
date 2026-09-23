@@ -1,0 +1,92 @@
+STAGE 11 — ADVANCED POWER BI ANALYSIS + PORTFOLIO POLISH
+Recovery completion report. Branch main; baseline a63223c; no commit performed.
+
+PROJECT
+C:\Users\ssd\Desktop\D.A Projects\dubai-real-estate-intelligence\powerbi\Dubai_Real_Estate_Intelligence\Dubai_Real_Estate_Intelligence.pbip
+
+RECOVERY
+Original inspection: clean Stage 10 baseline, Executive Overview only.
+Latest continuation inspection: all four page definitions, model changes, native
+refresh evidence, DAX reuse document and visual specification already existed.
+These complete components were preserved. No invalid/truncated JSON was found.
+Final screenshots, interaction evidence and protection audit were partial and
+were completed. The two missing build reports were created. No page was rebuilt.
+
+FINAL REPORT
+Executive Overview: preserved; 8 cards, 4 charts, 5 slicers; rendered PASS.
+Market Trends: 4 cards, 4 charts, 3 slicers; rendered PASS.
+Area Intelligence: 4 cards, 2 charts, 2 tables, 4 slicers; rendered PASS.
+Property & Pricing: 4 cards, 6 charts, 4 slicers; rendered PASS.
+Exactly four analytical pages. Added across Stage 11: 12 KPI cards, 12 charts,
+2 tables, 11 slicers, and 4 native page navigators. The latest continuation
+added no further page/visual/measure definitions.
+
+SEMANTIC MODEL
+FactTransactions: 41 source columns plus 2 hidden band-sort helpers.
+DimDate: 8 columns, existing active one-to-many, single-direction date relationship.
+New DAX measures: 0. Total DAX measures: 21, definitions unchanged and reused.
+Sales filters retain GROUP_EN = Sales; price measures also require the existing
+VALID_SALE_PRICE_METRIC = 1 flag. DIVIDE remains in share/growth measures.
+
+SORTING / LABELS / NAVIGATION
+Month Name sorts by Month Number. Year Month sorts by Year Month Sort.
+Value bands and size bands sort numerically using hidden Power Query columns.
+Original source band labels, including spaces, are unchanged.
+Case-sensitive model collation preserves all 251 sales-area labels/counts exactly,
+including BUSINESS BAY (4,623) versus Business Bay (208).
+All four pages have a current-page-highlighted navigator; native navigation tested.
+Existing Executive visuals only move/resize enough to accommodate navigation.
+The Stage 10 theme is unchanged.
+
+NATIVE VALIDATION
+Power BI Desktop 2.157.1354.0 opened the exact project. Full TOM refresh against
+its local engine succeeded; FactTransactions and DimDate partitions were Ready.
+All 21 measures executed in live DAX. The old local Stage 10 cache was preserved
+before creating the refreshed case-sensitive cache. Reopening succeeded.
+All four pages rendered with data and without broken visual/field/query/theme errors.
+Ready slicer: 38,042 Sales Records and 100% Ready Share; charts filtered correctly.
+Selection was cleared and unfiltered values restored. Live Ready/September DAX
+filter tests and structural slicer interaction checks passed.
+
+UNFILTERED METRICS — SOURCE AND LIVE DESKTOP MATCH
+Sales Records: 119,549
+Distinct Sales Transaction Numbers: 119,526
+Median Sale Price per Sqft: AED 1,716.7932418178125 (display AED 1,716.79)
+Off-Plan Share: 68.17873842524822% (display 68.18%)
+Ready Share: 31.821261574751775% (display 31.82%)
+
+SOURCE / ANALYTICAL PROTECTION
+CSV: data/processed/dld_transactions_2026_ytd_features.csv
+159,223 rows; 41 columns; 2026-01-01 through 2026-09-21.
+September is partial; all four pages disclose coverage, and Market Trends warns
+that the latest partial month is compared with the full previous month.
+Source SHA before:
+bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+Source SHA after:
+bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+Source unchanged: YES.
+Stages 1–9, Excel, old Python/SQL work, Stage 10 documentation/evidence and theme
+are unchanged. MySQL was not accessed. Stage 10 PBIP integration edits are limited
+to navigation space/page ordering, sort helpers and case-sensitive label fidelity.
+No labels normalized, outliers removed, bedrooms invented, predictions, investment
+recommendations, Total Sales Value, Total Market Value or market-value SUM added.
+The 772 repeated transaction IDs / 476 multi-value IDs grain rule is preserved.
+
+EVIDENCE / EXACT FILE LIST
+Full build report: powerbi/Stage11_build_report.md
+Specification: powerbi/Stage11_Visual_Specification.md
+Measure reuse: powerbi/Stage11_Advanced_DAX_Measures.txt
+Final checks and screenshots: powerbi/validation/stage11/
+Exact created/modified files: powerbi/validation/stage11/file_manifest.json
+Final protection audit: powerbi/validation/stage11/protection_audit.json
+Final git status: powerbi/validation/stage11/git_status_final.txt
+
+LIMITATIONS
+Public visualContainer 2.12 schema URL returns 404; real Desktop/native/live
+validation supplements available schema checks. Other Desktop versions and Service
+publication were not tested. Some visuals scroll at 1024x768. Area activity versus
+price uses the permitted table fallback. SourceFile must be adjusted on other
+machines. No exhaustive test of every possible slicer combination was performed.
+No manual Desktop validation remains outstanding on this machine.
+
+All Stage 11 changes remain uncommitted for review. Work stops at Stage 11.

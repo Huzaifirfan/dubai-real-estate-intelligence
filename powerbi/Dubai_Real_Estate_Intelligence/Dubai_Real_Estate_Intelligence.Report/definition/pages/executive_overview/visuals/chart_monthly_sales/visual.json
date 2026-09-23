@@ -3,9 +3,9 @@
   "name": "chart_monthly_sales",
   "position": {
     "x": 24,
-    "y": 352,
+    "y": 384,
     "z": 18000,
-    "height": 300,
+    "height": 268,
     "width": 348,
     "tabOrder": 18000
   },

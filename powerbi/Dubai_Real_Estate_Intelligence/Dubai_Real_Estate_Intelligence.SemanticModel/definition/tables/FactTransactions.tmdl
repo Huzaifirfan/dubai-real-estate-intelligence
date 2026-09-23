@@ -484,18 +484,36 @@ table FactTransactions
 		lineageTag: 8ef2eeb8-55d2-58bb-98ea-92d66386025b
 		summarizeBy: none
 		sourceColumn: TRANSACTION_VALUE_BAND
+		sortByColumn: TRANSACTION_VALUE_BAND_SORT
 
 	column PROPERTY_SIZE_BAND
 		dataType: string
 		lineageTag: 6936ceb6-6d66-5fdd-b0f4-1aa2ad9a8500
 		summarizeBy: none
 		sourceColumn: PROPERTY_SIZE_BAND
+		sortByColumn: PROPERTY_SIZE_BAND_SORT
 
 	column BEDROOM_COUNT
 		dataType: int64
 		lineageTag: 1657a600-fe3a-53e4-ab54-70b331a702be
 		summarizeBy: none
 		sourceColumn: BEDROOM_COUNT
+
+	/// Stage 11 ordering helper; original source band label is unchanged.
+	column TRANSACTION_VALUE_BAND_SORT
+		dataType: int64
+		isHidden
+		lineageTag: 6f5d6a4b-0f8d-4ca4-a0b4-1533b2c23b96
+		summarizeBy: none
+		sourceColumn: TRANSACTION_VALUE_BAND_SORT
+
+	/// Stage 11 ordering helper; original source band label is unchanged.
+	column PROPERTY_SIZE_BAND_SORT
+		dataType: int64
+		isHidden
+		lineageTag: ad13c7af-1e4b-4e5f-b823-31565872c447
+		summarizeBy: none
+		sourceColumn: PROPERTY_SIZE_BAND_SORT
 
 	partition FactTransactions = m
 		mode: import
@@ -556,9 +574,13 @@ table FactTransactions
 				            {"BEDROOM_COUNT", Int64.Type}
 				        },
 				        "en-US"
-				    )
+				    ),
+				    ValueBandOrder = [#"Under 500K" = 1, #"500K - 1M" = 2, #"1M - 2M" = 3, #"2M - 5M" = 4, #"5M - 10M" = 5, #"10M+" = 6],
+				    SizeBandOrder = [#"Under 50 sqm" = 1, #"50 - 100 sqm" = 2, #"100 - 200 sqm" = 3, #"200 - 500 sqm" = 4, #"500+ sqm" = 5],
+				    SortedValueBands = Table.AddColumn(Typed, "TRANSACTION_VALUE_BAND_SORT", each Record.FieldOrDefault(ValueBandOrder, [TRANSACTION_VALUE_BAND], 99), Int64.Type),
+				    SortedSizeBands = Table.AddColumn(SortedValueBands, "PROPERTY_SIZE_BAND_SORT", each Record.FieldOrDefault(SizeBandOrder, [PROPERTY_SIZE_BAND], 99), Int64.Type)
 				in
-				    Typed
+				    SortedSizeBands
 
 	annotation PBI_ResultType = Table
 

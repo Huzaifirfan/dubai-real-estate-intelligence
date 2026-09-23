@@ -1,0 +1,159 @@
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_monthly_sales/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_offplan_ready/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_property_mix/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_top10_areas/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_distinct_sales/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_median_price/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_offplan_share/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_ready_share/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_residential_share/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_sales_records/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_top_area/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_valid_price/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_area/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_month/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_offplan/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_property/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_value_band/visual.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/pages.json
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/model.tmdl
+	modified:   powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/FactTransactions.tmdl
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/
+	powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/stage11_page_navigation/
+	powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/
+	powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/
+	powerbi/Stage11_Advanced_DAX_Measures.txt
+	powerbi/Stage11_Visual_Specification.md
+	powerbi/Stage11_build_report.md
+	powerbi/validation/stage11/
+	reports/stage11_powerbi_advanced_report.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Exact file list (including untracked files):
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_monthly_sales/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_offplan_ready/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_property_mix/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_top10_areas/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_distinct_sales/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_median_price/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_offplan_share/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_ready_share/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_residential_share/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_sales_records/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_top_area/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_valid_price/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_area/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_month/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_offplan/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_property/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_value_band/visual.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/pages.json
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/model.tmdl
+ M powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/FactTransactions.tmdl
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/page.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/area_activity_price/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/area_detail/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/area_median/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/area_top15/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_coverage/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_footer/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_kpi_1/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_kpi_2/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_kpi_3/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_kpi_4/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_page_navigation/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_partial/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_slicer_1/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_slicer_2/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_slicer_3/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_slicer_4/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_subtitle/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/area_intelligence/visuals/stage11_title/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/stage11_page_navigation/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/page.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/monthly_mix/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/monthly_price/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/monthly_residential/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/monthly_sales/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_coverage/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_footer/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_kpi_1/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_kpi_2/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_kpi_3/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_kpi_4/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_page_navigation/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_partial/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_slicer_1/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_slicer_2/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_slicer_3/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_subtitle/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/market_trends/visuals/stage11_title/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/page.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/bedrooms/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/property_mix/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/property_subtypes/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/size_bands/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_coverage/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_footer/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_kpi_1/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_kpi_2/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_kpi_3/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_kpi_4/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_page_navigation/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_partial/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_slicer_1/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_slicer_2/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_slicer_3/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_slicer_4/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_subtitle/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/stage11_title/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/transaction_bands/visual.json
+?? powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/property_pricing/visuals/type_price/visual.json
+?? powerbi/Stage11_Advanced_DAX_Measures.txt
+?? powerbi/Stage11_Visual_Specification.md
+?? powerbi/Stage11_build_report.md
+?? powerbi/validation/stage11/Capture-Stage11FinalPages.ps1
+?? powerbi/validation/stage11/Capture-Stage11Window.ps1
+?? powerbi/validation/stage11/Click-Stage11Point.ps1
+?? powerbi/validation/stage11/Inspect-Stage11UI.ps1
+?? powerbi/validation/stage11/README.md
+?? powerbi/validation/stage11/Refresh-Stage11Desktop.ps1
+?? powerbi/validation/stage11/Test-Stage11Live.ps1
+?? powerbi/validation/stage11/Validate-Stage11Model.ps1
+?? powerbi/validation/stage11/area_intelligence.png
+?? powerbi/validation/stage11/area_intelligence_ui.json
+?? powerbi/validation/stage11/build_missing_stage11.py
+?? powerbi/validation/stage11/continuation_checkpoint.json
+?? powerbi/validation/stage11/desktop_probe.json
+?? powerbi/validation/stage11/desktop_process.json
+?? powerbi/validation/stage11/desktop_refresh.json
+?? powerbi/validation/stage11/desktop_render_validation.json
+?? powerbi/validation/stage11/desktop_window_final.png
+?? powerbi/validation/stage11/executive_overview.png
+?? powerbi/validation/stage11/executive_overview_cleared.png
+?? powerbi/validation/stage11/file_manifest.json
+?? powerbi/validation/stage11/git_status_final.txt
+?? powerbi/validation/stage11/live_dax_validation.json
+?? powerbi/validation/stage11/live_segment_validation.json
+?? powerbi/validation/stage11/market_trends.png
+?? powerbi/validation/stage11/market_trends_ui.json
+?? powerbi/validation/stage11/native_model_validation.json
+?? powerbi/validation/stage11/probe_stage11_desktop.ps1
+?? powerbi/validation/stage11/property_pricing.png
+?? powerbi/validation/stage11/property_pricing_ui.json
+?? powerbi/validation/stage11/protection_audit.json
+?? powerbi/validation/stage11/recovery_baseline.json
+?? powerbi/validation/stage11/segment_reconciliation.json
+?? powerbi/validation/stage11/slicer_interaction.png
+?? powerbi/validation/stage11/slicer_options_ui.json
+?? powerbi/validation/stage11/stage11_validation.json
+?? powerbi/validation/stage11/validate_stage11.py
+?? reports/stage11_powerbi_advanced_report.txt

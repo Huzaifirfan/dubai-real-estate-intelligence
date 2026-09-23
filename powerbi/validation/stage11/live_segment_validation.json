@@ -1,0 +1,1607 @@
+﻿{
+    "areas":  [
+                  {
+                      "FactTransactions[AREA_EN]":  "Abu Hail",
+                      "Sales Records":  45,
+                      "Valid Price Records":  45,
+                      "Median Price":  599.99380005220814
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "AL Athbah",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  353.04975044106322
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Aweer First",
+                      "Sales Records":  2,
+                      "Valid Price Records":  2,
+                      "Median Price":  123.62570945402872
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Aweer Second",
+                      "Sales Records":  4,
+                      "Valid Price Records":  4,
+                      "Median Price":  57.60220800247
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Bada",
+                      "Sales Records":  24,
+                      "Valid Price Records":  24,
+                      "Median Price":  1554.27282898889
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Baraha",
+                      "Sales Records":  8,
+                      "Valid Price Records":  8,
+                      "Median Price":  880.762438697436
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "AL BARARI",
+                      "Sales Records":  257,
+                      "Valid Price Records":  257,
+                      "Median Price":  2565.9444382566057
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Barsha First",
+                      "Sales Records":  91,
+                      "Valid Price Records":  91,
+                      "Median Price":  1799.9978507049364
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Barsha Second",
+                      "Sales Records":  13,
+                      "Valid Price Records":  13,
+                      "Median Price":  582.959019954768
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Barsha Third",
+                      "Sales Records":  11,
+                      "Valid Price Records":  11,
+                      "Median Price":  581.68011771019576
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Barshaa South First",
+                      "Sales Records":  7,
+                      "Valid Price Records":  7,
+                      "Median Price":  520.68959689635312
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Barshaa South Second",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  336.20323526249018
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Barshaa South Third",
+                      "Sales Records":  10,
+                      "Valid Price Records":  10,
+                      "Median Price":  997.38949271812839
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Buteen",
+                      "Sales Records":  5,
+                      "Valid Price Records":  5,
+                      "Median Price":  4826.8694376571721
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Dhagaya",
+                      "Sales Records":  8,
+                      "Valid Price Records":  8,
+                      "Median Price":  3730.4684666001704
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "AL FURJAN",
+                      "Sales Records":  1692,
+                      "Valid Price Records":  1692,
+                      "Median Price":  1415.0170952223964
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Garhoud",
+                      "Sales Records":  2,
+                      "Valid Price Records":  2,
+                      "Median Price":  384.71252051844237
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Goze First",
+                      "Sales Records":  21,
+                      "Valid Price Records":  21,
+                      "Median Price":  472.85978443156483
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Goze Fourth",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  386.50014560920209
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Goze Industrial First",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  48.693071538605253
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Goze Industrial Second",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  625.00026909844075
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Goze Industrial Third",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  3952.0454869714094
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Goze Third",
+                      "Sales Records":  2,
+                      "Valid Price Records":  2,
+                      "Median Price":  1916.525439810961
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Hamriya",
+                      "Sales Records":  5,
+                      "Valid Price Records":  5,
+                      "Median Price":  1536.6669147762298
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Hebiah Fifth",
+                      "Sales Records":  2651,
+                      "Valid Price Records":  2651,
+                      "Median Price":  1722.5772000015559
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Hebiah First",
+                      "Sales Records":  664,
+                      "Valid Price Records":  664,
+                      "Median Price":  1944.7406698582161
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Hebiah Fourth",
+                      "Sales Records":  185,
+                      "Valid Price Records":  185,
+                      "Median Price":  2264.5424291687791
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Hebiah Sixth",
+                      "Sales Records":  272,
+                      "Valid Price Records":  272,
+                      "Median Price":  1714.5599260837357
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Hebiah Third",
+                      "Sales Records":  108,
+                      "Valid Price Records":  108,
+                      "Median Price":  2101.3883055999991
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Jadaf",
+                      "Sales Records":  94,
+                      "Valid Price Records":  94,
+                      "Median Price":  1887.7010347762271
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Jafliya",
+                      "Sales Records":  10,
+                      "Valid Price Records":  10,
+                      "Median Price":  584.49396021752614
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Karama",
+                      "Sales Records":  12,
+                      "Valid Price Records":  12,
+                      "Median Price":  3670.4063591232589
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Khabeesi",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  477.35872170064783
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "AL KHAIL HEIGHTS",
+                      "Sales Records":  80,
+                      "Valid Price Records":  80,
+                      "Median Price":  937.79708301162009
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Khairan First",
+                      "Sales Records":  1867,
+                      "Valid Price Records":  1867,
+                      "Median Price":  2631.7916137873794
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Khawaneej First",
+                      "Sales Records":  23,
+                      "Valid Price Records":  23,
+                      "Median Price":  594.02340996177918
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Khawaneej Second",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  345.29526690627722
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Kheeran",
+                      "Sales Records":  24,
+                      "Valid Price Records":  24,
+                      "Median Price":  1315.8192109010961
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Kifaf",
+                      "Sales Records":  204,
+                      "Valid Price Records":  204,
+                      "Median Price":  2182.633054626649
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Maha",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  31.716909301442616
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Mamzer",
+                      "Sales Records":  18,
+                      "Valid Price Records":  18,
+                      "Median Price":  665.42029417744754
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Manara",
+                      "Sales Records":  5,
+                      "Valid Price Records":  5,
+                      "Median Price":  1103.4516179329835
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Mararr",
+                      "Sales Records":  12,
+                      "Valid Price Records":  12,
+                      "Median Price":  2990.5840611986187
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Merkadh",
+                      "Sales Records":  116,
+                      "Valid Price Records":  116,
+                      "Median Price":  2096.4780021419583
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Mizhar First",
+                      "Sales Records":  11,
+                      "Valid Price Records":  11,
+                      "Median Price":  399.9987370388601
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "AL MIZHAR FOURTH",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  270.02772852807414
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Mizhar Second",
+                      "Sales Records":  12,
+                      "Valid Price Records":  12,
+                      "Median Price":  319.03763736399003
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Mizhar Third",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  316.66566682243092
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Murqabat",
+                      "Sales Records":  10,
+                      "Valid Price Records":  10,
+                      "Median Price":  1479.6855697558526
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Muteena",
+                      "Sales Records":  10,
+                      "Valid Price Records":  10,
+                      "Median Price":  982.75818379673069
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Nahda First",
+                      "Sales Records":  8,
+                      "Valid Price Records":  8,
+                      "Median Price":  1117.1829078599155
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Nahda Second",
+                      "Sales Records":  8,
+                      "Valid Price Records":  8,
+                      "Median Price":  2708.3247820339484
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "AL QUSAIS",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  420.16661390296196
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Qusais Industrial Fifth",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  1396.5476608790955
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Qusais Industrial Fourth",
+                      "Sales Records":  7,
+                      "Valid Price Records":  7,
+                      "Median Price":  680.5371285062655
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Qusais Industrial Second",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  1943.463660379329
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Raffa",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  1227.746461883457
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Ras",
+                      "Sales Records":  7,
+                      "Valid Price Records":  7,
+                      "Median Price":  2575.8698706123082
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Rashidiya",
+                      "Sales Records":  39,
+                      "Valid Price Records":  39,
+                      "Median Price":  348.28797559101224
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Rega",
+                      "Sales Records":  2,
+                      "Valid Price Records":  2,
+                      "Median Price":  5726.157552210947
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Rowaiyah First",
+                      "Sales Records":  82,
+                      "Valid Price Records":  82,
+                      "Median Price":  2806.158543532023
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Sabkha",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  6993.0027098002856
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Saffa First",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  1200.0001252538727
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Saffa Second",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  282.49094317685945
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Satwa",
+                      "Sales Records":  1193,
+                      "Valid Price Records":  1193,
+                      "Median Price":  2266.7153510377766
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Suq Al Kabeer",
+                      "Sales Records":  13,
+                      "Valid Price Records":  13,
+                      "Median Price":  2456.0815771606144
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Thanyah Fifth",
+                      "Sales Records":  774,
+                      "Valid Price Records":  774,
+                      "Median Price":  2520.1624883611339
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Thanyah Third",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  2241.3278648994915
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Ttay",
+                      "Sales Records":  18,
+                      "Valid Price Records":  18,
+                      "Median Price":  299.73898341694814
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "AL TWAR FIFTH",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  427.47650969819745
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Twar First",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  282.9540314801979
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Twar Fourth",
+                      "Sales Records":  20,
+                      "Valid Price Records":  20,
+                      "Median Price":  288.53879850676941
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Twar Second",
+                      "Sales Records":  12,
+                      "Valid Price Records":  12,
+                      "Median Price":  290.50428548499156
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Twar Third",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  258.09574609446366
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "AL WAHA",
+                      "Sales Records":  15,
+                      "Valid Price Records":  15,
+                      "Median Price":  946.09042411438782
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Waheda",
+                      "Sales Records":  30,
+                      "Valid Price Records":  30,
+                      "Median Price":  410.05698990404704
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Warqa First",
+                      "Sales Records":  9,
+                      "Valid Price Records":  9,
+                      "Median Price":  800.07785217632056
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Warqa Fourth",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  327.99284080737755
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Warqa Second",
+                      "Sales Records":  5,
+                      "Valid Price Records":  5,
+                      "Median Price":  314.17745591344629
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Warqa Third",
+                      "Sales Records":  10,
+                      "Valid Price Records":  10,
+                      "Median Price":  382.40678103536931
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Warsan Second",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  744.52509948482873
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Warsan Third",
+                      "Sales Records":  44,
+                      "Valid Price Records":  44,
+                      "Median Price":  260.06491757306185
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Wasl",
+                      "Sales Records":  733,
+                      "Valid Price Records":  733,
+                      "Median Price":  3325.2652388601464
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Yelayiss 1",
+                      "Sales Records":  3741,
+                      "Valid Price Records":  3741,
+                      "Median Price":  1821.9318400016457
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Yelayiss 2",
+                      "Sales Records":  894,
+                      "Valid Price Records":  894,
+                      "Median Price":  1626.0529965901969
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Yelayiss 5",
+                      "Sales Records":  924,
+                      "Valid Price Records":  924,
+                      "Median Price":  1481.5942331586821
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Al Yufrah 1",
+                      "Sales Records":  1025,
+                      "Valid Price Records":  1025,
+                      "Median Price":  1744.243960426882
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "ARABIAN RANCHES I",
+                      "Sales Records":  180,
+                      "Valid Price Records":  180,
+                      "Median Price":  1389.5713660087204
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "ARABIAN RANCHES II",
+                      "Sales Records":  64,
+                      "Valid Price Records":  64,
+                      "Median Price":  1402.0690684630756
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "ARABIAN RANCHES III",
+                      "Sales Records":  70,
+                      "Valid Price Records":  70,
+                      "Median Price":  2102.151772868734
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "ARABIAN RANCHES POLO CLUB",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  1501.56752154788
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "ARJAN",
+                      "Sales Records":  2505,
+                      "Valid Price Records":  2505,
+                      "Median Price":  1589.6712961657022
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "BARSHA HEIGHTS",
+                      "Sales Records":  220,
+                      "Valid Price Records":  220,
+                      "Median Price":  1999.9975063883553
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "BLUEWATERS",
+                      "Sales Records":  57,
+                      "Valid Price Records":  57,
+                      "Median Price":  5148.1913778575663
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Bukadra",
+                      "Sales Records":  836,
+                      "Valid Price Records":  836,
+                      "Median Price":  2900.0251726501651
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "BURJ KHALIFA",
+                      "Sales Records":  1609,
+                      "Valid Price Records":  1609,
+                      "Median Price":  2824.9487987296798
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Business Bay",
+                      "Sales Records":  208,
+                      "Valid Price Records":  208,
+                      "Median Price":  2744.0712723114129
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "BUSINESS BAY",
+                      "Sales Records":  4623,
+                      "Valid Price Records":  4623,
+                      "Median Price":  2441.6824615406672
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "BUSINESS PARK",
+                      "Sales Records":  1598,
+                      "Valid Price Records":  1598,
+                      "Median Price":  3552.1750588267378
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "CHERRYWOODS",
+                      "Sales Records":  20,
+                      "Valid Price Records":  20,
+                      "Median Price":  1448.6228624419839
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "CITY OF ARABIA",
+                      "Sales Records":  2401,
+                      "Valid Price Records":  2401,
+                      "Median Price":  1700.4316519592737
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "CITY WALK",
+                      "Sales Records":  164,
+                      "Valid Price Records":  164,
+                      "Median Price":  2673.8107774073442
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DAMAC HILLS",
+                      "Sales Records":  1008,
+                      "Valid Price Records":  1008,
+                      "Median Price":  1640.9534211421665
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DISCOVERY GARDENS",
+                      "Sales Records":  753,
+                      "Valid Price Records":  753,
+                      "Median Price":  970.32064000087644
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DMCC-EZ2",
+                      "Sales Records":  364,
+                      "Valid Price Records":  364,
+                      "Median Price":  2900.0209637220714
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DOWN TOWN JABAL ALI",
+                      "Sales Records":  1573,
+                      "Valid Price Records":  1573,
+                      "Median Price":  1649.8159887213026
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI CREEK HARBOUR",
+                      "Sales Records":  954,
+                      "Valid Price Records":  954,
+                      "Median Price":  2330.30137860654
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI DESIGN DISTRICT",
+                      "Sales Records":  10,
+                      "Valid Price Records":  10,
+                      "Median Price":  2595.7089054993357
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI GOLF CITY",
+                      "Sales Records":  9,
+                      "Valid Price Records":  9,
+                      "Median Price":  1501.682732057621
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI HARBOUR",
+                      "Sales Records":  271,
+                      "Valid Price Records":  271,
+                      "Median Price":  3544.3566250949107
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI HEALTHCARE CITY - PHASE 1",
+                      "Sales Records":  7,
+                      "Valid Price Records":  7,
+                      "Median Price":  1914.3301912829079
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI HEALTHCARE CITY - PHASE 2",
+                      "Sales Records":  518,
+                      "Valid Price Records":  518,
+                      "Median Price":  1937.7440562870029
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI HILLS",
+                      "Sales Records":  910,
+                      "Valid Price Records":  910,
+                      "Median Price":  2266.4883426543147
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI INDUSTRIAL CITY",
+                      "Sales Records":  636,
+                      "Valid Price Records":  636,
+                      "Median Price":  1399.9977082128339
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Dubai Investment Park First",
+                      "Sales Records":  1118,
+                      "Valid Price Records":  1118,
+                      "Median Price":  1087.4792213075723
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI INVESTMENT PARK FIRST",
+                      "Sales Records":  703,
+                      "Valid Price Records":  703,
+                      "Median Price":  1149.0805423502072
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Dubai Investment Park Second",
+                      "Sales Records":  1053,
+                      "Valid Price Records":  1053,
+                      "Median Price":  1552.8665988129219
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI INVESTMENT PARK SECOND",
+                      "Sales Records":  206,
+                      "Valid Price Records":  206,
+                      "Median Price":  702.09049865761392
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI LAND RESIDENCE COMPLEX",
+                      "Sales Records":  4743,
+                      "Valid Price Records":  4743,
+                      "Median Price":  1427.2023467675335
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI LIFESTYLE CITY",
+                      "Sales Records":  17,
+                      "Valid Price Records":  17,
+                      "Median Price":  1472.9945168552631
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI MARINA",
+                      "Sales Records":  1574,
+                      "Valid Price Records":  1574,
+                      "Median Price":  2011.4448270580408
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI MARITIME CITY",
+                      "Sales Records":  916,
+                      "Valid Price Records":  916,
+                      "Median Price":  3262.7098628871076
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI PRODUCTION CITY",
+                      "Sales Records":  2294,
+                      "Valid Price Records":  2294,
+                      "Median Price":  1342.2161936367868
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI SCIENCE PARK",
+                      "Sales Records":  1056,
+                      "Valid Price Records":  1056,
+                      "Median Price":  1741.5918692520645
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI SOUTH",
+                      "Sales Records":  1272,
+                      "Valid Price Records":  1272,
+                      "Median Price":  1233.1881134735065
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI SPORTS CITY",
+                      "Sales Records":  1987,
+                      "Valid Price Records":  1987,
+                      "Median Price":  1323.3552325196047
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI STUDIO CITY",
+                      "Sales Records":  1130,
+                      "Valid Price Records":  1130,
+                      "Median Price":  1554.1379501793349
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI WATER CANAL",
+                      "Sales Records":  161,
+                      "Valid Price Records":  161,
+                      "Median Price":  3052.2947026175784
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "DUBAI WATER FRONT",
+                      "Sales Records":  13,
+                      "Valid Price Records":  13,
+                      "Median Price":  757.67178385085322
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "EMAAR SOUTH",
+                      "Sales Records":  176,
+                      "Valid Price Records":  176,
+                      "Median Price":  1298.5041528561117
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "EMIRATE LIVING",
+                      "Sales Records":  330,
+                      "Valid Price Records":  330,
+                      "Median Price":  1714.5415226242972
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Eyal Nasser",
+                      "Sales Records":  4,
+                      "Valid Price Records":  4,
+                      "Median Price":  2501.987241074034
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "FALCON CITY OF WONDERS",
+                      "Sales Records":  316,
+                      "Valid Price Records":  316,
+                      "Median Price":  1603.663881231565
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "GARDEN VIEW",
+                      "Sales Records":  40,
+                      "Valid Price Records":  40,
+                      "Median Price":  101.44431536821415
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Ghadeer Al tair",
+                      "Sales Records":  56,
+                      "Valid Price Records":  56,
+                      "Median Price":  2040.2360958648296
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "GRAND VIEWS",
+                      "Sales Records":  23,
+                      "Valid Price Records":  23,
+                      "Median Price":  2261.5893216650625
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Hadaeq Sheikh Mohammed Bin Rashid",
+                      "Sales Records":  1021,
+                      "Valid Price Records":  1021,
+                      "Median Price":  2502.0945585149007
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Hor Al Anz",
+                      "Sales Records":  75,
+                      "Valid Price Records":  75,
+                      "Median Price":  999.97890318157158
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Hor Al Anz East",
+                      "Sales Records":  4,
+                      "Valid Price Records":  4,
+                      "Median Price":  131.15843921244161
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "HORIZON",
+                      "Sales Records":  1017,
+                      "Valid Price Records":  1017,
+                      "Median Price":  2372.8634936155781
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "INTERNATIONAL CITY PH 1",
+                      "Sales Records":  1256,
+                      "Valid Price Records":  1256,
+                      "Median Price":  739.00145454612209
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "INTERNATIONAL CITY PH 2 \u0026 3",
+                      "Sales Records":  1097,
+                      "Valid Price Records":  1097,
+                      "Median Price":  1151.0721192456494
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Island 2",
+                      "Sales Records":  4,
+                      "Valid Price Records":  4,
+                      "Median Price":  8493.9352593981239
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Jabal Ali First",
+                      "Sales Records":  2651,
+                      "Valid Price Records":  2651,
+                      "Median Price":  1617.4752506565062
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Jabal Ali Industrial First",
+                      "Sales Records":  39,
+                      "Valid Price Records":  39,
+                      "Median Price":  597.742466571473
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Jabal Ali Industrial Second",
+                      "Sales Records":  1253,
+                      "Valid Price Records":  1253,
+                      "Median Price":  1737.6910308049992
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JABEL ALI HILLS",
+                      "Sales Records":  111,
+                      "Valid Price Records":  111,
+                      "Median Price":  369.99571172469524
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JADDAF WATERFRONT",
+                      "Sales Records":  283,
+                      "Valid Price Records":  283,
+                      "Median Price":  1887.2109506861223
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRA BAY",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  10028.375800552498
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH BEACH RESIDENCE",
+                      "Sales Records":  287,
+                      "Valid Price Records":  287,
+                      "Median Price":  1613.6308110571892
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Jumeirah First",
+                      "Sales Records":  98,
+                      "Valid Price Records":  98,
+                      "Median Price":  3759.1381358637027
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH GOLF",
+                      "Sales Records":  149,
+                      "Valid Price Records":  149,
+                      "Median Price":  2009.2666275677973
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH HEIGHTS",
+                      "Sales Records":  115,
+                      "Valid Price Records":  115,
+                      "Median Price":  2490.9247817236828
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH ISLANDS",
+                      "Sales Records":  42,
+                      "Valid Price Records":  42,
+                      "Median Price":  2505.8932457637948
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH LAKES TOWERS",
+                      "Sales Records":  1522,
+                      "Valid Price Records":  1522,
+                      "Median Price":  1608.9150214747278
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH LIVING",
+                      "Sales Records":  35,
+                      "Valid Price Records":  35,
+                      "Median Price":  2648.3894988090747
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH PARK",
+                      "Sales Records":  97,
+                      "Valid Price Records":  97,
+                      "Median Price":  1366.2211764718222
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Jumeirah Second",
+                      "Sales Records":  56,
+                      "Valid Price Records":  56,
+                      "Median Price":  9002.9321118029038
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Jumeirah Third",
+                      "Sales Records":  7,
+                      "Valid Price Records":  7,
+                      "Median Price":  1166.6629830300087
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH VILLAGE CIRCLE",
+                      "Sales Records":  7560,
+                      "Valid Price Records":  7560,
+                      "Median Price":  1463.8021614509796
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "JUMEIRAH VILLAGE TRIANGLE",
+                      "Sales Records":  2185,
+                      "Valid Price Records":  2185,
+                      "Median Price":  1661.5689789959208
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "LA MER",
+                      "Sales Records":  84,
+                      "Valid Price Records":  84,
+                      "Median Price":  3028.928257239485
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "LIVING LEGENDS",
+                      "Sales Records":  362,
+                      "Valid Price Records":  362,
+                      "Median Price":  1313.9158379448686
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "LIWAN",
+                      "Sales Records":  564,
+                      "Valid Price Records":  564,
+                      "Median Price":  1097.2624869336651
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "LIWAN 2",
+                      "Sales Records":  22,
+                      "Valid Price Records":  22,
+                      "Median Price":  1098.5297868906605
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Madinat Al Mataar",
+                      "Sales Records":  11950,
+                      "Valid Price Records":  11950,
+                      "Median Price":  1688.8830749378039
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Madinat Dubai Almelaheyah",
+                      "Sales Records":  803,
+                      "Valid Price Records":  803,
+                      "Median Price":  2966.4080175494987
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Madinat Hind 4",
+                      "Sales Records":  887,
+                      "Valid Price Records":  887,
+                      "Median Price":  1055.3401282974608
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MAJAN",
+                      "Sales Records":  4031,
+                      "Valid Price Records":  4031,
+                      "Median Price":  1439.9992581610243
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Mankhool",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  2635.4807759008609
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Marsa Dubai",
+                      "Sales Records":  338,
+                      "Valid Price Records":  338,
+                      "Median Price":  4469.702059495643
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MBR DISTRICT 1",
+                      "Sales Records":  131,
+                      "Valid Price Records":  131,
+                      "Median Price":  1917.0054576098171
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MBR DISTRICT 7",
+                      "Sales Records":  66,
+                      "Valid Price Records":  66,
+                      "Median Price":  1848.3417867918924
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Me\u0027Aisem First",
+                      "Sales Records":  417,
+                      "Valid Price Records":  417,
+                      "Median Price":  1992.0367629491677
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Me\u0027Aisem Second",
+                      "Sales Records":  616,
+                      "Valid Price Records":  616,
+                      "Median Price":  1778.2087016416062
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MEDYAN RACE COURSE VILLAS",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  4449.19535287953
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MEYDAN AVENUE",
+                      "Sales Records":  152,
+                      "Valid Price Records":  152,
+                      "Median Price":  1644.9259270173363
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MEYDAN ONE",
+                      "Sales Records":  974,
+                      "Valid Price Records":  974,
+                      "Median Price":  2100.3963097796441
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MILLENNIUM",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  1588.0427895814682
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MINA RASHID",
+                      "Sales Records":  16,
+                      "Valid Price Records":  16,
+                      "Median Price":  2407.2015313381116
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MIRA",
+                      "Sales Records":  134,
+                      "Valid Price Records":  134,
+                      "Median Price":  1226.5473982809367
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Mirdif",
+                      "Sales Records":  147,
+                      "Valid Price Records":  147,
+                      "Median Price":  1151.3040353197603
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MOTOR CITY",
+                      "Sales Records":  1629,
+                      "Valid Price Records":  1629,
+                      "Median Price":  1674.5498134047643
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "MUDON",
+                      "Sales Records":  110,
+                      "Valid Price Records":  110,
+                      "Median Price":  1429.4338583661033
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Muhaisanah First",
+                      "Sales Records":  45,
+                      "Valid Price Records":  45,
+                      "Median Price":  1331.320822431109
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Muhaisanah Fourth",
+                      "Sales Records":  4,
+                      "Valid Price Records":  4,
+                      "Median Price":  2105.9694927325745
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Muhaisanah Second",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  479.99504004176657
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Muhaisanah Third",
+                      "Sales Records":  4,
+                      "Valid Price Records":  4,
+                      "Median Price":  206.66601413674437
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Nad Al Hamar",
+                      "Sales Records":  69,
+                      "Valid Price Records":  69,
+                      "Median Price":  1006.5182949432337
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "NAD AL SHEBA GARDENS",
+                      "Sales Records":  96,
+                      "Valid Price Records":  96,
+                      "Median Price":  1863.2257131882666
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Nad Al Shiba First",
+                      "Sales Records":  422,
+                      "Valid Price Records":  422,
+                      "Median Price":  2194.6418507718145
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Nad Al Shiba Fourth",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  676.1147887453053
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Nad Al Shiba Second",
+                      "Sales Records":  4,
+                      "Valid Price Records":  4,
+                      "Median Price":  518.60555976200794
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Nad Al Shiba Third",
+                      "Sales Records":  16,
+                      "Valid Price Records":  16,
+                      "Median Price":  991.15606918494268
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Nad Shamma",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  354.114726457719
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Nadd Hessa",
+                      "Sales Records":  2,
+                      "Valid Price Records":  2,
+                      "Median Price":  252.97261252774953
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Naif",
+                      "Sales Records":  16,
+                      "Valid Price Records":  16,
+                      "Median Price":  2498.2222799531964
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Oud Metha",
+                      "Sales Records":  2,
+                      "Valid Price Records":  2,
+                      "Median Price":  2652.8361153244159
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Palm Deira",
+                      "Sales Records":  2968,
+                      "Valid Price Records":  2968,
+                      "Median Price":  2861.3600369957012
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "PALM DEIRA",
+                      "Sales Records":  517,
+                      "Valid Price Records":  517,
+                      "Median Price":  2796.6383439559067
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Palm Jabal Ali",
+                      "Sales Records":  521,
+                      "Valid Price Records":  521,
+                      "Median Price":  3480.8248630447256
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Palm Jumeirah",
+                      "Sales Records":  29,
+                      "Valid Price Records":  29,
+                      "Median Price":  4256.3184833350606
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "PALM JUMEIRAH",
+                      "Sales Records":  792,
+                      "Valid Price Records":  792,
+                      "Median Price":  3552.3456417480193
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "PALMAROSA",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  1005.692935792075
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "PEARL JUMEIRA",
+                      "Sales Records":  13,
+                      "Valid Price Records":  13,
+                      "Median Price":  2916.3296839129566
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "POLO TOWNHOUSES IGO",
+                      "Sales Records":  5,
+                      "Valid Price Records":  5,
+                      "Median Price":  1860.9399901751569
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Port Saeed",
+                      "Sales Records":  14,
+                      "Valid Price Records":  14,
+                      "Median Price":  1650.829915154115
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Ras Al Khor Industrial First",
+                      "Sales Records":  203,
+                      "Valid Price Records":  203,
+                      "Median Price":  2400.0001853499666
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Ras Al Khor Industrial Third",
+                      "Sales Records":  1,
+                      "Valid Price Records":  1,
+                      "Median Price":  3067.1866883859198
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Rega Al Buteen",
+                      "Sales Records":  6,
+                      "Valid Price Records":  6,
+                      "Median Price":  835.95403455870985
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "REMRAAM",
+                      "Sales Records":  166,
+                      "Valid Price Records":  166,
+                      "Median Price":  953.2131483878552
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "RUKAN",
+                      "Sales Records":  21,
+                      "Valid Price Records":  21,
+                      "Median Price":  1282.3860459291291
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Saih Shuaib 1",
+                      "Sales Records":  392,
+                      "Valid Price Records":  392,
+                      "Median Price":  2712.3980281714639
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Saih Shuaib 2",
+                      "Sales Records":  19,
+                      "Valid Price Records":  19,
+                      "Median Price":  166.75003912578609
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Saih Shuaib 3",
+                      "Sales Records":  16,
+                      "Valid Price Records":  16,
+                      "Median Price":  154.00000017305632
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Saih Shuaib 4",
+                      "Sales Records":  5,
+                      "Valid Price Records":  5,
+                      "Median Price":  5.9085142074487695
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "SAMA AL JADAF",
+                      "Sales Records":  783,
+                      "Valid Price Records":  783,
+                      "Median Price":  2187.7433591929876
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "SERENA",
+                      "Sales Records":  54,
+                      "Valid Price Records":  54,
+                      "Median Price":  1286.3690290215065
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "SILICON OASIS",
+                      "Sales Records":  1252,
+                      "Valid Price Records":  1252,
+                      "Median Price":  1140.741489973077
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "SOBHA HEARTLAND",
+                      "Sales Records":  781,
+                      "Valid Price Records":  781,
+                      "Median Price":  1987.1057876213215
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "SUFOUH GARDENS",
+                      "Sales Records":  147,
+                      "Valid Price Records":  147,
+                      "Median Price":  2445.8999331992381
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "SUSTAINABLE CITY",
+                      "Sales Records":  19,
+                      "Valid Price Records":  19,
+                      "Median Price":  2140.5234034649757
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "TECOM SITE A",
+                      "Sales Records":  680,
+                      "Valid Price Records":  680,
+                      "Median Price":  4055.8529381920544
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "TECOM SITE D",
+                      "Sales Records":  7,
+                      "Valid Price Records":  7,
+                      "Median Price":  2430.0929149744743
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "THE FIELD",
+                      "Sales Records":  92,
+                      "Valid Price Records":  92,
+                      "Median Price":  1612.8569227085773
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "THE GREENS",
+                      "Sales Records":  295,
+                      "Valid Price Records":  295,
+                      "Median Price":  1811.0918251944381
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "THE LAKES",
+                      "Sales Records":  89,
+                      "Valid Price Records":  89,
+                      "Median Price":  2406.2724324346059
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "THE VALLEY",
+                      "Sales Records":  69,
+                      "Valid Price Records":  69,
+                      "Median Price":  1414.9026206909332
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "THE VILLA",
+                      "Sales Records":  67,
+                      "Valid Price Records":  67,
+                      "Median Price":  987.99387442661964
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "THE WORLD",
+                      "Sales Records":  26,
+                      "Valid Price Records":  26,
+                      "Median Price":  4150.4215641502979
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "TILAL AL GHAF",
+                      "Sales Records":  61,
+                      "Valid Price Records":  61,
+                      "Median Price":  2024.3320754735266
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "TOWN SQUARE",
+                      "Sales Records":  468,
+                      "Valid Price Records":  468,
+                      "Median Price":  1323.4216754359986
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Trade Center First",
+                      "Sales Records":  132,
+                      "Valid Price Records":  132,
+                      "Median Price":  3686.5622004425413
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Trade Center Second",
+                      "Sales Records":  136,
+                      "Valid Price Records":  136,
+                      "Median Price":  4841.4510404161992
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Um Al Sheif",
+                      "Sales Records":  19,
+                      "Valid Price Records":  19,
+                      "Median Price":  1114.8689125511903
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Um Hurair First",
+                      "Sales Records":  2,
+                      "Valid Price Records":  2,
+                      "Median Price":  617.242429955944
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Um Ramool",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  75.8368638361291
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Um Suqaim First",
+                      "Sales Records":  38,
+                      "Valid Price Records":  38,
+                      "Median Price":  5999.9993007487556
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Um Suqaim Second",
+                      "Sales Records":  5,
+                      "Valid Price Records":  5,
+                      "Median Price":  799.9974740777202
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Um Suqaim Third",
+                      "Sales Records":  314,
+                      "Valid Price Records":  314,
+                      "Median Price":  2767.5199322189028
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "VILLANOVA",
+                      "Sales Records":  160,
+                      "Valid Price Records":  160,
+                      "Median Price":  1443.98573534641
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Wadi Al Amardi",
+                      "Sales Records":  3,
+                      "Valid Price Records":  3,
+                      "Median Price":  145.976873871755
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Wadi Al Safa 2",
+                      "Sales Records":  82,
+                      "Valid Price Records":  82,
+                      "Median Price":  1347.6182690509072
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Wadi Al Safa 3",
+                      "Sales Records":  736,
+                      "Valid Price Records":  736,
+                      "Median Price":  1854.6597325450803
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Wadi Al Safa 4",
+                      "Sales Records":  767,
+                      "Valid Price Records":  767,
+                      "Median Price":  1879.5682593155993
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Wadi Al Safa 5",
+                      "Sales Records":  922,
+                      "Valid Price Records":  922,
+                      "Median Price":  1567.2767584464516
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Wadi Al Safa 7",
+                      "Sales Records":  309,
+                      "Valid Price Records":  309,
+                      "Median Price":  1327.6889575211992
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Warsan First",
+                      "Sales Records":  335,
+                      "Valid Price Records":  335,
+                      "Median Price":  1366.0541474866466
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Warsan Fourth",
+                      "Sales Records":  148,
+                      "Valid Price Records":  148,
+                      "Median Price":  45.212694830685507
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Zaabeel First",
+                      "Sales Records":  77,
+                      "Valid Price Records":  77,
+                      "Median Price":  3141.3902998826975
+                  },
+                  {
+                      "FactTransactions[AREA_EN]":  "Zaabeel Second",
+                      "Sales Records":  653,
+                      "Valid Price Records":  653,
+                      "Median Price":  3154.1954209513206
+                  }
+              ],
+    "value_bands":  [
+                        {
+                            "FactTransactions[TRANSACTION_VALUE_BAND]":  "Under 500K",
+                            "FactTransactions[TRANSACTION_VALUE_BAND_SORT]":  1,
+                            "Sales Records":  4228
+                        },
+                        {
+                            "FactTransactions[TRANSACTION_VALUE_BAND]":  "500K - 1M",
+                            "FactTransactions[TRANSACTION_VALUE_BAND_SORT]":  2,
+                            "Sales Records":  33837
+                        },
+                        {
+                            "FactTransactions[TRANSACTION_VALUE_BAND]":  "1M - 2M",
+                            "FactTransactions[TRANSACTION_VALUE_BAND_SORT]":  3,
+                            "Sales Records":  37291
+                        },
+                        {
+                            "FactTransactions[TRANSACTION_VALUE_BAND]":  "2M - 5M",
+                            "FactTransactions[TRANSACTION_VALUE_BAND_SORT]":  4,
+                            "Sales Records":  32040
+                        },
+                        {
+                            "FactTransactions[TRANSACTION_VALUE_BAND]":  "5M - 10M",
+                            "FactTransactions[TRANSACTION_VALUE_BAND_SORT]":  5,
+                            "Sales Records":  7021
+                        },
+                        {
+                            "FactTransactions[TRANSACTION_VALUE_BAND]":  "10M+",
+                            "FactTransactions[TRANSACTION_VALUE_BAND_SORT]":  6,
+                            "Sales Records":  5132
+                        }
+                    ],
+    "size_bands":  [
+                       {
+                           "FactTransactions[PROPERTY_SIZE_BAND]":  "Under 50 sqm",
+                           "FactTransactions[PROPERTY_SIZE_BAND_SORT]":  1,
+                           "Sales Records":  30646
+                       },
+                       {
+                           "FactTransactions[PROPERTY_SIZE_BAND]":  "50 - 100 sqm",
+                           "FactTransactions[PROPERTY_SIZE_BAND_SORT]":  2,
+                           "Sales Records":  44364
+                       },
+                       {
+                           "FactTransactions[PROPERTY_SIZE_BAND]":  "100 - 200 sqm",
+                           "FactTransactions[PROPERTY_SIZE_BAND_SORT]":  3,
+                           "Sales Records":  29797
+                       },
+                       {
+                           "FactTransactions[PROPERTY_SIZE_BAND]":  "200 - 500 sqm",
+                           "FactTransactions[PROPERTY_SIZE_BAND_SORT]":  4,
+                           "Sales Records":  9208
+                       },
+                       {
+                           "FactTransactions[PROPERTY_SIZE_BAND]":  "500+ sqm",
+                           "FactTransactions[PROPERTY_SIZE_BAND_SORT]":  5,
+                           "Sales Records":  5534
+                       }
+                   ],
+    "bedrooms":  [
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  null,
+                         "Sales Records":  14176
+                     },
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  0,
+                         "Sales Records":  30303
+                     },
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  1,
+                         "Sales Records":  38671
+                     },
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  2,
+                         "Sales Records":  21983
+                     },
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  3,
+                         "Sales Records":  7545
+                     },
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  4,
+                         "Sales Records":  5205
+                     },
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  5,
+                         "Sales Records":  1606
+                     },
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  6,
+                         "Sales Records":  51
+                     },
+                     {
+                         "FactTransactions[BEDROOM_COUNT]":  7,
+                         "Sales Records":  9
+                     }
+                 ]
+}

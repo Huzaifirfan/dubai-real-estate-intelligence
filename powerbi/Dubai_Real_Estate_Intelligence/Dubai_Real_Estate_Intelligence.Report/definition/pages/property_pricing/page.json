@@ -1,0 +1,686 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "property_pricing",
+  "displayName": "Property & Pricing",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F3F5F6'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "bedrooms",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "stage11_slicer_4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "bedrooms",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "stage11_slicer_4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_mix",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "stage11_slicer_4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "property_subtypes",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "stage11_slicer_4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "size_bands",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_slicer_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_slicer_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_slicer_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_slicer_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_slicer_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_slicer_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_slicer_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_slicer_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_slicer_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "stage11_slicer_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "stage11_slicer_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "stage11_slicer_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_4",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "stage11_slicer_4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "transaction_bands",
+      "target": "type_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "bedrooms",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "property_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "property_subtypes",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "size_bands",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "stage11_slicer_4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "type_price",
+      "target": "transaction_bands",
+      "type": "DataFilter"
+    }
+  ]
+}

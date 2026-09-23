@@ -1,0 +1,386 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "market_trends",
+  "displayName": "Market Trends",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F3F5F6'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "monthly_mix",
+      "target": "monthly_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "monthly_residential",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "monthly_sales",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_mix",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "monthly_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "monthly_residential",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "monthly_sales",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_price",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "monthly_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "monthly_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "monthly_sales",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_residential",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "monthly_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "monthly_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "monthly_residential",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "stage11_slicer_1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "stage11_slicer_2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "monthly_sales",
+      "target": "stage11_slicer_3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "monthly_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "monthly_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "monthly_residential",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "monthly_sales",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_slicer_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_1",
+      "target": "stage11_slicer_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "monthly_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "monthly_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "monthly_residential",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "monthly_sales",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_slicer_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_2",
+      "target": "stage11_slicer_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "monthly_mix",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "monthly_price",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "monthly_residential",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "monthly_sales",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_kpi_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_kpi_2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_kpi_3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_kpi_4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_slicer_1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "stage11_slicer_3",
+      "target": "stage11_slicer_2",
+      "type": "DataFilter"
+    }
+  ]
+}

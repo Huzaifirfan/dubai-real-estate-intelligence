@@ -1,0 +1,63 @@
+STAGE 11 — ADVANCED DAX / MEASURE REUSE
+
+New DAX measures: 0
+Total DAX measures: 21
+
+The existing measures cover every required Stage 11 visual. Their definitions,
+names, formats and lineage tags are preserved. Optional price-growth and area-rank
+measures were not added because no requested visual needs them. This avoids
+duplicating Valid Sale Price Records as a redundant "by Area" measure: the visual's
+AREA_EN filter context already produces the area count.
+
+Canonical definitions:
+Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/FactTransactions.tmdl
+Stage 10 reference: Stage10_DAX_Measures.txt (unchanged)
+
+Reused by Market Trends:
+Sales Records
+Previous Month Sales Records
+MoM Sales Record Growth %
+Off-Plan Share
+Off-Plan Sales Records
+Ready Sales Records
+Median Sale Price per Sqft
+Residential Sales Records
+
+Reused by Area Intelligence:
+Top Area by Sales Records
+Sales Records
+Distinct Sales Transaction Numbers
+Off-Plan Sales Records
+Ready Sales Records
+Off-Plan Share
+Median Sale Price per Sqft
+Average Sale Price per Sqft
+Valid Sale Price Records (visual-level minimum of 30 on the area pricing bar)
+
+Reused by Property & Pricing:
+Sales Records
+Residential Share
+Median Sale Price per Sqft
+Valid Sale Price Records
+
+Charts include relevant existing measures in tooltips. All sales measures retain
+GROUP_EN = "Sales". Price measures retain VALID_SALE_PRICE_METRIC = 1 and the Sales
+filter. Shares and growth use DIVIDE. No Total Sales Value, Total Market Value,
+forecast, investment score or SUM(TRANS_VALUE) market KPI exists.
+
+Time interpretation:
+With no date selection, Sales Records is YTD. Previous Month Sales Records is
+August 2026 (the full prior calendar month), and MoM Sales Record Growth % compares
+partial September through 21 September with full August. The warning and page
+footer disclose this unequal period length; it is not a forecast or same-day
+comparison. Selecting a month in a chart changes the relevant date context.
+
+Sorting support is Power Query metadata, not new DAX measures:
+TRANSACTION_VALUE_BAND_SORT (hidden Int64, values 1–6)
+PROPERTY_SIZE_BAND_SORT (hidden Int64, values 1–5)
+Original band labels, spaces and case are unchanged. Unexpected future labels
+sort at 99 rather than being replaced or silently discarded.
+
+The model uses Latin1_General_100_CS_AS collation to preserve case-only source
+area variants as distinct values. This is necessary for Stage 11 area fidelity.
+See validation/stage11/segment_reconciliation.json for live/source comparison.

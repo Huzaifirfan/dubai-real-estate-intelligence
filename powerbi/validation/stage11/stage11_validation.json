@@ -1,0 +1,143 @@
+{
+  "checked_utc": "2026-09-23T20:19:39.358753+00:00",
+  "passed": true,
+  "errors": [],
+  "source_metrics": {
+    "rows": 159223,
+    "columns": 41,
+    "coverage_start": "2026-01-01",
+    "coverage_end": "2026-09-21",
+    "sales_records": 119549,
+    "distinct_sales_transaction_numbers": 119526,
+    "median_sale_price_per_sqft": 1716.7932418178125,
+    "off_plan_share": 0.6817873842524822,
+    "ready_share": 0.31821261574751775
+  },
+  "source_sha256_before": "bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1",
+  "source_sha256_after": "bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1",
+  "source_unchanged": true,
+  "source_case_variants": {
+    "dubai investment park second": [
+      "DUBAI INVESTMENT PARK SECOND",
+      "Dubai Investment Park Second"
+    ],
+    "business bay": [
+      "BUSINESS BAY",
+      "Business Bay"
+    ],
+    "palm jumeirah": [
+      "PALM JUMEIRAH",
+      "Palm Jumeirah"
+    ],
+    "palm deira": [
+      "PALM DEIRA",
+      "Palm Deira"
+    ],
+    "dubai investment park first": [
+      "DUBAI INVESTMENT PARK FIRST",
+      "Dubai Investment Park First"
+    ]
+  },
+  "page_visual_counts": {
+    "Executive Overview": {
+      "lineChart": 1,
+      "donutChart": 1,
+      "barChart": 2,
+      "cardVisual": 8,
+      "slicer": 5,
+      "pageNavigator": 1,
+      "textbox": 5
+    },
+    "Market Trends": {
+      "clusteredColumnChart": 1,
+      "lineChart": 2,
+      "columnChart": 1,
+      "textbox": 5,
+      "cardVisual": 4,
+      "pageNavigator": 1,
+      "slicer": 3
+    },
+    "Area Intelligence": {
+      "tableEx": 2,
+      "barChart": 2,
+      "textbox": 5,
+      "cardVisual": 4,
+      "pageNavigator": 1,
+      "slicer": 4
+    },
+    "Property & Pricing": {
+      "barChart": 6,
+      "textbox": 5,
+      "cardVisual": 4,
+      "pageNavigator": 1,
+      "slicer": 4
+    }
+  },
+  "dax_measures": [
+    "Sales Records",
+    "Distinct Sales Transaction Numbers",
+    "Non-Sales Records",
+    "Valid Sale Price Records",
+    "Median Sale Price per Sqft",
+    "Average Sale Price per Sqft",
+    "Off-Plan Sales Records",
+    "Ready Sales Records",
+    "Off-Plan Share",
+    "Ready Share",
+    "Residential Sales Records",
+    "Residential Share",
+    "Commercial Sales Records",
+    "Freehold Sales Records",
+    "Non-Freehold Sales Records",
+    "Previous Month Sales Records",
+    "MoM Sales Record Growth %",
+    "Top Area by Sales Records",
+    "Latest Data Date",
+    "Data Coverage Label",
+    "Partial Month Warning"
+  ],
+  "new_measures": 0,
+  "schema_validated_count": 78,
+  "schema_unavailable_files": [
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\area_intelligence\\visuals\\area_activity_price\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\area_intelligence\\visuals\\area_detail\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\chart_monthly_sales\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\chart_offplan_ready\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\chart_property_mix\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\chart_top10_areas\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_area\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_month\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_offplan\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_property\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_value_band\\visual.json"
+  ],
+  "schema_unavailable_uris": {
+    "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json": "HTTP 404"
+  },
+  "protected_files_checked": 114,
+  "changed_baseline_files": [
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_monthly_sales/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_offplan_ready/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_property_mix/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_top10_areas/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_distinct_sales/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_median_price/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_offplan_share/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_ready_share/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_residential_share/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_sales_records/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_top_area/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_valid_price/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_area/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_month/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_offplan/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_property/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_value_band/visual.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/pages.json",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/model.tmdl",
+    "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/FactTransactions.tmdl"
+  ],
+  "unexpected_protected_changes": [],
+  "tracked_diff": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_monthly_sales/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_offplan_ready/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_property_mix/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_top10_areas/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_distinct_sales/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_median_price/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_offplan_share/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_ready_share/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_residential_share/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_sales_records/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_top_area/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_valid_price/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_area/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_month/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_offplan/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_property/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_value_band/visual.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/pages.json\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/model.tmdl\npowerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/FactTransactions.tmdl\n",
+  "scope": "Local structural/schema validation and independent CSV recalculation; live Desktop evidence is separate."
+}

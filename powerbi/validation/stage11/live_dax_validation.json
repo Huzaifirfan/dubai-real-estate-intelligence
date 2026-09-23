@@ -1,0 +1,110 @@
+﻿{
+    "checked_utc":  "2026-09-23T19:05:26.6945508Z",
+    "evidence":  "Live DAX queries against the Stage 11 model opened and refreshed in Power BI Desktop",
+    "passed":  true,
+    "baseline":  [
+                     {
+                         "Fact Rows":  159223,
+                         "Calendar Rows":  365,
+                         "Sales Records":  119549,
+                         "Distinct Sales Transaction Numbers":  119526,
+                         "Non-Sales Records":  39674,
+                         "Valid Sale Price Records":  119549,
+                         "Median Sale Price per Sqft":  1716.7932418178125,
+                         "Average Sale Price per Sqft":  1919.9384817267155,
+                         "Off-Plan Sales Records":  81507,
+                         "Ready Sales Records":  38042,
+                         "Off-Plan Share":  0.6817873842524822,
+                         "Ready Share":  0.31821261574751775,
+                         "Residential Sales Records":  116369,
+                         "Residential Share":  0.97340002844022111,
+                         "Commercial Sales Records":  3180,
+                         "Freehold Sales Records":  115844,
+                         "Non-Freehold Sales Records":  3705,
+                         "Previous Month Sales Records":  11844,
+                         "MoM Sales Record Growth %":  -0.33139142181695375,
+                         "Top Area by Sales Records":  "Madinat Al Mataar",
+                         "Latest Data Date":  "2026-09-21",
+                         "Data Coverage Label":  "Data through 21 September 2026",
+                         "Partial Month Warning":  "September 2026 is a partial month."
+                     }
+                 ],
+    "monthly":  [
+                    {
+                        "DimDate[Year Month]":  "2026-01",
+                        "Sales Records":  17374,
+                        "Previous Month":  null,
+                        "MoM Growth":  null
+                    },
+                    {
+                        "DimDate[Year Month]":  "2026-02",
+                        "Sales Records":  16989,
+                        "Previous Month":  17374,
+                        "MoM Growth":  -0.022159548751007251
+                    },
+                    {
+                        "DimDate[Year Month]":  "2026-03",
+                        "Sales Records":  13484,
+                        "Previous Month":  16989,
+                        "MoM Growth":  -0.20630996527164636
+                    },
+                    {
+                        "DimDate[Year Month]":  "2026-04",
+                        "Sales Records":  14017,
+                        "Previous Month":  13484,
+                        "MoM Growth":  0.039528329872441412
+                    },
+                    {
+                        "DimDate[Year Month]":  "2026-05",
+                        "Sales Records":  10269,
+                        "Previous Month":  14017,
+                        "MoM Growth":  -0.267389598344867
+                    },
+                    {
+                        "DimDate[Year Month]":  "2026-06",
+                        "Sales Records":  13931,
+                        "Previous Month":  10269,
+                        "MoM Growth":  0.35660726458272468
+                    },
+                    {
+                        "DimDate[Year Month]":  "2026-07",
+                        "Sales Records":  13722,
+                        "Previous Month":  13931,
+                        "MoM Growth":  -0.015002512382456392
+                    },
+                    {
+                        "DimDate[Year Month]":  "2026-08",
+                        "Sales Records":  11844,
+                        "Previous Month":  13722,
+                        "MoM Growth":  -0.13686051595977264
+                    },
+                    {
+                        "DimDate[Year Month]":  "2026-09",
+                        "Sales Records":  7919,
+                        "Previous Month":  11844,
+                        "MoM Growth":  -0.33139142181695375
+                    }
+                ],
+    "ready_filter":  [
+                         {
+                             "Sales Records":  38042,
+                             "Ready Share":  1,
+                             "Off-Plan Records":  null,
+                             "Coverage":  "Data through 21 September 2026"
+                         }
+                     ],
+    "september_filter":  [
+                             {
+                                 "Sales Records":  7919,
+                                 "Previous Month":  11844,
+                                 "MoM Growth":  -0.33139142181695375
+                             }
+                         ],
+    "errors":  [
+
+               ],
+    "limitations":  [
+                        "DAX filter tests do not certify visual rendering or mouse interaction.",
+                        "The imported cache remains local; the delivered PBIP may require Refresh when reopened."
+                    ]
+}
