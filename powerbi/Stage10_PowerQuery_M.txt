@@ -1,0 +1,90 @@
+STAGE 10 - POWER QUERY M
+
+These expressions match the semantic model. SourceFile is a required Text parameter.
+Import preserves all source rows, repeated IDs, labels, blanks and outliers. PARKING remains text because source values include identifiers.
+FactTransactions performs header validation and typing only. Unexpected schema or conversion errors must be reviewed, never silently filtered.
+DimDate covers whole calendar years spanning the source dates (365 dates in 2026). No credentials are stored.
+
+// Query: SourceFile (Text parameter)
+"C:\Users\ssd\Desktop\D.A Projects\dubai-real-estate-intelligence\data\processed\dld_transactions_2026_ytd_features.csv" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+
+// Query: FactTransactions (load enabled)
+let
+    Source = Csv.Document(
+        File.Contents(SourceFile),
+        [Delimiter = ",", Columns = 41, Encoding = 65001, QuoteStyle = QuoteStyle.Csv, ExtraValues = ExtraValues.Error]
+    ),
+    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+    ExpectedColumns = {"TRANSACTION_NUMBER", "INSTANCE_DATE", "GROUP_EN", "PROCEDURE_EN", "IS_OFFPLAN_EN", "IS_FREE_HOLD_EN", "USAGE_EN", "AREA_EN", "PROP_TYPE_EN", "PROP_SB_TYPE_EN", "TRANS_VALUE", "PROCEDURE_AREA", "ACTUAL_AREA", "ROOMS_EN", "PARKING", "NEAREST_METRO_EN", "NEAREST_MALL_EN", "NEAREST_LANDMARK_EN", "TOTAL_BUYER", "TOTAL_SELLER", "MASTER_PROJECT_EN", "PROJECT_EN", "TRANSACTION_DATE", "TRANSACTION_YEAR", "TRANSACTION_MONTH", "TRANSACTION_MONTH_NAME", "TRANSACTION_QUARTER", "TRANSACTION_DAY", "TRANSACTION_DAY_NAME", "TRANSACTION_HOUR", "IS_SALE_TRANSACTION", "IS_RESIDENTIAL_FLAG", "IS_OFFPLAN_FLAG", "IS_FREEHOLD_FLAG", "PROPERTY_SIZE_SQFT", "VALID_SALE_PRICE_METRIC", "SALE_PRICE_PER_SQM", "SALE_PRICE_PER_SQFT", "TRANSACTION_VALUE_BAND", "PROPERTY_SIZE_BAND", "BEDROOM_COUNT"},
+    CheckedSchema = if Table.ColumnNames(Headers) = ExpectedColumns
+        then Headers
+        else error "The Stage 10 source schema differs from the expected 41 columns.",
+    Typed = Table.TransformColumnTypes(
+        CheckedSchema,
+        {
+            {"TRANSACTION_NUMBER", type text},
+            {"INSTANCE_DATE", type datetime},
+            {"GROUP_EN", type text},
+            {"PROCEDURE_EN", type text},
+            {"IS_OFFPLAN_EN", type text},
+            {"IS_FREE_HOLD_EN", type text},
+            {"USAGE_EN", type text},
+            {"AREA_EN", type text},
+            {"PROP_TYPE_EN", type text},
+            {"PROP_SB_TYPE_EN", type text},
+            {"TRANS_VALUE", type number},
+            {"PROCEDURE_AREA", type number},
+            {"ACTUAL_AREA", type number},
+            {"ROOMS_EN", type text},
+            {"PARKING", type text},
+            {"NEAREST_METRO_EN", type text},
+            {"NEAREST_MALL_EN", type text},
+            {"NEAREST_LANDMARK_EN", type text},
+            {"TOTAL_BUYER", Int64.Type},
+            {"TOTAL_SELLER", Int64.Type},
+            {"MASTER_PROJECT_EN", type text},
+            {"PROJECT_EN", type text},
+            {"TRANSACTION_DATE", type date},
+            {"TRANSACTION_YEAR", Int64.Type},
+            {"TRANSACTION_MONTH", Int64.Type},
+            {"TRANSACTION_MONTH_NAME", type text},
+            {"TRANSACTION_QUARTER", type text},
+            {"TRANSACTION_DAY", Int64.Type},
+            {"TRANSACTION_DAY_NAME", type text},
+            {"TRANSACTION_HOUR", Int64.Type},
+            {"IS_SALE_TRANSACTION", Int64.Type},
+            {"IS_RESIDENTIAL_FLAG", Int64.Type},
+            {"IS_OFFPLAN_FLAG", Int64.Type},
+            {"IS_FREEHOLD_FLAG", Int64.Type},
+            {"PROPERTY_SIZE_SQFT", type number},
+            {"VALID_SALE_PRICE_METRIC", Int64.Type},
+            {"SALE_PRICE_PER_SQM", type number},
+            {"SALE_PRICE_PER_SQFT", type number},
+            {"TRANSACTION_VALUE_BAND", type text},
+            {"PROPERTY_SIZE_BAND", type text},
+            {"BEDROOM_COUNT", Int64.Type}
+        },
+        "en-US"
+    )
+in
+    Typed
+
+// Query: DimDate (load enabled)
+let
+    Dates = List.RemoveNulls(FactTransactions[TRANSACTION_DATE]),
+    StartDate = Date.StartOfYear(List.Min(Dates)),
+    EndDate = Date.EndOfYear(List.Max(Dates)),
+    Calendar = Table.FromList(
+        List.Dates(StartDate, Duration.Days(EndDate - StartDate) + 1, #duration(1, 0, 0, 0)),
+        Splitter.SplitByNothing(), {"Date"}, null, ExtraValues.Error
+    ),
+    TypedDate = Table.TransformColumnTypes(Calendar, {{"Date", type date}}),
+    AddYear = Table.AddColumn(TypedDate, "Year", each Date.Year([Date]), Int64.Type),
+    AddMonthNumber = Table.AddColumn(AddYear, "Month Number", each Date.Month([Date]), Int64.Type),
+    AddMonthName = Table.AddColumn(AddMonthNumber, "Month Name", each Date.ToText([Date], [Format = "MMMM", Culture = "en-US"]), type text),
+    AddMonthShort = Table.AddColumn(AddMonthName, "Month Short", each Date.ToText([Date], [Format = "MMM", Culture = "en-US"]), type text),
+    AddYearMonth = Table.AddColumn(AddMonthShort, "Year Month", each Date.ToText([Date], [Format = "yyyy-MM", Culture = "en-US"]), type text),
+    AddYearMonthSort = Table.AddColumn(AddYearMonth, "Year Month Sort", each [Year] * 100 + [Month Number], Int64.Type),
+    AddQuarter = Table.AddColumn(AddYearMonthSort, "Quarter", each "Q" & Text.From(Date.QuarterOfYear([Date]), "en-US"), type text)
+in
+    AddQuarter

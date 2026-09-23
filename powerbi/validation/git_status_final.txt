@@ -1,0 +1,8 @@
+?? powerbi/Dubai_Real_Estate_Intelligence/
+?? powerbi/Stage10_DAX_Measures.txt
+?? powerbi/Stage10_PowerQuery_M.txt
+?? powerbi/Stage10_Visual_Specification.md
+?? powerbi/Stage10_build_report.md
+?? powerbi/dubai_real_estate_theme.json
+?? powerbi/validation/
+?? reports/stage10_powerbi_build_report.txt

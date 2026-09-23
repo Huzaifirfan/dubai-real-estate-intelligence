@@ -1,0 +1,400 @@
+{
+  "scope": "Stage 10 only; excludes ignored private Desktop cache and this inventory itself",
+  "initial_artifacts_found": [
+    "powerbi/.gitkeep"
+  ],
+  "initial_partial_files": [],
+  "initial_invalid_files": [],
+  "new_files": [
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/.gitignore",
+      "bytes": 34,
+      "sha256": "8d104e0c7f633d72225e68c90fecb029b34fd8dd06d3ebc75b70cac8bc1daf55"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.pbip",
+      "bytes": 202,
+      "sha256": "da4070d9431164bfaf803b9d5c94921722086130607bbb14730e6da1c9690a1b"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/.platform",
+      "bytes": 324,
+      "sha256": "c9a447122fe8756f7b18af66d17def80dee847b5716dbd30e47b5ee6a182f8b8"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/page.json",
+      "bytes": 779,
+      "sha256": "359194ad1dec61207596152806117bc5b780354e0e2ba27337eff0e0870e5908"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_monthly_sales/visual.json",
+      "bytes": 8368,
+      "sha256": "b800693f8e54cdd2d71efd8abe5a59f2ffb9f9f6f4a1ead3fe44d51ac51c0fe9"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_offplan_ready/visual.json",
+      "bytes": 8728,
+      "sha256": "803182f3894dfdcabc26ebea033fb32769f0f1e494b7e4bb6589051f1f1abc09"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_property_mix/visual.json",
+      "bytes": 8415,
+      "sha256": "37d6b239a5db94d3a096d26b39f196313251eb0dec3ba7cbcad1e98f38dd57bf"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/chart_top10_areas/visual.json",
+      "bytes": 14012,
+      "sha256": "c7cb8085665a82a0790960272ee8a34117de5e07e9ff9284aaa4ec673193352c"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_distinct_sales/visual.json",
+      "bytes": 8798,
+      "sha256": "15fccf5ae1c90686dcf6f8726b201dc9e77f1095aa39f7f80594f6854b400904"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_median_price/visual.json",
+      "bytes": 8756,
+      "sha256": "b9567d6ccc245430125919dca202f5b24872feb370fdd018ed404ca61e6638fe"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_offplan_share/visual.json",
+      "bytes": 8186,
+      "sha256": "a7cf4ff27d09bb157d3433b65bf8e7b4852718552ed753c164da4ee89c14af5d"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_ready_share/visual.json",
+      "bytes": 8171,
+      "sha256": "6628cc0dd9b88949b780bd9c478ada1e2b54ed7449c3365cc7c1f295605f6b07"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_residential_share/visual.json",
+      "bytes": 8202,
+      "sha256": "9e2e2bf9794033d9f4898e80583e6485445eb5bbc7fc6fa5d2980b3de1602440"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_sales_records/visual.json",
+      "bytes": 8691,
+      "sha256": "992d205dcd5c1c00eb0bd05fe08e73623e6c8c74c6c6d091a536db835807e779"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_top_area/visual.json",
+      "bytes": 8225,
+      "sha256": "91bf25360a382a299147c744acaab033a9fd945ae06f439f9335ab54d3f73421"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/kpi_valid_price/visual.json",
+      "bytes": 8745,
+      "sha256": "822b6e313a69f12a798b1c15047e2b38e2020fb731ee37dcf5fd35093ac10209"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_area/visual.json",
+      "bytes": 7043,
+      "sha256": "f52675556ed99976e85bf39b8aa3c0d6df7526154905e884661fa7ba09441fee"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_month/visual.json",
+      "bytes": 7032,
+      "sha256": "074e832aa4d904859c24898175dbfa3e68990bf36541c53e0a06afe1379e1b91"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_offplan/visual.json",
+      "bytes": 7083,
+      "sha256": "66d18756ce9be9888d58e3be817136a737a364085be147e143a2a648e434f191"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_property/visual.json",
+      "bytes": 7077,
+      "sha256": "d9555acd2c5b7eddbfffd530a22ceae0b686eda501995a1076bda2951f83c977"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/slicer_value_band/visual.json",
+      "bytes": 7128,
+      "sha256": "9184c7039739b9895762b7d79d38a04246b6ad82b9a55f501f927c717e585206"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/text_data_coverage/visual.json",
+      "bytes": 4416,
+      "sha256": "42e796da8cfe0a1defebd1282e71c20061001f1673040ae04b5ed54963fe3729"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/text_grain_note/visual.json",
+      "bytes": 4529,
+      "sha256": "feed967377a21c36bf25c6deb3c406b293131ac3306c5dc3f86655d0580537a6"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/text_partial_month/visual.json",
+      "bytes": 4422,
+      "sha256": "43b7212f64e44cdef49c91ebd816473f1aef59a3c95ea8e58dc72d78f3d4324a"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/text_platform_subtitle/visual.json",
+      "bytes": 4432,
+      "sha256": "658521bb6e18fded3ab0ca2dea686c9aee4b72c5ca23aa27b48c07f0ae77589a"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/executive_overview/visuals/text_platform_title/visual.json",
+      "bytes": 4425,
+      "sha256": "6921a2519d11e437a0ce6167ac6782dcb1a73ca0cc2f88659695480dd953a6ea"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/pages/pages.json",
+      "bytes": 220,
+      "sha256": "203dcab73b6cad0a6be34d34d8f468b8dc7681becc1ff2330c494211e3c9485e"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/report.json",
+      "bytes": 1139,
+      "sha256": "204c9bae0bbbe39ef66df4b03882a802de748c1cd8cdb997fa409aa55ce658d2"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition/version.json",
+      "bytes": 152,
+      "sha256": "c8bdd966a85f1eaab4312d2096b6d7b508243e4d7bc5a4d25af3cfcb1056a4e7"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/definition.pbir",
+      "bytes": 144,
+      "sha256": "46314167c656a2a8118b851170a4e224c6c0624c2d9f07c210b003c9c052811d"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.Report/StaticResources/RegisteredResources/dubai_real_estate_theme.json",
+      "bytes": 1501,
+      "sha256": "503ff511b134d7ad53823eda897325411f48139a2e1f37585d33c411de6525a2"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/.platform",
+      "bytes": 331,
+      "sha256": "983a18cc90b423b28eab2abb6ac1b88ac4e50ba6dee107afb6b986eecff49401"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/database.tmdl",
+      "bytes": 39,
+      "sha256": "822c914b643bca32bb20abd8a762df8204a1b9ef02acc2bc7348727f6699cb96"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/expressions.tmdl",
+      "bytes": 366,
+      "sha256": "807e2facf7f753ea486180a89111788cf521549afc435ba6836c3e693ec8670d"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/model.tmdl",
+      "bytes": 321,
+      "sha256": "88e29c0c76d41fa15205df1a5ee4941869e816d5fd0457a0d2f37790e5f63d80"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/relationships.tmdl",
+      "bytes": 161,
+      "sha256": "7054549b2ea3c9b3182c1b240029ea8d150490f63c8c17d714fd6a0e709cdabe"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/DimDate.tmdl",
+      "bytes": 2923,
+      "sha256": "b37bee7dcd72cbc30dcb93691c0d7db81bc86240ccf09fc18d1196bbc7b19025"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/FactTransactions.tmdl",
+      "bytes": 19644,
+      "sha256": "e8f1094fb5b5dd82abed0fc923ab01515bae2536c2c4ab55bf45f2eac4c3dbc0"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/definition.pbism",
+      "bytes": 43,
+      "sha256": "ed99ec078efd2ff27fc1c65cc97902138d7d3c438acdb7770ae37dc71c7f06c8"
+    },
+    {
+      "path": "powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.SemanticModel/diagramLayout.json",
+      "bytes": 1105,
+      "sha256": "52b3b561e79035721b3cca456c6990f40652d716504e47b4bcf543bd60a07d7b"
+    },
+    {
+      "path": "powerbi/dubai_real_estate_theme.json",
+      "bytes": 1433,
+      "sha256": "f6c75d7fe1e4967931aff44a31ea5b0772fd004ec52f0bbf18d21ebd44f7b0c2"
+    },
+    {
+      "path": "powerbi/Stage10_build_report.md",
+      "bytes": 10341,
+      "sha256": "134cdb4b9492a7a290e2455240f38b90ff1703872b548e29f13ac2b0d8ff9d3e"
+    },
+    {
+      "path": "powerbi/Stage10_DAX_Measures.txt",
+      "bytes": 7163,
+      "sha256": "2c229fd20cc64e2f8e67d3d29e511bed0f45bf04a73fb00d6c5e96cbd350cc5d"
+    },
+    {
+      "path": "powerbi/Stage10_PowerQuery_M.txt",
+      "bytes": 5428,
+      "sha256": "e71d2c38e8f551fdfbc4892ef5109f060c640fdbae924e2235cbc5e25f8846a3"
+    },
+    {
+      "path": "powerbi/Stage10_Visual_Specification.md",
+      "bytes": 6115,
+      "sha256": "a322632d90633f2501e47023b1d0f482109c3fdeecd564bc62cab944b508c32d"
+    },
+    {
+      "path": "powerbi/validation/Capture-Stage10Window.ps1",
+      "bytes": 1866,
+      "sha256": "5d4f5c660071e41cf0940ebeb7ab8fa727a6680dec426a1bd5fbb4add6c6577c"
+    },
+    {
+      "path": "powerbi/validation/desktop_probe.json",
+      "bytes": 2064,
+      "sha256": "ab7bb18a2ff5af0360c5e09f7653505c210ffadb5688e12d8e0b7acb2adb42f0"
+    },
+    {
+      "path": "powerbi/validation/desktop_process.json",
+      "bytes": 288,
+      "sha256": "c513a6d52ce4073ae312e39e5e29638fe72fd5cde764339145f381939d0e568f"
+    },
+    {
+      "path": "powerbi/validation/desktop_refresh.json",
+      "bytes": 457,
+      "sha256": "395ed02eb90488053cf26f81aab133596050183d4374f927fec65f1b105ad24e"
+    },
+    {
+      "path": "powerbi/validation/desktop_validation_summary.json",
+      "bytes": 1132,
+      "sha256": "23e1c815c457be1f1421c9a1ffcd2cba10b5931adbf0601edc69cdf13f4dfd71"
+    },
+    {
+      "path": "powerbi/validation/desktop_window.png",
+      "bytes": 100715,
+      "sha256": "7b3e6f26e39783d128c2d3987abb1ad5ebaec69badd84d0ab671b07efacd5803"
+    },
+    {
+      "path": "powerbi/validation/desktop_window_final.png",
+      "bytes": 100827,
+      "sha256": "9a0961b160eabadc821808762c7d3eab5644f3b17b15bd84f3340d43bcb0ba01"
+    },
+    {
+      "path": "powerbi/validation/git_status_final.txt",
+      "bytes": 308,
+      "sha256": "07d32152d16c212113b0b67fbf6ba594b58a1d2f018baf0e1cff4553950bf3e9"
+    },
+    {
+      "path": "powerbi/validation/live_dax_validation.json",
+      "bytes": 5181,
+      "sha256": "8d1b9d7f5394f425808f707be0a2912de22aa47e6837a1e4704de814d8995b73"
+    },
+    {
+      "path": "powerbi/validation/native_model_validation.json",
+      "bytes": 28256,
+      "sha256": "fa6e1de78e7eb02a37f2c7b90de0242438759c94a46f19d8cb7b26ce8ce8dad1"
+    },
+    {
+      "path": "powerbi/validation/probe_stage10_desktop.ps1",
+      "bytes": 3073,
+      "sha256": "b6284ca8fc7f290aff049ca4ddc76298ead3a6437aca9ef2c40cd83ddd1de6c2"
+    },
+    {
+      "path": "powerbi/validation/recovery_baseline.json",
+      "bytes": 4408,
+      "sha256": "1c6c54e1dc18c77540317e2b73774513e6625e79e508ff88d2227cc2553722b3"
+    },
+    {
+      "path": "powerbi/validation/schema_sources.json",
+      "bytes": 1905,
+      "sha256": "08163b436c36a28fdf41f9a69875493842ebb3be5522ae25ea8b8063d00cf3ec"
+    },
+    {
+      "path": "powerbi/validation/schemas/2958cbaedb1efd8a5df1a7c4d92f4dd1b44832051d9c6068b6435f46337ebf63.json",
+      "bytes": 10801,
+      "sha256": "d704fa241e0db10acad2001bbed2876dd7b93f298d7c35701a02a31b276b46ea"
+    },
+    {
+      "path": "powerbi/validation/schemas/43611f92b2e414f2cc412394c8722ac23108a0ab436e5d35170eee01ed23ff65.json",
+      "bytes": 6752,
+      "sha256": "b785df217f7e2cf3d9c318b669fa6f7525b4b0c8e899574a621e5fb3ac2be59c"
+    },
+    {
+      "path": "powerbi/validation/schemas/4a6cf0fbaeb99ce265075536c372ea4903d86610e756d28ce5055e88eb37cc5a.json",
+      "bytes": 59375,
+      "sha256": "c83b45b27d1cd271c96a9881781dcacc4c9bff5e86d1448cbf74427bccbf8593"
+    },
+    {
+      "path": "powerbi/validation/schemas/4e00ed342fd7963f9f68d31f5c6b5c65b5f297cd7c970c3df6c8f9f59a3aa272.json",
+      "bytes": 2099,
+      "sha256": "7cd740e5f837b906d5953f7034d774110acc6e576d77890c20668ad58abd9711"
+    },
+    {
+      "path": "powerbi/validation/schemas/64f0920e98fa4eb21f242cda378e4b81160d7ae70a725c59ea0bf34feec4cc6d.json",
+      "bytes": 6031,
+      "sha256": "bf30974a8ce83b0d1f76122fa2f88ad3b3b56f475abeca5af51118b6e51c101f"
+    },
+    {
+      "path": "powerbi/validation/schemas/ad6df07a3e99c7a567364391366efcf8044eaf99d6dd9fddd278c59826d56703.json",
+      "bytes": 19606,
+      "sha256": "e4e7a9b03fc844f45c07e85bff43c7447e3b025dea3e634996be0e95e5bf4c98"
+    },
+    {
+      "path": "powerbi/validation/schemas/b0f4d20273f04f465ae230e3746d36e9625084259f7149c6b1a37b5559c618f4.json",
+      "bytes": 3198,
+      "sha256": "a23cfc12dd4f5d7d3ce066f1d355efe4a72f9705725c811b53ec19cfca21770f"
+    },
+    {
+      "path": "powerbi/validation/schemas/bfc24a400e44c23bf46f4f92235e4ae1ce44d09e1c8887fa31ca1a7cf832fd7d.json",
+      "bytes": 926,
+      "sha256": "85f449cdeba67d7b8bd050ae8cdb129ef65c8263f04873086e5177389a9e922c"
+    },
+    {
+      "path": "powerbi/validation/schemas/ceaec1e19ff71f742c33369bc9fdae507b8112017246004c9d0e125e4fdc1904.json",
+      "bytes": 2655,
+      "sha256": "a056bdc814e1d07846074fc4ca85a7caf477d2af332e8a45e0ac529cdca3a8c7"
+    },
+    {
+      "path": "powerbi/validation/schemas/d978f94784533b37ad4b8a3968c7535e32889a4a0233ae62a1bea3a129f39a1f.json",
+      "bytes": 1360,
+      "sha256": "d33950fe3cd4b1de856aa7de603a3b28941b522942053965c54815214b954d36"
+    },
+    {
+      "path": "powerbi/validation/schemas/dc14feb9683a7d6717f71d34ca222c28ddfcbce22b4b61c8237dcb87974b7a2a.json",
+      "bytes": 32450,
+      "sha256": "53cf4553cf12304602fec868cd6644d9ff9630614c5c626b1e8c988aded5384c"
+    },
+    {
+      "path": "powerbi/validation/schemas/df600a8b75aa0f70af53401e722b3dbfcda60e3b15d8775e7d0956eec6392d8c.json",
+      "bytes": 18497,
+      "sha256": "83fcc9580d3d575f7358242241a5490df7c2daa8b21071e813fc2342e7ac8fb7"
+    },
+    {
+      "path": "powerbi/validation/schemas/f82466b90b564efbe2a71d1916e8628acaf80a293a2f1e102955b95590ff3fcb.json",
+      "bytes": 1496,
+      "sha256": "c650009bfe217ffa11a83de7cbf64d6eb4ebbcb683254f2530fae317ba237873"
+    },
+    {
+      "path": "powerbi/validation/schemas/fc8a5d96b2406ec5b1f974122b0fa9cbdc6f4152281cac1c05714538593bc8ae.json",
+      "bytes": 3195382,
+      "sha256": "6b29be4ea691d753ed09aeba7f6e5baa3980ca8f6ca0f79c074419a7e9d94ab8"
+    },
+    {
+      "path": "powerbi/validation/schemas/ff91d2fd85c4b04e28c246ca8e45d162433fc47c47352e190a81aa42e6558c3d.json",
+      "bytes": 23390,
+      "sha256": "f95dcc9a2be5c8262493cbeb74f5216d85b0cfec156a74b31d9455d03bd964d0"
+    },
+    {
+      "path": "powerbi/validation/stage10_validation.json",
+      "bytes": 9475,
+      "sha256": "880faae09476326988b8f91adf9562f676c13ae909b0855a3b3c4f5183c7323d"
+    },
+    {
+      "path": "powerbi/validation/Test-Stage10Live.ps1",
+      "bytes": 5840,
+      "sha256": "284742f8e87818df58cfe0897bf01116bb47b9285dcbae2fee1a26a92ac16f01"
+    },
+    {
+      "path": "powerbi/validation/Validate-Stage10Model.ps1",
+      "bytes": 4584,
+      "sha256": "b5fefae8c185499419b4224aadff8251e353e56cd99e632c25a3ce9297eec2ed"
+    },
+    {
+      "path": "powerbi/validation/validate_stage10.py",
+      "bytes": 12711,
+      "sha256": "b8aff0ad89d10e39c0cc25094c10c3ef3993ddeee97b7a9d8caf5eadd87fa90c"
+    },
+    {
+      "path": "reports/stage10_powerbi_build_report.txt",
+      "bytes": 10341,
+      "sha256": "134cdb4b9492a7a290e2455240f38b90ff1703872b548e29f13ac2b0d8ff9d3e"
+    }
+  ]
+}

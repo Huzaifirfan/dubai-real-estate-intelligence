@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.157.json",
+  "name": "Dubai Real Estate Intelligence - Executive",
+  "dataColors": [
+    "#147D83",
+    "#AD823E",
+    "#192D3A",
+    "#739DA2",
+    "#76838C",
+    "#D3B783"
+  ],
+  "background": "#F3F5F6",
+  "foreground": "#192D3A",
+  "tableAccent": "#147D83",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 26,
+      "color": "#192D3A"
+    },
+    "title": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11,
+      "color": "#192D3A"
+    },
+    "header": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11,
+      "color": "#192D3A"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#5E6E78"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#192D3A"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+    "checkedUtc":  "2026-09-23T17:57:11.4610077Z",
+    "pid":  10756,
+    "running":  true,
+    "windowTitle":  "Dubai_Real_Estate_Intelligence",
+    "windows":  [
+                    {
+                        "title":  "Dubai_Real_Estate_Intelligence",
+                        "offscreen":  false,
+                        "uiText":  [
+                                       "ms-pbi.pbi.microsoft.com/minerva/reportView.html",
+                                       "ms-pbi.pbi.microsoft.com/minerva/reportView.html - Web content",
+                                       "ms-pbi.pbi.microsoft.com/minerva/dataExploreView.html",
+                                       "ms-pbi.pbi.microsoft.com/minerva/dataExploreView.html - Web content",
+                                       "ms-pbi.pbi.microsoft.com/minerva/modelView.html",
+                                       "ms-pbi.pbi.microsoft.com/minerva/modelView.html - Web content",
+                                       "ms-pbi.pbi.microsoft.com/minerva/daxQueryView.html",
+                                       "ms-pbi.pbi.microsoft.com/minerva/daxQueryView.html - Web content",
+                                       "ms-pbi.pbi.microsoft.com/minerva/tmdlView.html",
+                                       "ms-pbi.pbi.microsoft.com/minerva/tmdlView.html - Web content"
+                                   ]
+                    }
+                ],
+    "engines":  [
+                    {
+                        "ProcessId":  18840,
+                        "ParentProcessId":  10756,
+                        "CommandLine":  "\"C:\\Program Files\\Microsoft Power BI Desktop\\bin\\msmdsrv.exe\" -c -n AnalysisServicesWorkspace_fd32049f-8729-468f-bb61-28fb50ea2104 -s \"C:\\Users\\ssd\\AppData\\Local\\Microsoft\\Power BI Desktop\\AnalysisServicesWorkspaces\\AnalysisServicesWorkspace_fd32049f-8729-468f-bb61-28fb50ea2104\\Data\""
+                    }
+                ],
+    "note":  "Startup/UI text inspection only. This does not certify visual rendering or DAX refresh."
+}

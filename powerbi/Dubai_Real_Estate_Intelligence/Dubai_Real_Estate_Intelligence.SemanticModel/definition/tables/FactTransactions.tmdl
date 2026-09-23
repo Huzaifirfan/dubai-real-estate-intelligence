@@ -1,0 +1,564 @@
+table FactTransactions
+	lineageTag: e8dd7c89-3130-5ed6-91eb-89240760a9d8
+
+	/// Count of source rows labelled Sales. Repeated transaction numbers remain separate records; this is not a count of unique transactions.
+	measure 'Sales Records' =
+			CALCULATE(
+			    COUNTROWS(FactTransactions),
+			    KEEPFILTERS(FactTransactions[GROUP_EN] = "Sales")
+			)
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 7e099c95-dbba-5d05-b1f6-24e53bbdc49d
+
+	/// Distinct source transaction numbers among Sales rows. Transaction numbers are text and are not assumed unique at row level.
+	measure 'Distinct Sales Transaction Numbers' =
+			CALCULATE(
+			    DISTINCTCOUNT(FactTransactions[TRANSACTION_NUMBER]),
+			    KEEPFILTERS(FactTransactions[GROUP_EN] = "Sales")
+			)
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 0d1e07cb-5733-51a0-a56c-12ed9f3fd065
+
+	/// Count of source rows whose GROUP_EN is not Sales.
+	measure 'Non-Sales Records' =
+			CALCULATE(
+			    COUNTROWS(FactTransactions),
+			    KEEPFILTERS(FactTransactions[GROUP_EN] <> "Sales")
+			)
+		formatString: #,0
+		displayFolder: Activity
+		lineageTag: 7332b70e-3cd5-5b92-a909-16ea4d83afd4
+
+	/// Sales records carrying the upstream valid-sale-price flag. No outliers are removed in Stage 10.
+	measure 'Valid Sale Price Records' =
+			CALCULATE(
+			    [Sales Records],
+			    KEEPFILTERS(FactTransactions[VALID_SALE_PRICE_METRIC] = 1)
+			)
+		formatString: #,0
+		displayFolder: Price
+		lineageTag: 7c640b7a-c5fe-5fc7-8de4-bdd0683d21de
+
+	/// Unweighted median of the existing sale-price-per-sqft feature among valid Sales records. Source labels and outliers are preserved.
+	measure 'Median Sale Price per Sqft' =
+			CALCULATE(
+			    MEDIAN(FactTransactions[SALE_PRICE_PER_SQFT]),
+			    KEEPFILTERS(FactTransactions[GROUP_EN] = "Sales"),
+			    KEEPFILTERS(FactTransactions[VALID_SALE_PRICE_METRIC] = 1)
+			)
+		formatString: "AED "#,0.00
+		displayFolder: Price
+		lineageTag: 012baa6c-0780-566b-83e2-00df19342c45
+
+	/// Unweighted row-level mean among valid Sales records; retained outliers may affect the result.
+	measure 'Average Sale Price per Sqft' =
+			CALCULATE(
+			    AVERAGE(FactTransactions[SALE_PRICE_PER_SQFT]),
+			    KEEPFILTERS(FactTransactions[GROUP_EN] = "Sales"),
+			    KEEPFILTERS(FactTransactions[VALID_SALE_PRICE_METRIC] = 1)
+			)
+		formatString: "AED "#,0.00
+		displayFolder: Price
+		lineageTag: cdad7719-2de3-5005-b0d7-ed449d7272b3
+
+	/// Sales records with the exact source label Off-Plan; intersects existing slicer filters.
+	measure 'Off-Plan Sales Records' =
+			CALCULATE(
+			    [Sales Records],
+			    KEEPFILTERS(FactTransactions[IS_OFFPLAN_EN] = "Off-Plan")
+			)
+		formatString: #,0
+		displayFolder: Sales Mix
+		lineageTag: b0d48500-958f-51ff-a838-7b8cf929f0b9
+
+	/// Sales records with the exact source label Ready; intersects existing slicer filters.
+	measure 'Ready Sales Records' =
+			CALCULATE(
+			    [Sales Records],
+			    KEEPFILTERS(FactTransactions[IS_OFFPLAN_EN] = "Ready")
+			)
+		formatString: #,0
+		displayFolder: Sales Mix
+		lineageTag: 754eb239-8d0f-5c3f-93da-9922675eafc4
+
+	/// Off-Plan Sales Records divided by Sales Records in the current filter context. Selecting Off-Plan makes its share 100%.
+	measure 'Off-Plan Share' = DIVIDE([Off-Plan Sales Records], [Sales Records])
+		formatString: 0.00%
+		displayFolder: Sales Mix
+		lineageTag: 0a95f2ab-5731-5721-af67-d8a41ffb7117
+
+	/// Ready Sales Records divided by Sales Records in the current filter context.
+	measure 'Ready Share' = DIVIDE([Ready Sales Records], [Sales Records])
+		formatString: 0.00%
+		displayFolder: Sales Mix
+		lineageTag: 0aa3b082-ce5a-5c44-9f30-21f6f9d90799
+
+	/// Sales records with exact USAGE_EN label Residential; property type is a separate source field.
+	measure 'Residential Sales Records' =
+			CALCULATE(
+			    [Sales Records],
+			    KEEPFILTERS(FactTransactions[USAGE_EN] = "Residential")
+			)
+		formatString: #,0
+		displayFolder: Sales Mix
+		lineageTag: 2f633331-20c5-5ce9-8c43-62565b9e7825
+
+	/// Residential Sales Records divided by all Sales Records in current filter context.
+	measure 'Residential Share' = DIVIDE([Residential Sales Records], [Sales Records])
+		formatString: 0.00%
+		displayFolder: Sales Mix
+		lineageTag: fce2b0b2-345c-5727-bd80-48c3375e8355
+
+	/// Sales records with exact USAGE_EN label Commercial.
+	measure 'Commercial Sales Records' =
+			CALCULATE(
+			    [Sales Records],
+			    KEEPFILTERS(FactTransactions[USAGE_EN] = "Commercial")
+			)
+		formatString: #,0
+		displayFolder: Sales Mix
+		lineageTag: 52578f87-f4e8-544d-8e20-9675794f63fc
+
+	/// Sales records with the unchanged source tenure label Free Hold.
+	measure 'Freehold Sales Records' =
+			CALCULATE(
+			    [Sales Records],
+			    KEEPFILTERS(FactTransactions[IS_FREE_HOLD_EN] = "Free Hold")
+			)
+		formatString: #,0
+		displayFolder: Sales Mix
+		lineageTag: a0bdfcff-4366-5e6c-87ed-2477d1c0efe2
+
+	/// Sales records with the unchanged source tenure label Non Free Hold.
+	measure 'Non-Freehold Sales Records' =
+			CALCULATE(
+			    [Sales Records],
+			    KEEPFILTERS(FactTransactions[IS_FREE_HOLD_EN] = "Non Free Hold")
+			)
+		formatString: #,0
+		displayFolder: Sales Mix
+		lineageTag: dff6c3b8-53d0-5478-81ef-6592b126f2ec
+
+	/// Full previous calendar month relative to the latest selected calendar date at or before the dataset cutoff. Retains non-date slicers. With no date filter this compares August to partial September; it is not a same-days comparison.
+	measure 'Previous Month Sales Records' =
+			VAR LatestAvailableDate = [Latest Data Date]
+			VAR AnchorDate =
+			    MAXX(
+			        FILTER(VALUES(DimDate[Date]), DimDate[Date] <= LatestAvailableDate),
+			        DimDate[Date]
+			    )
+			VAR PriorMonthStart = EOMONTH(AnchorDate, -2) + 1
+			VAR PriorMonthEnd = EOMONTH(AnchorDate, -1)
+			RETURN
+			    IF(
+			        ISBLANK(AnchorDate),
+			        BLANK(),
+			        CALCULATE(
+			            [Sales Records],
+			            REMOVEFILTERS(DimDate),
+			            DATESBETWEEN(DimDate[Date], PriorMonthStart, PriorMonthEnd)
+			        )
+			    )
+		formatString: #,0
+		displayFolder: Time Intelligence
+		lineageTag: 989a33d2-fc50-5734-81e9-e5d18a724f7c
+
+	/// Latest selected calendar month versus the full previous calendar month, retaining non-date slicers. Current month may be partial; read the Partial Month Warning. No forecasting or day normalization.
+	measure 'MoM Sales Record Growth %' =
+			VAR LatestAvailableDate = [Latest Data Date]
+			VAR AnchorDate =
+			    MAXX(
+			        FILTER(VALUES(DimDate[Date]), DimDate[Date] <= LatestAvailableDate),
+			        DimDate[Date]
+			    )
+			VAR CurrentMonthStart = EOMONTH(AnchorDate, -1) + 1
+			VAR CurrentMonthEnd = EOMONTH(AnchorDate, 0)
+			VAR CurrentMonthRecords =
+			    CALCULATE(
+			        [Sales Records],
+			        REMOVEFILTERS(DimDate),
+			        DATESBETWEEN(DimDate[Date], CurrentMonthStart, CurrentMonthEnd)
+			    )
+			VAR PreviousMonthRecords = [Previous Month Sales Records]
+			RETURN
+			    IF(
+			        ISBLANK(AnchorDate) || ISBLANK(CurrentMonthRecords),
+			        BLANK(),
+			        DIVIDE(CurrentMonthRecords - PreviousMonthRecords, PreviousMonthRecords)
+			    )
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Time Intelligence
+		lineageTag: 388515a3-2e13-5d1f-b5c8-70a029a4659a
+
+	/// Area with most Sales records within the current selection. Ties resolve by area name ascending; the source labels are unchanged.
+	measure 'Top Area by Sales Records' =
+			VAR AreaCounts =
+			    FILTER(
+			        ADDCOLUMNS(VALUES(FactTransactions[AREA_EN]), "@SalesRecords", [Sales Records]),
+			        [@SalesRecords] > 0
+			    )
+			VAR TopArea =
+			    TOPN(1, AreaCounts, [@SalesRecords], DESC, FactTransactions[AREA_EN], ASC)
+			RETURN
+			    IF(
+			        ISEMPTY(TopArea),
+			        BLANK(),
+			        CONCATENATEX(TopArea, COALESCE(FactTransactions[AREA_EN], "(Blank area)"), ", ")
+			    )
+		displayFolder: Activity
+		lineageTag: e44cba06-ff97-5d6c-9b82-1d87bf04085c
+
+	/// Dataset-wide latest transaction date, unaffected by report slicers.
+	measure 'Latest Data Date' =
+			CALCULATE(
+			    MAX(FactTransactions[TRANSACTION_DATE]),
+			    REMOVEFILTERS()
+			)
+		formatString: dd mmmm yyyy
+		displayFolder: Coverage
+		lineageTag: f616a017-3d74-5cbf-9930-3530fcc0349a
+
+	/// Dataset-wide data-through label. Recomputed from the imported source; not hard-coded.
+	measure 'Data Coverage Label' =
+			VAR CutoffDate = [Latest Data Date]
+			RETURN
+			    IF(
+			        ISBLANK(CutoffDate),
+			        "No source data loaded",
+			        "Data through " & FORMAT(CutoffDate, "dd mmmm yyyy", "en-US")
+			    )
+		displayFolder: Coverage
+		lineageTag: a220eb61-33c0-5430-b845-4024153da065
+
+	/// Conservative coverage warning whenever the latest transaction date precedes its calendar month end. Does not assert completeness of earlier months.
+	measure 'Partial Month Warning' =
+			VAR CutoffDate = [Latest Data Date]
+			RETURN
+			    IF(
+			        NOT ISBLANK(CutoffDate) && CutoffDate < EOMONTH(CutoffDate, 0),
+			        FORMAT(CutoffDate, "mmmm yyyy", "en-US") & " is a partial month.",
+			        BLANK()
+			    )
+		displayFolder: Coverage
+		lineageTag: b9a19302-55ad-535f-abf6-e28ea4adfb5f
+
+	/// Source transaction number is not unique at row level; do not use as a primary key.
+	column TRANSACTION_NUMBER
+		dataType: string
+		lineageTag: d9960171-045b-5f21-911c-2d53f5375523
+		summarizeBy: none
+		sourceColumn: TRANSACTION_NUMBER
+
+	column INSTANCE_DATE
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm:ss
+		lineageTag: ac68e523-daa5-5283-915c-e2390a5f93bb
+		summarizeBy: none
+		sourceColumn: INSTANCE_DATE
+
+	column GROUP_EN
+		dataType: string
+		lineageTag: 321b8094-e12a-5715-a509-d6426fb674b8
+		summarizeBy: none
+		sourceColumn: GROUP_EN
+
+	column PROCEDURE_EN
+		dataType: string
+		lineageTag: 0f350d3e-8583-5828-b1f3-c087db5fe93b
+		summarizeBy: none
+		sourceColumn: PROCEDURE_EN
+
+	column IS_OFFPLAN_EN
+		dataType: string
+		lineageTag: c493f07e-e2a1-5363-9ce7-6dacba7258cf
+		summarizeBy: none
+		sourceColumn: IS_OFFPLAN_EN
+
+	column IS_FREE_HOLD_EN
+		dataType: string
+		lineageTag: 6041cd74-9da1-5506-af66-a00943c8404d
+		summarizeBy: none
+		sourceColumn: IS_FREE_HOLD_EN
+
+	column USAGE_EN
+		dataType: string
+		lineageTag: 1a738026-90c2-5a68-899a-23d0b2d23c60
+		summarizeBy: none
+		sourceColumn: USAGE_EN
+
+	column AREA_EN
+		dataType: string
+		lineageTag: 9ae9b70f-ed9b-5c4b-82af-19c86897531b
+		summarizeBy: none
+		sourceColumn: AREA_EN
+
+	column PROP_TYPE_EN
+		dataType: string
+		lineageTag: ed877329-71ff-5bc5-8e0f-d07651073377
+		summarizeBy: none
+		sourceColumn: PROP_TYPE_EN
+
+	column PROP_SB_TYPE_EN
+		dataType: string
+		lineageTag: 4e1e0ab8-df92-5c8d-b2f2-48c2f1d13f82
+		summarizeBy: none
+		sourceColumn: PROP_SB_TYPE_EN
+
+	/// Raw source value retained for audit only. Hidden and not summarized: repeated transaction numbers can have multiple values; no total market value KPI is permitted.
+	column TRANS_VALUE
+		dataType: double
+		isHidden
+		lineageTag: 607cc5e7-3b6f-511f-b33f-0fc731fd82c7
+		summarizeBy: none
+		sourceColumn: TRANS_VALUE
+
+	column PROCEDURE_AREA
+		dataType: double
+		lineageTag: a4e5baab-61fe-59fe-af14-8d73733eed27
+		summarizeBy: none
+		sourceColumn: PROCEDURE_AREA
+
+	column ACTUAL_AREA
+		dataType: double
+		lineageTag: c716caea-9453-57ff-99c8-b93c14c95a81
+		summarizeBy: none
+		sourceColumn: ACTUAL_AREA
+
+	column ROOMS_EN
+		dataType: string
+		lineageTag: 249ad1e9-faa5-5e80-9301-ef33ff890d66
+		summarizeBy: none
+		sourceColumn: ROOMS_EN
+
+	column PARKING
+		dataType: string
+		lineageTag: 660ce9fc-b11c-5638-9d4c-27a1ad71290b
+		summarizeBy: none
+		sourceColumn: PARKING
+
+	column NEAREST_METRO_EN
+		dataType: string
+		lineageTag: 8bf612cd-fd66-52c3-ba54-a006f9ef7ec9
+		summarizeBy: none
+		sourceColumn: NEAREST_METRO_EN
+
+	column NEAREST_MALL_EN
+		dataType: string
+		lineageTag: 026e3142-4359-5eb1-8d9b-20affed9f47d
+		summarizeBy: none
+		sourceColumn: NEAREST_MALL_EN
+
+	column NEAREST_LANDMARK_EN
+		dataType: string
+		lineageTag: 59207501-9919-585e-84fc-112de43ef887
+		summarizeBy: none
+		sourceColumn: NEAREST_LANDMARK_EN
+
+	column TOTAL_BUYER
+		dataType: int64
+		lineageTag: 08c21309-0671-5d61-8f87-9360b48e0fcf
+		summarizeBy: none
+		sourceColumn: TOTAL_BUYER
+
+	column TOTAL_SELLER
+		dataType: int64
+		lineageTag: 295970a4-278d-548f-b12d-64cef015a511
+		summarizeBy: none
+		sourceColumn: TOTAL_SELLER
+
+	column MASTER_PROJECT_EN
+		dataType: string
+		lineageTag: 8562a974-9078-5677-8f85-53a5ef4b85c7
+		summarizeBy: none
+		sourceColumn: MASTER_PROJECT_EN
+
+	column PROJECT_EN
+		dataType: string
+		lineageTag: 8738162b-1172-5204-b7e6-a684f3ce9b1c
+		summarizeBy: none
+		sourceColumn: PROJECT_EN
+
+	column TRANSACTION_DATE
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 935c64be-da3c-5cac-b197-1ce38d2a0f45
+		summarizeBy: none
+		sourceColumn: TRANSACTION_DATE
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TRANSACTION_YEAR
+		dataType: int64
+		lineageTag: 0f7d69fb-90b0-5eac-880c-c2ae85d79cf2
+		summarizeBy: none
+		sourceColumn: TRANSACTION_YEAR
+
+	column TRANSACTION_MONTH
+		dataType: int64
+		lineageTag: b6520205-82af-58fe-933b-54bf5b37f07b
+		summarizeBy: none
+		sourceColumn: TRANSACTION_MONTH
+
+	column TRANSACTION_MONTH_NAME
+		dataType: string
+		lineageTag: 99031cf4-5243-5b7d-be3e-eac38dd8905e
+		summarizeBy: none
+		sourceColumn: TRANSACTION_MONTH_NAME
+
+	column TRANSACTION_QUARTER
+		dataType: string
+		lineageTag: d5fdd3d8-bcb1-5dbb-af9b-dabcd78add57
+		summarizeBy: none
+		sourceColumn: TRANSACTION_QUARTER
+
+	column TRANSACTION_DAY
+		dataType: int64
+		lineageTag: d09976db-76c0-50c5-b086-989c896634f2
+		summarizeBy: none
+		sourceColumn: TRANSACTION_DAY
+
+	column TRANSACTION_DAY_NAME
+		dataType: string
+		lineageTag: 0f8caa13-df95-5c6e-9fac-e6f699eb97af
+		summarizeBy: none
+		sourceColumn: TRANSACTION_DAY_NAME
+
+	column TRANSACTION_HOUR
+		dataType: int64
+		lineageTag: 0a7ecf00-828f-54dd-97cd-cbb041ebaee7
+		summarizeBy: none
+		sourceColumn: TRANSACTION_HOUR
+
+	column IS_SALE_TRANSACTION
+		dataType: int64
+		lineageTag: f2c18910-514d-574e-8f3d-f25bde4ba966
+		summarizeBy: none
+		sourceColumn: IS_SALE_TRANSACTION
+
+	column IS_RESIDENTIAL_FLAG
+		dataType: int64
+		lineageTag: 9e7310f2-ce13-5d16-a16d-c29441f3a120
+		summarizeBy: none
+		sourceColumn: IS_RESIDENTIAL_FLAG
+
+	column IS_OFFPLAN_FLAG
+		dataType: int64
+		lineageTag: c41715b3-fa9c-5237-9fb5-0e02255d7ad1
+		summarizeBy: none
+		sourceColumn: IS_OFFPLAN_FLAG
+
+	column IS_FREEHOLD_FLAG
+		dataType: int64
+		lineageTag: 191b09f9-4d3c-56c6-8300-2054475361c1
+		summarizeBy: none
+		sourceColumn: IS_FREEHOLD_FLAG
+
+	column PROPERTY_SIZE_SQFT
+		dataType: double
+		lineageTag: bddf1d79-bad0-522f-8f82-2a4777658a14
+		summarizeBy: none
+		sourceColumn: PROPERTY_SIZE_SQFT
+
+	column VALID_SALE_PRICE_METRIC
+		dataType: int64
+		lineageTag: 62372e68-32b9-5fe0-ac49-5997bc9a1b74
+		summarizeBy: none
+		sourceColumn: VALID_SALE_PRICE_METRIC
+
+	column SALE_PRICE_PER_SQM
+		dataType: double
+		lineageTag: 7ec756f8-1118-56fc-a9ad-073325e7554d
+		summarizeBy: none
+		sourceColumn: SALE_PRICE_PER_SQM
+
+	column SALE_PRICE_PER_SQFT
+		dataType: double
+		lineageTag: beaf38fd-437c-53ed-9160-29262c783bde
+		summarizeBy: none
+		sourceColumn: SALE_PRICE_PER_SQFT
+
+	column TRANSACTION_VALUE_BAND
+		dataType: string
+		lineageTag: 8ef2eeb8-55d2-58bb-98ea-92d66386025b
+		summarizeBy: none
+		sourceColumn: TRANSACTION_VALUE_BAND
+
+	column PROPERTY_SIZE_BAND
+		dataType: string
+		lineageTag: 6936ceb6-6d66-5fdd-b0f4-1aa2ad9a8500
+		summarizeBy: none
+		sourceColumn: PROPERTY_SIZE_BAND
+
+	column BEDROOM_COUNT
+		dataType: int64
+		lineageTag: 1657a600-fe3a-53e4-ab54-70b331a702be
+		summarizeBy: none
+		sourceColumn: BEDROOM_COUNT
+
+	partition FactTransactions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(
+				        File.Contents(SourceFile),
+				        [Delimiter = ",", Columns = 41, Encoding = 65001, QuoteStyle = QuoteStyle.Csv, ExtraValues = ExtraValues.Error]
+				    ),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    ExpectedColumns = {"TRANSACTION_NUMBER", "INSTANCE_DATE", "GROUP_EN", "PROCEDURE_EN", "IS_OFFPLAN_EN", "IS_FREE_HOLD_EN", "USAGE_EN", "AREA_EN", "PROP_TYPE_EN", "PROP_SB_TYPE_EN", "TRANS_VALUE", "PROCEDURE_AREA", "ACTUAL_AREA", "ROOMS_EN", "PARKING", "NEAREST_METRO_EN", "NEAREST_MALL_EN", "NEAREST_LANDMARK_EN", "TOTAL_BUYER", "TOTAL_SELLER", "MASTER_PROJECT_EN", "PROJECT_EN", "TRANSACTION_DATE", "TRANSACTION_YEAR", "TRANSACTION_MONTH", "TRANSACTION_MONTH_NAME", "TRANSACTION_QUARTER", "TRANSACTION_DAY", "TRANSACTION_DAY_NAME", "TRANSACTION_HOUR", "IS_SALE_TRANSACTION", "IS_RESIDENTIAL_FLAG", "IS_OFFPLAN_FLAG", "IS_FREEHOLD_FLAG", "PROPERTY_SIZE_SQFT", "VALID_SALE_PRICE_METRIC", "SALE_PRICE_PER_SQM", "SALE_PRICE_PER_SQFT", "TRANSACTION_VALUE_BAND", "PROPERTY_SIZE_BAND", "BEDROOM_COUNT"},
+				    CheckedSchema = if Table.ColumnNames(Headers) = ExpectedColumns
+				        then Headers
+				        else error "The Stage 10 source schema differs from the expected 41 columns.",
+				    Typed = Table.TransformColumnTypes(
+				        CheckedSchema,
+				        {
+				            {"TRANSACTION_NUMBER", type text},
+				            {"INSTANCE_DATE", type datetime},
+				            {"GROUP_EN", type text},
+				            {"PROCEDURE_EN", type text},
+				            {"IS_OFFPLAN_EN", type text},
+				            {"IS_FREE_HOLD_EN", type text},
+				            {"USAGE_EN", type text},
+				            {"AREA_EN", type text},
+				            {"PROP_TYPE_EN", type text},
+				            {"PROP_SB_TYPE_EN", type text},
+				            {"TRANS_VALUE", type number},
+				            {"PROCEDURE_AREA", type number},
+				            {"ACTUAL_AREA", type number},
+				            {"ROOMS_EN", type text},
+				            {"PARKING", type text},
+				            {"NEAREST_METRO_EN", type text},
+				            {"NEAREST_MALL_EN", type text},
+				            {"NEAREST_LANDMARK_EN", type text},
+				            {"TOTAL_BUYER", Int64.Type},
+				            {"TOTAL_SELLER", Int64.Type},
+				            {"MASTER_PROJECT_EN", type text},
+				            {"PROJECT_EN", type text},
+				            {"TRANSACTION_DATE", type date},
+				            {"TRANSACTION_YEAR", Int64.Type},
+				            {"TRANSACTION_MONTH", Int64.Type},
+				            {"TRANSACTION_MONTH_NAME", type text},
+				            {"TRANSACTION_QUARTER", type text},
+				            {"TRANSACTION_DAY", Int64.Type},
+				            {"TRANSACTION_DAY_NAME", type text},
+				            {"TRANSACTION_HOUR", Int64.Type},
+				            {"IS_SALE_TRANSACTION", Int64.Type},
+				            {"IS_RESIDENTIAL_FLAG", Int64.Type},
+				            {"IS_OFFPLAN_FLAG", Int64.Type},
+				            {"IS_FREEHOLD_FLAG", Int64.Type},
+				            {"PROPERTY_SIZE_SQFT", type number},
+				            {"VALID_SALE_PRICE_METRIC", Int64.Type},
+				            {"SALE_PRICE_PER_SQM", type number},
+				            {"SALE_PRICE_PER_SQFT", type number},
+				            {"TRANSACTION_VALUE_BAND", type text},
+				            {"PROPERTY_SIZE_BAND", type text},
+				            {"BEDROOM_COUNT", Int64.Type}
+				        },
+				        "en-US"
+				    )
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

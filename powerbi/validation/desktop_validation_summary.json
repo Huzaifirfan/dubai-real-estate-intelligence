@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-09-23T18:14:32.708141+00:00",
+  "desktop_version": "2.157.1354.0",
+  "real_pbip_opened": true,
+  "power_query_refresh_passed": true,
+  "live_dax_passed": true,
+  "visual_baseline_reviewed": true,
+  "final_visual_capture": "desktop_window_final.png",
+  "validation_window_closed": true,
+  "direct_field_bindings_checked": 33,
+  "card_formatting": {
+    "kpi_sales_records": "Exact units persisted after Desktop close",
+    "kpi_distinct_sales": "Exact units persisted after Desktop close",
+    "kpi_valid_price": "Exact units persisted after Desktop close",
+    "kpi_median_price": "Exact units persisted after Desktop close"
+  },
+  "native_tmdl_passed": true,
+  "json_files_parsed": 34,
+  "public_schemas_passed": 21,
+  "public_schema_unavailable_files": 9,
+  "source_unchanged": true,
+  "protected_files_changed": [],
+  "remaining_checks": [
+    "Full mouse/keyboard slicer interaction matrix, accessibility and display scaling were not exhaustively tested.",
+    "Microsoft visualContainer/2.12.0 public schemas return 404; final Desktop-generated visuals are preserved."
+  ]
+}

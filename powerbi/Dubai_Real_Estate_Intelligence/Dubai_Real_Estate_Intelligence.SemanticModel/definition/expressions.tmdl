@@ -1,0 +1,7 @@
+expression SourceFile = "C:\Users\ssd\Desktop\D.A Projects\dubai-real-estate-intelligence\data\processed\dld_transactions_2026_ytd_features.csv" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: 15942675-b5e7-5710-b690-92b83bf091ae
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

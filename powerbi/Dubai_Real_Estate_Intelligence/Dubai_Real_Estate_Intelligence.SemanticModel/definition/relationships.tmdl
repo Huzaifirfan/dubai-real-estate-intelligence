@@ -1,0 +1,5 @@
+relationship 8a8e84c1-0a59-5f2a-ac8e-073f2114e759
+	joinOnDateBehavior: datePartOnly
+	fromColumn: FactTransactions.TRANSACTION_DATE
+	toColumn: DimDate.Date
+

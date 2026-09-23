@@ -1,0 +1,193 @@
+STAGE 10 - DAX MEASURES
+
+Canonical model: Dubai_Real_Estate_Intelligence.SemanticModel/definition/tables/FactTransactions.tmdl
+Scope: 21 measures; source rows preserved. No total sales value / total market value measure.
+Sales mix filters intersect current selections with KEEPFILTERS. Shares use the selected Sales-record denominator.
+MoM uses latest selected month at/before dataset cutoff versus the full prior month; September is partial.
+DAX execution and refresh require Power BI Desktop; metadata parsing alone does not evaluate these expressions.
+
+// Count of source rows labelled Sales. Repeated transaction numbers remain separate records; this is not a count of unique transactions.
+Sales Records =
+CALCULATE(
+    COUNTROWS(FactTransactions),
+    KEEPFILTERS(FactTransactions[GROUP_EN] = "Sales")
+)
+
+// Distinct source transaction numbers among Sales rows. Transaction numbers are text and are not assumed unique at row level.
+Distinct Sales Transaction Numbers =
+CALCULATE(
+    DISTINCTCOUNT(FactTransactions[TRANSACTION_NUMBER]),
+    KEEPFILTERS(FactTransactions[GROUP_EN] = "Sales")
+)
+
+// Count of source rows whose GROUP_EN is not Sales.
+Non-Sales Records =
+CALCULATE(
+    COUNTROWS(FactTransactions),
+    KEEPFILTERS(FactTransactions[GROUP_EN] <> "Sales")
+)
+
+// Sales records carrying the upstream valid-sale-price flag. No outliers are removed in Stage 10.
+Valid Sale Price Records =
+CALCULATE(
+    [Sales Records],
+    KEEPFILTERS(FactTransactions[VALID_SALE_PRICE_METRIC] = 1)
+)
+
+// Unweighted median of the existing sale-price-per-sqft feature among valid Sales records. Source labels and outliers are preserved.
+Median Sale Price per Sqft =
+CALCULATE(
+    MEDIAN(FactTransactions[SALE_PRICE_PER_SQFT]),
+    KEEPFILTERS(FactTransactions[GROUP_EN] = "Sales"),
+    KEEPFILTERS(FactTransactions[VALID_SALE_PRICE_METRIC] = 1)
+)
+
+// Unweighted row-level mean among valid Sales records; retained outliers may affect the result.
+Average Sale Price per Sqft =
+CALCULATE(
+    AVERAGE(FactTransactions[SALE_PRICE_PER_SQFT]),
+    KEEPFILTERS(FactTransactions[GROUP_EN] = "Sales"),
+    KEEPFILTERS(FactTransactions[VALID_SALE_PRICE_METRIC] = 1)
+)
+
+// Sales records with the exact source label Off-Plan; intersects existing slicer filters.
+Off-Plan Sales Records =
+CALCULATE(
+    [Sales Records],
+    KEEPFILTERS(FactTransactions[IS_OFFPLAN_EN] = "Off-Plan")
+)
+
+// Sales records with the exact source label Ready; intersects existing slicer filters.
+Ready Sales Records =
+CALCULATE(
+    [Sales Records],
+    KEEPFILTERS(FactTransactions[IS_OFFPLAN_EN] = "Ready")
+)
+
+// Off-Plan Sales Records divided by Sales Records in the current filter context. Selecting Off-Plan makes its share 100%.
+Off-Plan Share =
+DIVIDE([Off-Plan Sales Records], [Sales Records])
+
+// Ready Sales Records divided by Sales Records in the current filter context.
+Ready Share =
+DIVIDE([Ready Sales Records], [Sales Records])
+
+// Sales records with exact USAGE_EN label Residential; property type is a separate source field.
+Residential Sales Records =
+CALCULATE(
+    [Sales Records],
+    KEEPFILTERS(FactTransactions[USAGE_EN] = "Residential")
+)
+
+// Residential Sales Records divided by all Sales Records in current filter context.
+Residential Share =
+DIVIDE([Residential Sales Records], [Sales Records])
+
+// Sales records with exact USAGE_EN label Commercial.
+Commercial Sales Records =
+CALCULATE(
+    [Sales Records],
+    KEEPFILTERS(FactTransactions[USAGE_EN] = "Commercial")
+)
+
+// Sales records with the unchanged source tenure label Free Hold.
+Freehold Sales Records =
+CALCULATE(
+    [Sales Records],
+    KEEPFILTERS(FactTransactions[IS_FREE_HOLD_EN] = "Free Hold")
+)
+
+// Sales records with the unchanged source tenure label Non Free Hold.
+Non-Freehold Sales Records =
+CALCULATE(
+    [Sales Records],
+    KEEPFILTERS(FactTransactions[IS_FREE_HOLD_EN] = "Non Free Hold")
+)
+
+// Full previous calendar month relative to the latest selected calendar date at or before the dataset cutoff. Retains non-date slicers. With no date filter this compares August to partial September; it is not a same-days comparison.
+Previous Month Sales Records =
+VAR LatestAvailableDate = [Latest Data Date]
+VAR AnchorDate =
+    MAXX(
+        FILTER(VALUES(DimDate[Date]), DimDate[Date] <= LatestAvailableDate),
+        DimDate[Date]
+    )
+VAR PriorMonthStart = EOMONTH(AnchorDate, -2) + 1
+VAR PriorMonthEnd = EOMONTH(AnchorDate, -1)
+RETURN
+    IF(
+        ISBLANK(AnchorDate),
+        BLANK(),
+        CALCULATE(
+            [Sales Records],
+            REMOVEFILTERS(DimDate),
+            DATESBETWEEN(DimDate[Date], PriorMonthStart, PriorMonthEnd)
+        )
+    )
+
+// Latest selected calendar month versus the full previous calendar month, retaining non-date slicers. Current month may be partial; read the Partial Month Warning. No forecasting or day normalization.
+MoM Sales Record Growth % =
+VAR LatestAvailableDate = [Latest Data Date]
+VAR AnchorDate =
+    MAXX(
+        FILTER(VALUES(DimDate[Date]), DimDate[Date] <= LatestAvailableDate),
+        DimDate[Date]
+    )
+VAR CurrentMonthStart = EOMONTH(AnchorDate, -1) + 1
+VAR CurrentMonthEnd = EOMONTH(AnchorDate, 0)
+VAR CurrentMonthRecords =
+    CALCULATE(
+        [Sales Records],
+        REMOVEFILTERS(DimDate),
+        DATESBETWEEN(DimDate[Date], CurrentMonthStart, CurrentMonthEnd)
+    )
+VAR PreviousMonthRecords = [Previous Month Sales Records]
+RETURN
+    IF(
+        ISBLANK(AnchorDate) || ISBLANK(CurrentMonthRecords),
+        BLANK(),
+        DIVIDE(CurrentMonthRecords - PreviousMonthRecords, PreviousMonthRecords)
+    )
+
+// Area with most Sales records within the current selection. Ties resolve by area name ascending; the source labels are unchanged.
+Top Area by Sales Records =
+VAR AreaCounts =
+    FILTER(
+        ADDCOLUMNS(VALUES(FactTransactions[AREA_EN]), "@SalesRecords", [Sales Records]),
+        [@SalesRecords] > 0
+    )
+VAR TopArea =
+    TOPN(1, AreaCounts, [@SalesRecords], DESC, FactTransactions[AREA_EN], ASC)
+RETURN
+    IF(
+        ISEMPTY(TopArea),
+        BLANK(),
+        CONCATENATEX(TopArea, COALESCE(FactTransactions[AREA_EN], "(Blank area)"), ", ")
+    )
+
+// Dataset-wide latest transaction date, unaffected by report slicers.
+Latest Data Date =
+CALCULATE(
+    MAX(FactTransactions[TRANSACTION_DATE]),
+    REMOVEFILTERS()
+)
+
+// Dataset-wide data-through label. Recomputed from the imported source; not hard-coded.
+Data Coverage Label =
+VAR CutoffDate = [Latest Data Date]
+RETURN
+    IF(
+        ISBLANK(CutoffDate),
+        "No source data loaded",
+        "Data through " & FORMAT(CutoffDate, "dd mmmm yyyy", "en-US")
+    )
+
+// Conservative coverage warning whenever the latest transaction date precedes its calendar month end. Does not assert completeness of earlier months.
+Partial Month Warning =
+VAR CutoffDate = [Latest Data Date]
+RETURN
+    IF(
+        NOT ISBLANK(CutoffDate) && CutoffDate < EOMONTH(CutoffDate, 0),
+        FORMAT(CutoffDate, "mmmm yyyy", "en-US") & " is a partial month.",
+        BLANK()
+    )

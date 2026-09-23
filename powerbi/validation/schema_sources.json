@@ -1,0 +1,12 @@
+{
+  "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json": "f82466b90b564efbe2a71d1916e8628acaf80a293a2f1e102955b95590ff3fcb.json",
+  "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json": "ff91d2fd85c4b04e28c246ca8e45d162433fc47c47352e190a81aa42e6558c3d.json",
+  "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json": "2958cbaedb1efd8a5df1a7c4d92f4dd1b44832051d9c6068b6435f46337ebf63.json",
+  "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualConfiguration/2.0.0/schema-embedded.json": "dc14feb9683a7d6717f71d34ca222c28ddfcbce22b4b61c8237dcb87974b7a2a.json",
+  "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/semanticQuery/1.2.0/schema.json": "4a6cf0fbaeb99ce265075536c372ea4903d86610e756d28ce5055e88eb37cc5a.json",
+  "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/formattingObjectDefinitions/1.3.0/schema.json": "64f0920e98fa4eb21f242cda378e4b81160d7ae70a725c59ea0bf34feec4cc6d.json",
+  "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json": "d978f94784533b37ad4b8a3968c7535e32889a4a0233ae62a1bea3a129f39a1f.json",
+  "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json": "ad6df07a3e99c7a567364391366efcf8044eaf99d6dd9fddd278c59826d56703.json",
+  "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/versionMetadata/1.0.0/schema.json": "bfc24a400e44c23bf46f4f92235e4ae1ce44d09e1c8887fa31ca1a7cf832fd7d.json",
+  "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.157.json": "fc8a5d96b2406ec5b1f974122b0fa9cbdc6f4152281cac1c05714538593bc8ae.json"
+}

@@ -1,0 +1,15 @@
+﻿{
+    "refreshSucceeded":  true,
+    "checkedUtc":  "2026-09-23T17:57:56.8856075Z",
+    "database":  "c6af5985-f4bf-4048-9fe6-19ee500708bf",
+    "tables":  [
+                   {
+                       "name":  "FactTransactions",
+                       "state":  "Ready"
+                   },
+                   {
+                       "name":  "DimDate",
+                       "state":  "Ready"
+                   }
+               ]
+}

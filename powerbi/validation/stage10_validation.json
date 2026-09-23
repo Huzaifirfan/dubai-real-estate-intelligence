@@ -1,0 +1,128 @@
+{
+  "checked_utc": "2026-09-23T18:13:28.473647+00:00",
+  "scope": "local files and source recalculation; does not execute DAX/M or render Power BI",
+  "protected_files_checked": 35,
+  "protected_files_changed": [],
+  "source_metrics": {
+    "rows": 159223,
+    "columns": 41,
+    "coverage_start": "2026-01-01",
+    "coverage_end": "2026-09-21",
+    "sales_records": 119549,
+    "distinct_sales_transaction_numbers": 119526,
+    "valid_sale_price_records": 119549,
+    "median_sale_price_per_sqft": 1716.7932418178125,
+    "average_sale_price_per_sqft": 1919.9384817267132,
+    "off_plan_sales_records": 81507,
+    "ready_sales_records": 38042,
+    "off_plan_share": 0.6817873842524822,
+    "ready_share": 0.31821261574751775,
+    "residential_sales_records": 116369,
+    "repeated_transaction_numbers": 772,
+    "repeated_ids_with_multiple_values": 476,
+    "monthly_sales": {
+      "2026-01": 17374,
+      "2026-02": 16989,
+      "2026-03": 13484,
+      "2026-04": 14017,
+      "2026-05": 10269,
+      "2026-06": 13931,
+      "2026-07": 13722,
+      "2026-08": 11844,
+      "2026-09": 7919
+    },
+    "top_area": [
+      "Madinat Al Mataar",
+      11950
+    ]
+  },
+  "json_files_parsed": 34,
+  "empty_artifact_files": [],
+  "dax_measure_count": 21,
+  "visual_types": {
+    "lineChart": 1,
+    "donutChart": 1,
+    "barChart": 2,
+    "cardVisual": 8,
+    "slicer": 5,
+    "textbox": 5
+  },
+  "schema_validated_files": [
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\.platform",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\page.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\kpi_distinct_sales\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\kpi_median_price\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\kpi_offplan_share\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\kpi_ready_share\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\kpi_residential_share\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\kpi_sales_records\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\kpi_top_area\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\kpi_valid_price\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\text_data_coverage\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\text_grain_note\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\text_partial_month\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\text_platform_subtitle\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\text_platform_title\\visual.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\pages.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\report.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\version.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\StaticResources\\RegisteredResources\\dubai_real_estate_theme.json",
+    "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.SemanticModel\\.platform",
+    "powerbi\\dubai_real_estate_theme.json"
+  ],
+  "schema_unavailable": [
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\chart_monthly_sales\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    },
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\chart_offplan_ready\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    },
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\chart_property_mix\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    },
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\chart_top10_areas\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    },
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_area\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    },
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_month\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    },
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_offplan\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    },
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_property\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    },
+    {
+      "file": "powerbi\\Dubai_Real_Estate_Intelligence\\Dubai_Real_Estate_Intelligence.Report\\definition\\pages\\executive_overview\\visuals\\slicer_value_band\\visual.json",
+      "schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+      "reason": "404 Client Error: Not Found for url: https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json"
+    }
+  ],
+  "external_schema_validation_complete": false,
+  "schema_validation_note": "Missing published schemas are a validation limitation, not proof of invalid files. Desktop-generated definitions are preserved; see live and native validation evidence.",
+  "source_sha256_before": "bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1",
+  "source_sha256_after": "bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1",
+  "source_unchanged": true,
+  "tracked_diff": "",
+  "errors": [],
+  "passed": true
+}

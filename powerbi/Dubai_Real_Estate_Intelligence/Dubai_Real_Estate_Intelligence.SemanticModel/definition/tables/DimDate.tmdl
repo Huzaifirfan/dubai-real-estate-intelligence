@@ -1,0 +1,83 @@
+table DimDate
+	lineageTag: 7e639555-732b-5bd2-8ecf-cd29cfd8e10f
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: yyyy-MM-dd
+		lineageTag: 8ac726a8-4dff-586e-b773-7da8b07d7d78
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		lineageTag: 9b64d8ae-a577-5259-b643-a56763ea2ba9
+		summarizeBy: none
+		sourceColumn: Year
+
+	column 'Month Number'
+		dataType: int64
+		lineageTag: 848665d1-1afe-5dac-8ed0-ab1c4c4a908b
+		summarizeBy: none
+		sourceColumn: Month Number
+
+	column 'Month Name'
+		dataType: string
+		lineageTag: 349eb8ca-294a-5068-8ac0-ee0517c99792
+		summarizeBy: none
+		sourceColumn: Month Name
+		sortByColumn: 'Month Number'
+
+	column 'Month Short'
+		dataType: string
+		lineageTag: 0139c951-21c3-5c61-ac28-34a9239efc2f
+		summarizeBy: none
+		sourceColumn: Month Short
+		sortByColumn: 'Month Number'
+
+	column 'Year Month'
+		dataType: string
+		lineageTag: 4ac6c883-5307-5690-a709-97d6e9a02b87
+		summarizeBy: none
+		sourceColumn: Year Month
+		sortByColumn: 'Year Month Sort'
+
+	column 'Year Month Sort'
+		dataType: int64
+		lineageTag: debaf927-394c-5bc5-8e89-0c34e38c236a
+		summarizeBy: none
+		sourceColumn: Year Month Sort
+
+	column Quarter
+		dataType: string
+		lineageTag: ac89b3c7-b763-5b74-8390-c2374aef9d99
+		summarizeBy: none
+		sourceColumn: Quarter
+
+	partition DimDate = m
+		mode: import
+		source =
+				let
+				    Dates = List.RemoveNulls(FactTransactions[TRANSACTION_DATE]),
+				    StartDate = Date.StartOfYear(List.Min(Dates)),
+				    EndDate = Date.EndOfYear(List.Max(Dates)),
+				    Calendar = Table.FromList(
+				        List.Dates(StartDate, Duration.Days(EndDate - StartDate) + 1, #duration(1, 0, 0, 0)),
+				        Splitter.SplitByNothing(), {"Date"}, null, ExtraValues.Error
+				    ),
+				    TypedDate = Table.TransformColumnTypes(Calendar, {{"Date", type date}}),
+				    AddYear = Table.AddColumn(TypedDate, "Year", each Date.Year([Date]), Int64.Type),
+				    AddMonthNumber = Table.AddColumn(AddYear, "Month Number", each Date.Month([Date]), Int64.Type),
+				    AddMonthName = Table.AddColumn(AddMonthNumber, "Month Name", each Date.ToText([Date], [Format = "MMMM", Culture = "en-US"]), type text),
+				    AddMonthShort = Table.AddColumn(AddMonthName, "Month Short", each Date.ToText([Date], [Format = "MMM", Culture = "en-US"]), type text),
+				    AddYearMonth = Table.AddColumn(AddMonthShort, "Year Month", each Date.ToText([Date], [Format = "yyyy-MM", Culture = "en-US"]), type text),
+				    AddYearMonthSort = Table.AddColumn(AddYearMonth, "Year Month Sort", each [Year] * 100 + [Month Number], Int64.Type),
+				    AddQuarter = Table.AddColumn(AddYearMonthSort, "Quarter", each "Q" & Text.From(Date.QuarterOfYear([Date]), "en-US"), type text)
+				in
+				    AddQuarter
+
+	annotation PBI_ResultType = Table
+
