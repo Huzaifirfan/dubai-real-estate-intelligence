@@ -1,0 +1,23 @@
+# Project Stage Summary
+
+Stages 1–11 establish the existing analytical project. Stage 12 packages that work for review without changing its analytical logic. The snapshot covers **1 January–21 September 2026**; September is partial.
+
+| Stage | Purpose | Main output | Key validation |
+| --- | --- | --- | --- |
+| 1 | Set up the project and validate the raw January sample | [Raw validation script](../src/01_validate_raw_data.py); terminal output | Read-only dimensions, schema, inferred types, duplicates and missing values; no data written. |
+| 2 | Profile the January sample | [Profiling script](../src/02_profile_data.py); terminal output | Dates, categories, cardinality, numeric extremes and repeated transaction numbers inspected without cleaning. |
+| 3 | Clean the January sample safely | [Cleaning script](../src/03_clean_transform_data.py); [report](../reports/stage3_cleaning_report.txt) | 22,492 → 22,461 rows after 31 exact duplicates removed; 29 columns; source SHA protected. |
+| 4 | Assemble nine original monthly sources | [YTD assembly script](../src/04_build_2026_ytd_dataset.py); [report](../reports/stage4_ytd_assembly_report.txt) | 159,454 rows × 22 columns; schemas and nine source hashes checked; 1,128 outside-file-month records reported and retained. |
+| 5 | Clean the assembled YTD dataset | [YTD cleaning script](../src/05_clean_2026_ytd.py); [report](../reports/stage5_ytd_cleaning_report.txt) | 231 exact duplicates removed → 159,223 rows × 30 columns; no date/numeric conversion failures; repeated IDs retained. |
+| 6 | Engineer analytical features | [Feature script](../src/06_engineer_features.py); [report](../reports/stage6_feature_engineering_report.txt) | 159,223 rows × 41 columns; all existing fields/rows preserved; 119,549 valid Sales price records; no non-Sales price metrics. |
+| 7 | Load and validate MySQL | [Schema](../sql/01_create_mysql_schema.sql), [loader](../src/07_load_mysql.py), [validation queries](../sql/02_validation_queries.sql); [report](../reports/stage7_mysql_load_report.txt) | 159,223 rows reconciled; 42 database columns including generated `ROW_ID`; precision and source hashes checked; 32 import batches. |
+| 8 | Answer business questions with SQL | [Business analysis SQL](../sql/03_business_analysis.sql); [results](../reports/stage8_sql_business_analysis_report.txt) | SELECT-only analysis; grain audit found 772 repeated IDs, including 476 with multiple values; naive market-value totals excluded. |
+| 9 | Build the Excel executive workbook | [Generator](../src/09_build_excel_workbook.py), [workbook](../excel/Dubai_Real_Estate_Intelligence_2026_YTD.xlsx); [report](../reports/stage9_excel_workbook_report.txt) | Current workbook passes programmatic checks: 7 sheets, 8 KPI cards, 4 executive charts, full-source KPI checks, 5,000 sample rows, 41 dictionary fields and 68 formulas. Recovery status below. |
+| 10 | Build the semantic model and Executive Overview | [PBIP](../powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.pbip); [report](../reports/stage10_powerbi_build_report.txt) | `FactTransactions` and `DimDate` refreshed in Desktop; 21 DAX measures executed; core KPIs matched independent source calculations. |
+| 11 | Expand and validate four analytical pages | [Visual specification](../powerbi/Stage11_Visual_Specification.md), [validation evidence](../powerbi/validation/stage11/); [report](../reports/stage11_powerbi_advanced_report.txt) | All four pages rendered; all 21 measures reused; Ready/September filter checks passed; source and analytical protection verified. |
+
+Stages 1–2 intentionally write no report files; their evidence is the scripts' terminal checks. Stage 3's cleaned January output is a separate branch: Stage 4 assembles the original monthly CSVs, and Stage 5 performs YTD cleaning.
+
+**Excel recovery status:** The initial Stage 12 inspection found a ZIP offset error. The workbook had already been regenerated when recovery resumed; programmatic validation and normal native Microsoft Excel opening passed, and recovery preserved that repaired file unchanged. The [Stage 12 report](../reports/stage12_portfolio_packaging_report.txt) records the resolved integrity issue, source protection and native Excel result.
+
+Validation evidence is preserved as recorded. Stage 10/11 reports note that the public visual-container schema was unavailable, with native Desktop/live-model checks used alongside available file validation. The reports do not claim exhaustive slicer testing, other Desktop-version compatibility, or Power BI Service deployment. Historical report paths may reference the machine on which their stage ran.

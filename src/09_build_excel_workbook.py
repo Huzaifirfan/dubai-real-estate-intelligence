@@ -1220,6 +1220,8 @@ def cache_formula_results(path, results):
             with ZipFile(temporary_name, "w") as destination:
                 for item in source.infolist():
                     destination.writestr(item, replacements.get(item.filename, source.read(item.filename)))
+            # Release the source ZIP before replacing it on Windows.
+            source.close()
             os.replace(temporary_name, path)
         finally:
             if os.path.exists(temporary_name):

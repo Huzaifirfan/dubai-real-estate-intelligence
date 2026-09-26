@@ -2,6 +2,15 @@
 __pycache__/
 .DS_Store
 .env
+.env.*
+!.env.example
 *.pyc
+data/raw/*.csv
+!data/raw/dld_transactions_sample_2026_01.csv
 data/processed/*.csv
 data/external/**/*.csv
+Thumbs.db
+Desktop.ini
+~$*
+.ipynb_checkpoints/
+.vscode/

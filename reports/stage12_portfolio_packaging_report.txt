@@ -1,0 +1,363 @@
+Dubai Real Estate Intelligence Platform
+STAGE 12 - GITHUB PORTFOLIO PACKAGING + FINAL PROJECT PRESENTATION
+============================================================================
+Scope: completed portfolio packaging plus targeted Excel integrity recovery only.
+Status: COMPLETE - repaired workbook validated; completed packaging preserved.
+No commit, staging, publication, new analysis or later-stage work performed.
+
+HISTORICAL INITIAL PACKAGING SNAPSHOT
+The following inspection, protection counts, limitations and git snapshot describe
+the initial packaging pass before the separately authorized Excel repair.
+Current recovery results and file inventory follow at the end of this report.
+
+INITIAL INSPECTION
+git status was clean on main before modifications.
+Baseline HEAD: 14e895ab845ad91ad79d1c9239e704f87ad05c0c
+Inspected the existing README, full project inventory (including local excluded
+data and PBIP caches), Python/SQL scripts, requirements, ignore rules, Stage 3-11
+reports and Stage 10/11 model/validation evidence. Stages 1-2 produce terminal
+checks; no saved Stage 1/2 reports exist. No missing report links were invented.
+Existing useful source-license/reproduction context was preserved in the README.
+The final workbook was inspected read-only; its existing package error is below.
+
+README AND DOCUMENTATION
+README.md upgraded from stale Stage 1 description to the completed analytical
+project. All 17 requested sections exist, with verified metrics, partial-month
+disclosure, transaction-grain decision, setup, image links and author placeholders.
+No personal URLs, source download URL, market totals, forecasts, investment
+recommendations, production deployment or measured business impact invented.
+Architecture: delivery sequence in README; delivery and actual data-flow diagrams
+in docs/PROJECT_ARCHITECTURE.md. Actual Excel/Power BI inputs are clarified.
+Walkthrough: approximately 3-5 minutes. Interview guide: all 11 requested topics.
+Resume entry: one-line, two-bullet, three-bullet and LinkedIn versions.
+Stage summary: compact Stages 1-11 table with linked outputs and validation.
+
+SCREENSHOTS
+Four final native Desktop captures copied byte-for-byte. Originals untouched.
+Executive Overview uses the filters-cleared final capture selected by Stage 11,
+not the initial capture or the misleadingly named diagnostic desktop window.
+All four visually inspected; no visible credential information observed.
+All four PNG signatures, chunk CRCs and compressed image streams pass checks.
+Each copy hash equals the original and desktop_render_validation.json hash.
+  Source: powerbi/validation/stage11/executive_overview_cleared.png
+  Copy: images/powerbi/executive_overview.png
+  SHA-256: 9dc6d0da6fed834736b913a058cd271c2c86d7999e7493df9748b8f06e6d5dad
+  Dimensions: 1040 x 744
+  Source: powerbi/validation/stage11/market_trends.png
+  Copy: images/powerbi/market_trends.png
+  SHA-256: 9fc30eb6ebf20ddce443e08620e4e394dbf6086e3b57589b6a2f71ba85907070
+  Dimensions: 1040 x 744
+  Source: powerbi/validation/stage11/area_intelligence.png
+  Copy: images/powerbi/area_intelligence.png
+  SHA-256: f605a6140952e84e131cd81628f20bed6297854f427335be76c224d816be7b21
+  Dimensions: 1040 x 744
+  Source: powerbi/validation/stage11/property_pricing.png
+  Copy: images/powerbi/property_pricing.png
+  SHA-256: 806b552689f711ac01b231a957aacd095ce24706da6447047b852a83067f3629
+  Dimensions: 1040 x 744
+
+LINK AND MARKDOWN VALIDATION
+6 Markdown files checked (README plus 5 new documents).
+91 relative links, including image paths, document links, README anchor, workbook,
+PBIP, SQL and Python paths: all resolve. Broken relative links: 0.
+No fake external URLs created. Four README image links resolve to valid PNGs.
+Markdown parsed with installed mistune and table support: 7 tables parsed.
+One H1 per document, required README headings, fenced code, image alt text, UTF-8
+and folder-tree fence checked. No replacement characters or malformed fences.
+Three Mermaid blocks use simple flowcharts with quoted labels; static syntax,
+directions, edge statements and declared node references pass. GitHub rendering
+was not executed; no browser-rendering claim is made.
+Stage 12 tracked-document git diff --check: PASS.
+Full-tree diff --check flags only the independently appearing blank line at EOF
+in src/01_validate_raw_data.py; that edit is preserved, as described below.
+
+SECRET / PRIVACY CHECK
+Initial scan: 202 tracked text files out of 212 tracked files.
+After documentation: 207 tracked/new text files; this report reviewed separately.
+No obvious literal credentials, private keys, recognized API/token patterns or
+credential-bearing URLs found in the inspected text. MYSQL_PASSWORD/password
+matches are environment/config references; token matches relate to formula parsing.
+Local .env exists, is ignored and untracked; its contents were not opened.
+Power BI .pbi settings/cache are ignored and untracked.
+No secret values were printed or included in new documentation.
+Scope limit: no Git-history forensic scan; binary workbook package cannot be
+inspected because it is invalid. PNGs were reviewed visually, not scanned with OCR.
+Existing absolute local paths in 15 files describe project/data/cache locations,
+not credentials. Historical evidence preserved; no new personal absolute paths
+were added to the public-facing README/docs.
+
+GITIGNORE / CLEANUP REVIEW
+Existing .venv, Python bytecode, .DS_Store, .env, processed/external CSV and nested
+Power BI .pbi/unappliedChanges exclusions retained. requirements.txt unchanged.
+Added: .env.* with !.env.example; data/raw/*.csv with an exception for the existing
+January sample; Thumbs.db; Desktop.ini; ~$*; .ipynb_checkpoints/; .vscode/.
+Ignore probes pass for local credentials, bulk data, Office/system/editor files
+and Power BI local settings. No tracked caches/temp/credential files found.
+Only the existing January CSV sample is tracked; remaining monthly sources and
+processed data are local and excluded. README states this exception explicitly.
+No file deleted or untracked. Stage 10/11 evidence and prior reports preserved.
+Recommendation: keep diagnostic/recovery evidence for auditability and direct
+recruiters to the four curated screenshots. Do not delete committed evidence.
+Recommendation: consider explicit binary Git attributes during a separately
+reviewed workbook-restoration task; the current corruption cause is not proven.
+
+SOURCE AND ANALYTICAL PROTECTION
+Baseline hashing occurred before the first Stage 12 modification.
+All 13 raw/external/processed CSV hashes match before/after values.
+Final analytics source: data/processed/dld_transactions_2026_ytd_features.csv
+SHA-256 before: bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+SHA-256 after:  bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+Source unchanged: YES.
+224 existing files under data/src/sql/excel/powerbi/reports were hashed.
+223 remain byte-identical; one concurrent whitespace-only workspace change is
+listed below. Excel, SQL schema/queries, all Power BI files (including local
+cache/settings), original screenshots and all prior reports are unchanged.
+No analytical scripts, SQL queries, MySQL operations, workbook regeneration or
+Power BI refresh were executed in Stage 12.
+Analytical logic changed by Stage 12: NO.
+Analytical files with a working-tree diff: YES - one independent formatting edit.
+
+INDEPENDENT WORKSPACE CHANGE PRESERVED
+src/01_validate_raw_data.py gained one blank line at EOF during inspection.
+It was not changed by Stage 12 tooling, and its author is not inferred.
+Python AST comparison against HEAD: identical. Analytical logic unchanged.
+Before SHA-256: 149110f4088b048714116ea6869761c0091656bae5795da3bb9908813752a203
+After SHA-256:  6ffe8788905f19fc0141293c05b8f6c84a09c40743ab9ceb6b1c65668ef95374
+No attempt was made to revert this workspace edit.
+
+CSV SHA-256 INVENTORY
+Path: data/processed/dld_transactions_2026_ytd.csv
+  Before: 1d2a39631424a2b240e0320d86c373891f3efbcd666720a1d9a9954cef885fa0
+  After:  1d2a39631424a2b240e0320d86c373891f3efbcd666720a1d9a9954cef885fa0
+  Unchanged: YES
+Path: data/processed/dld_transactions_2026_ytd_clean.csv
+  Before: b27e19c482dc663aca9008b809bbca01194a6581eaae3b81aa26bc89d6387901
+  After:  b27e19c482dc663aca9008b809bbca01194a6581eaae3b81aa26bc89d6387901
+  Unchanged: YES
+Path: data/processed/dld_transactions_2026_ytd_features.csv
+  Before: bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+  After:  bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+  Unchanged: YES
+Path: data/processed/dld_transactions_clean_2026_01.csv
+  Before: ec407e5325f067ce22ce342c6fc20a82e1dea511da0b1f5d6c986c31c96938fe
+  After:  ec407e5325f067ce22ce342c6fc20a82e1dea511da0b1f5d6c986c31c96938fe
+  Unchanged: YES
+Path: data/raw/dld_transactions_sample_2026_01.csv
+  Before: fc741ffcb79dc2ddbace178dfad050ba6c852738cce9370e08870ff148da6f17
+  After:  fc741ffcb79dc2ddbace178dfad050ba6c852738cce9370e08870ff148da6f17
+  Unchanged: YES
+Path: data/external/2026_monthly/dld_transactions_2026_02.csv
+  Before: 5d88f530239c67dd864828b4121ffc2f5ba2cb6b4b3f5e89983e70e982eb6bd8
+  After:  5d88f530239c67dd864828b4121ffc2f5ba2cb6b4b3f5e89983e70e982eb6bd8
+  Unchanged: YES
+Path: data/external/2026_monthly/dld_transactions_2026_03.csv
+  Before: 17959df02f421180ea26962e1fbaac7f0e55f7b8ec692f058df704a84c85e203
+  After:  17959df02f421180ea26962e1fbaac7f0e55f7b8ec692f058df704a84c85e203
+  Unchanged: YES
+Path: data/external/2026_monthly/dld_transactions_2026_04.csv
+  Before: 46d402b2c50880363b99c714822971808517ce58ed4f482f2c656661e6b8e830
+  After:  46d402b2c50880363b99c714822971808517ce58ed4f482f2c656661e6b8e830
+  Unchanged: YES
+Path: data/external/2026_monthly/dld_transactions_2026_05.csv
+  Before: 0d0888acf3156293c09161bab4330c8c319b106a89abbb72c77ea445e08c11cc
+  After:  0d0888acf3156293c09161bab4330c8c319b106a89abbb72c77ea445e08c11cc
+  Unchanged: YES
+Path: data/external/2026_monthly/dld_transactions_2026_06.csv
+  Before: 494f353f3499951f359f7df28a046a0c4fa74988b18463516a55f9c25063c538
+  After:  494f353f3499951f359f7df28a046a0c4fa74988b18463516a55f9c25063c538
+  Unchanged: YES
+Path: data/external/2026_monthly/dld_transactions_2026_07.csv
+  Before: f2b29dcb2b86f0a72babed07f687eddb24e3e7d4cabba79d9c8cbf1c89efa93d
+  After:  f2b29dcb2b86f0a72babed07f687eddb24e3e7d4cabba79d9c8cbf1c89efa93d
+  Unchanged: YES
+Path: data/external/2026_monthly/dld_transactions_2026_08.csv
+  Before: d7a3139823243647c2e70a1333e6520d2322a0fa5bfb35a19251ca71bbbfcd1f
+  After:  d7a3139823243647c2e70a1333e6520d2322a0fa5bfb35a19251ca71bbbfcd1f
+  Unchanged: YES
+Path: data/external/2026_monthly/dld_transactions_2026_09.csv
+  Before: 241c5715cc10564c081145ad67448da9cc0d16625a052bae3a238bd6e28357e5
+  After:  241c5715cc10564c081145ad67448da9cc0d16625a052bae3a238bd6e28357e5
+  Unchanged: YES
+
+FILES CREATED BY STAGE 12 (10)
+  docs/INTERVIEW_TALKING_POINTS.md
+  docs/PROJECT_ARCHITECTURE.md
+  docs/PROJECT_STAGE_SUMMARY.md
+  docs/RECRUITER_WALKTHROUGH.md
+  docs/RESUME_PROJECT_ENTRY.md
+  images/powerbi/area_intelligence.png
+  images/powerbi/executive_overview.png
+  images/powerbi/market_trends.png
+  images/powerbi/property_pricing.png
+  reports/stage12_portfolio_packaging_report.txt
+
+FILES MODIFIED BY STAGE 12 (2)
+  README.md
+  .gitignore
+
+OTHER MODIFIED WORKSPACE FILE (not authored by Stage 12)
+  src/01_validate_raw_data.py - one extra blank line only
+
+HISTORICAL LIMITATIONS AT INITIAL PACKAGING
+1. XLSX corruption (RESOLVED by the targeted repair): initial inspection reported
+   Bad offset for central directory. At that time the working file, HEAD and
+   original workbook commit contained identical bytes; this predated Stage 12.
+   Initial size: 2,311,816 bytes; the Stage 9 report then described 1,286,864 bytes.
+   Initial workbook SHA-256 before/after:
+   8f2ca98440e821d69491f5e56fa3aa52b12a592c4719f1effc5bf300f8b70c8a
+   At initial inspection, content checks relied on the historical report and
+   generator. Restoration and native opening validation have since completed;
+   see the recovery results below for direct checks of the repaired file.
+2. September is partial; official capitalization variants and price outliers
+   remain; transaction-grain uncertainty prevents naive market-value totals.
+3. Full reproduction requires excluded monthly data. Official source download
+   URL/date is not recorded. Dependency versions are not pinned.
+4. Native Desktop screenshots retain UI chrome/local number formatting and some
+   scrollable/clipped labels at 1040 x 744. No screenshots were altered or invented.
+5. Power BI SourceFile is machine-specific. Prior evidence notes unavailable
+   visualContainer 2.12 public schemas, selected rather than exhaustive slicer
+   tests, and no other-version or Service deployment validation.
+6. Author/profile links remain placeholders for the owner to complete.
+
+HISTORICAL PACKAGING GIT SAFETY
+HEAD unchanged: 14e895ab845ad91ad79d1c9239e704f87ad05c0c
+No changes staged; no commit made. Stage 12 changes left for review.
+Final git status --short --untracked-files=all follows:
+ M .gitignore
+ M README.md
+ M src/01_validate_raw_data.py
+?? docs/INTERVIEW_TALKING_POINTS.md
+?? docs/PROJECT_ARCHITECTURE.md
+?? docs/PROJECT_STAGE_SUMMARY.md
+?? docs/RECRUITER_WALKTHROUGH.md
+?? docs/RESUME_PROJECT_ENTRY.md
+?? images/powerbi/area_intelligence.png
+?? images/powerbi/executive_overview.png
+?? images/powerbi/market_trends.png
+?? images/powerbi/property_pricing.png
+?? reports/stage12_portfolio_packaging_report.txt
+
+STAGE 12 TARGETED EXCEL RECOVERY - 26 SEPTEMBER 2026
+============================================================================
+Recovery status: COMPLETE. No restart of portfolio packaging or later-stage work.
+Evidence: reports/stage12_excel_recovery_validation.json
+
+INSPECT / CLASSIFY / PRESERVE
+Initial recovery git status was inspected before any changes. Existing edits to
+.gitignore, README, workbook, Stage 9 report, src/01_validate_raw_data.py and
+untracked portfolio documents/screenshots/report were preserved.
+Prior recovery baseline and file timestamps establish that the interrupted run
+already regenerated the workbook (2026-09-25 19:35:59 UTC) and Stage 9 report.
+The current workbook was healthy at recovery entry; no regeneration was needed.
+Historical native Excel evidence covered an older build. No successful native
+evidence for the current workbook existed, so a current native test was required.
+
+Excel workbook integrity: COMPLETE -> COMPLETE. Preserved already regenerated workbook byte-for-byte; no recovery regeneration.
+Stage 9 workbook generator: PARTIAL -> COMPLETE. Released source ZIP handle before atomic replacement; focused Windows test passed; analytical AST unchanged apart from source.close().
+Stage 9 report: COMPLETE -> COMPLETE. Preserved byte-for-byte; separate native validation now recorded here.
+Stage 12 report: PARTIAL -> COMPLETE. Preserved initial packaging history and added current recovery results.
+README Excel-status wording: PARTIAL -> COMPLETE. Updated stale current-failure wording; resolved failure retained as history.
+native Excel validation: MISSING -> COMPLETE. Actually opened this workbook read-only in installed Excel 14.0 build 4734; hash-bound evidence recorded.
+source SHA protection: COMPLETE -> COMPLETE. Rechecked 159223 rows x 41 columns and identical source SHA before/after.
+
+TARGETED GENERATOR FIX
+The previous run needed a temporary runtime source.close() before os.replace.
+A tiny temporary workbook reproduced WinError 5 in the repository generator.
+The only code change releases the source ZIP handle before Windows replacement.
+Focused checks confirm numeric/text formula caches, preserved formulas and temp
+cleanup. AST comparison differs only by source.close(); analytical logic is unchanged.
+The healthy project workbook was not regenerated to test this fix.
+
+CURRENT WORKBOOK VALIDATION
+Programmatic open: PASS, formula and cached-value modes; no loader warnings.
+ZIP CRC, worksheet-view XML and internal sheet relationships: PASS.
+Sheets: exactly Executive Summary | Monthly Analysis | Area Analysis |
+  Segment Analysis | Data Sample | Data Dictionary | Notes.
+Executive Summary: 8 KPI cards; 4 charts (6 charts across the workbook).
+All 8 KPIs match independent calculations from the complete protected CSV.
+Data Sample: exactly 5,000 data rows x 41 columns; all 205,000 cells compared
+against the deterministic source sample; headers and source order match.
+Data Dictionary: exactly 41 source fields; no ROW_ID.
+September: visibly marked partial; Monthly Analysis C16 = September (partial),
+K16 = Yes. No Total Sales Value KPI exists.
+All 68 formulas evaluate with valid references and matching cached results.
+No #REF!, #DIV/0!, #VALUE! or other Excel error cells; no external workbook links.
+Current workbook size: 1,286,869 bytes.
+Workbook SHA-256 before/after recovery (identical):
+4c0df0ab337b7dddb232745eeadffcde7f2b6b0f7c09873d69bd959b53851acd
+
+NATIVE MICROSOFT EXCEL
+Actually opened the current workbook in Excel 14.0 build 4734, read-only, with
+alerts enabled, macros disabled and UpdateLinks=0. Normal open returned without
+a repair prompt observed; no repair/extract mode was requested.
+The first call specifying all optional COM arguments returned an opening error.
+The minimal normal Workbooks.Open(path, 0, true) call succeeded; this invocation
+change did not modify the workbook. Both attempts are retained in JSON evidence.
+Native results: 7 expected sheets; 8 matching KPI values; 4 executive charts;
+5,000 x 41 sample; 41 dictionary fields; partial September labels; zero error
+cells across all seven sheets. Closed without saving; workbook SHA unchanged.
+Native evidence limits: RepairMode returned null in this Excel version, so no
+false repair flag is asserted. CalculationState was 2 (pending) after full
+rebuild; completed native full recalculation is not claimed. Formula correctness
+is independently established by evaluation and cache checks of all 68 formulas.
+Other Excel versions and a visual layout audit were not tested in this recovery.
+
+SOURCE PROTECTION
+Source: data/processed/dld_transactions_2026_ytd_features.csv
+Rows: 159,223; columns: 41.
+Source SHA-256 before: bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+Source SHA-256 after:  bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+Source unchanged: YES.
+Source CSV, Stages 1-8 logic, SQL, MySQL, Power BI/DAX/visuals, feature engineering
+and cleaning rules were not changed. No database or Power BI operation occurred.
+Stage 9 report preserved byte-for-byte; its native-validation qualification is
+satisfied by the separate evidence recorded here.
+No unexpected interrupted partial/temporary/corrupt recovery outputs were found.
+Intentional .gitkeep files and the prior corrupt-workbook backup were preserved.
+
+DOCUMENTATION AND EXACT RECOVERY FILE CHANGES
+README updated: YES. Stage 12 report updated: YES.
+Five packaging documents had only stale Excel status wording corrected.
+Resolved corruption history retained; current unreadability claims removed.
+Modified during this recovery (8):
+  README.md
+  docs/INTERVIEW_TALKING_POINTS.md
+  docs/PROJECT_ARCHITECTURE.md
+  docs/PROJECT_STAGE_SUMMARY.md
+  docs/RECRUITER_WALKTHROUGH.md
+  docs/RESUME_PROJECT_ENTRY.md
+  reports/stage12_portfolio_packaging_report.txt
+  src/09_build_excel_workbook.py
+Created during this recovery (1):
+  reports/stage12_excel_recovery_validation.json
+Already repaired outputs preserved: workbook and Stage 9 report.
+Existing packaging and independent workspace edits remain uncommitted.
+
+FINAL RECOVERY VERIFICATION
+All 97 relative documentation links resolve. All 215 baseline files outside
+the exact eight-file recovery modification list remain byte-identical. One new
+validation JSON was created; no unexpected partial files remain. Targeted
+recovery diff checks pass. Full-tree git diff --check still reports the pre-existing
+blank line at src/01_validate_raw_data.py:119; that unrelated edit is preserved.
+
+CURRENT GIT SAFETY
+HEAD unchanged: 14e895ab845ad91ad79d1c9239e704f87ad05c0c
+No files staged; no commit made. Changes left for review; work remains in Stage 12.
+Final git status --short --untracked-files=all:
+ M .gitignore
+ M README.md
+ M excel/Dubai_Real_Estate_Intelligence_2026_YTD.xlsx
+ M reports/stage9_excel_workbook_report.txt
+ M src/01_validate_raw_data.py
+ M src/09_build_excel_workbook.py
+?? docs/INTERVIEW_TALKING_POINTS.md
+?? docs/PROJECT_ARCHITECTURE.md
+?? docs/PROJECT_STAGE_SUMMARY.md
+?? docs/RECRUITER_WALKTHROUGH.md
+?? docs/RESUME_PROJECT_ENTRY.md
+?? images/powerbi/area_intelligence.png
+?? images/powerbi/executive_overview.png
+?? images/powerbi/market_trends.png
+?? images/powerbi/property_pricing.png
+?? reports/stage12_excel_recovery_validation.json
+?? reports/stage12_portfolio_packaging_report.txt

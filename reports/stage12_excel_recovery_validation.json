@@ -1,0 +1,273 @@
+{
+  "stage": 12,
+  "recovery_time_utc": "2026-09-26T06:28:55.544668+00:00",
+  "status": "PASS",
+  "classifications": {
+    "Excel workbook integrity": {
+      "before": "COMPLETE",
+      "after": "COMPLETE",
+      "action": "Preserved already regenerated workbook byte-for-byte; no recovery regeneration."
+    },
+    "Stage 9 workbook generator": {
+      "before": "PARTIAL",
+      "after": "COMPLETE",
+      "action": "Released source ZIP handle before atomic replacement; focused Windows test passed; analytical AST unchanged apart from source.close()."
+    },
+    "Stage 9 report": {
+      "before": "COMPLETE",
+      "after": "COMPLETE",
+      "action": "Preserved byte-for-byte; separate native validation now recorded here."
+    },
+    "Stage 12 report": {
+      "before": "PARTIAL",
+      "after": "COMPLETE",
+      "action": "Preserved initial packaging history and added current recovery results."
+    },
+    "README Excel-status wording": {
+      "before": "PARTIAL",
+      "after": "COMPLETE",
+      "action": "Updated stale current-failure wording; resolved failure retained as history."
+    },
+    "native Excel validation": {
+      "before": "MISSING",
+      "after": "COMPLETE",
+      "action": "Actually opened this workbook read-only in installed Excel 14.0 build 4734; hash-bound evidence recorded."
+    },
+    "source SHA protection": {
+      "before": "COMPLETE",
+      "after": "COMPLETE",
+      "action": "Rechecked 159223 rows x 41 columns and identical source SHA before/after."
+    }
+  },
+  "historical_issue": {
+    "error": "Bad offset for central directory",
+    "workbook_size_bytes": 2311816,
+    "workbook_sha256": "8f2ca98440e821d69491f5e56fa3aa52b12a592c4719f1effc5bf300f8b70c8a",
+    "cause": "Not established; separate older worksheet-view fix already exists in generator.",
+    "already_regenerated_before_recovery": true,
+    "regeneration_time_utc": "2026-09-25T19:35:59Z",
+    "previous_run_windows_workaround": "Temporary runtime source.close() before os.replace; now included in generator."
+  },
+  "programmatic_validation": {
+    "status": "PASS",
+    "time_utc": "2026-09-26T06:23:24.446230+00:00",
+    "workbook_sha256": "4c0df0ab337b7dddb232745eeadffcde7f2b6b0f7c09873d69bd959b53851acd",
+    "workbook_size_bytes": 1286869,
+    "source_rows": 159223,
+    "source_columns": 41,
+    "source_sha256_before": "bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1",
+    "source_sha256_after": "bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1",
+    "source_unchanged": true,
+    "sheet_names": [
+      "Executive Summary",
+      "Monthly Analysis",
+      "Area Analysis",
+      "Segment Analysis",
+      "Data Sample",
+      "Data Dictionary",
+      "Notes"
+    ],
+    "kpi_cells": {
+      "Sales Records": "A8",
+      "Distinct Sales Transaction Numbers": "E8",
+      "Median Sale Price per Sqft": "I8",
+      "Off-Plan Share of Sales Records": "M8",
+      "Ready Share of Sales Records": "A14",
+      "Residential Share of Sales Records": "E14",
+      "Top Area by Sales Records": "I14",
+      "Valid Sale Price Metric Records": "M14"
+    },
+    "kpis": {
+      "Sales Records": 119549,
+      "Distinct Sales Transaction Numbers": 119526,
+      "Median Sale Price per Sqft": "1716.7932418178125",
+      "Off-Plan Share of Sales Records": "0.6817873842524822",
+      "Ready Share of Sales Records": "0.31821261574751775",
+      "Residential Share of Sales Records": "0.9734000284402211",
+      "Top Area by Sales Records": "Madinat Al Mataar",
+      "Valid Sale Price Metric Records": 119549
+    },
+    "executive_chart_count": 4,
+    "total_chart_count": 6,
+    "sample_rows": 5000,
+    "sample_columns": 41,
+    "sample_cells_compared": 205000,
+    "dictionary_fields": 41,
+    "formula_count": 68,
+    "checks": [
+      "PASS: sheet1.xml maps to Executive Summary; no pane and one A1 selection",
+      "PASS: Saved worksheet-view XML is consistent: Executive Summary",
+      "PASS: Saved worksheet-view XML is consistent: Monthly Analysis",
+      "PASS: Saved worksheet-view XML is consistent: Area Analysis",
+      "PASS: Saved worksheet-view XML is consistent: Segment Analysis",
+      "PASS: Saved worksheet-view XML is consistent: Data Sample",
+      "PASS: Saved worksheet-view XML is consistent: Data Dictionary",
+      "PASS: Saved worksheet-view XML is consistent: Notes",
+      "PASS: Active workbook tab and selected worksheet agree; no conflicting pane selections",
+      "PASS: Exactly the seven requested sheets exist and reopen successfully",
+      "PASS: All eight KPI cards reference analysis-sheet formulas",
+      "PASS: Executive Summary contains four charts",
+      "PASS: Six workbook charts including Monthly and Area analysis charts",
+      "PASS: Monthly analysis contains January through September",
+      "PASS: September is visibly marked partial",
+      "PASS: January MoM is blank",
+      "PASS: Area analysis contains 25 source labels",
+      "PASS: Sample contains exactly 5,000 data rows and 41 columns",
+      "PASS: All 41 sample source headers retain original order and names",
+      "PASS: Data dictionary documents all 41 source fields without ROW_ID",
+      "PASS: Workbook has no external workbook links",
+      "PASS: No Excel error cells in Executive Summary",
+      "PASS: No Excel error cells in Monthly Analysis",
+      "PASS: No Excel error cells in Area Analysis",
+      "PASS: No Excel error cells in Segment Analysis",
+      "PASS: No Excel error cells in Data Sample",
+      "PASS: No Excel error cells in Data Dictionary",
+      "PASS: No Excel error cells in Notes",
+      "PASS: All 68 formulas evaluated and cached without broken references",
+      "PASS: KPI matches independent full-source calculation: Sales Records",
+      "PASS: KPI matches independent full-source calculation: Distinct Sales Transaction Numbers",
+      "PASS: KPI matches independent full-source calculation: Median Sale Price per Sqft",
+      "PASS: KPI matches independent full-source calculation: Off-Plan Share of Sales Records",
+      "PASS: KPI matches independent full-source calculation: Ready Share of Sales Records",
+      "PASS: KPI matches independent full-source calculation: Residential Share of Sales Records",
+      "PASS: KPI matches independent full-source calculation: Top Area by Sales Records",
+      "PASS: KPI matches independent full-source calculation: Valid Sale Price Metric Records",
+      "PASS: No Total Sales Value KPI exists",
+      "PASS: All 205,000 sample cells preserve their selected source values",
+      "PASS: Workbook is below 50 MB"
+    ],
+    "warnings": [],
+    "regenerated_during_recovery": false
+  },
+  "generator_validation": {
+    "status": "PASS",
+    "original_failure": "WinError 5 reproduced with open source ZIP on Windows",
+    "fix": "Close source ZIP before atomic replacement",
+    "numeric_cache": 10,
+    "text_cache": "Unavailable",
+    "formulas_preserved": true,
+    "temporary_files_cleaned": true,
+    "ast_difference_only_source_close": true,
+    "project_workbook_regenerated": false
+  },
+  "native_excel_validation": {
+    "timestamp_utc": "2026-09-26T06:25:16.3855483Z",
+    "application_created": true,
+    "opened": true,
+    "open_mode": "read-only; UpdateLinks=0; default normal load (no repair requested)",
+    "display_alerts": true,
+    "macros_disabled": true,
+    "success": true,
+    "workbook_sha256_before": "4c0df0ab337b7dddb232745eeadffcde7f2b6b0f7c09873d69bd959b53851acd",
+    "version": "14.0",
+    "build": 4734,
+    "window_handle": 262904,
+    "read_only": true,
+    "repair_mode": null,
+    "saved_after_open": false,
+    "sheet_names": [
+      "Executive Summary",
+      "Monthly Analysis",
+      "Area Analysis",
+      "Segment Analysis",
+      "Data Sample",
+      "Data Dictionary",
+      "Notes"
+    ],
+    "sheet_count": 7,
+    "calculation_state": 2,
+    "executive_charts": 4,
+    "kpi_values": {
+      "A8": 119549,
+      "E8": 119526,
+      "I8": 1716.793241817812,
+      "M8": 0.6817873842524822,
+      "A14": 0.31821261574751775,
+      "E14": 0.9734000284402211,
+      "I14": "Madinat Al Mataar",
+      "M14": 119549
+    },
+    "error_cell_counts": {
+      "Executive Summary": 0,
+      "Monthly Analysis": 0,
+      "Area Analysis": 0,
+      "Segment Analysis": 0,
+      "Data Sample": 0,
+      "Data Dictionary": 0,
+      "Notes": 0
+    },
+    "sample_rows": 5000,
+    "sample_columns": 41,
+    "dictionary_fields": 41,
+    "september_label": "September (partial)",
+    "september_partial": "Yes",
+    "opening_error": false,
+    "repair_warning_observed": false,
+    "closed_without_saving": true,
+    "workbook_sha256_after": "4c0df0ab337b7dddb232745eeadffcde7f2b6b0f7c09873d69bd959b53851acd",
+    "workbook_unchanged": true
+  },
+  "native_excel_first_attempt": {
+    "timestamp_utc": "2026-09-26T06:24:05.3316351Z",
+    "application_created": true,
+    "opened": false,
+    "open_mode": "read-only; UpdateLinks=0; CorruptLoad=0 (normal load)",
+    "display_alerts": true,
+    "macros_disabled": true,
+    "success": false,
+    "workbook_sha256_before": "4c0df0ab337b7dddb232745eeadffcde7f2b6b0f7c09873d69bd959b53851acd",
+    "version": "14.0",
+    "build": 4734,
+    "window_handle": 197364,
+    "error_type": "System.Runtime.InteropServices.COMException",
+    "error_message": "Unable to get the Open property of the Workbooks class",
+    "closed_without_saving": true,
+    "workbook_sha256_after": "4c0df0ab337b7dddb232745eeadffcde7f2b6b0f7c09873d69bd959b53851acd",
+    "workbook_unchanged": true
+  },
+  "native_validation_limits": [
+    "First call with all optional COM Open arguments failed; minimal normal read-only Open succeeded without a repair prompt observed.",
+    "Excel 14.0 did not expose a usable RepairMode property (null), so no false repair-mode value is asserted.",
+    "CalculationState was 2 (pending) after CalculateFullRebuild; no completed native full-recalculation claim is made. All eight native KPI values matched and error scans returned zero on all seven sheets; all 68 formulas and caches independently passed programmatic evaluation.",
+    "No validation of other Excel versions or visual layout audit was performed during this recovery."
+  ],
+  "source_protection": {
+    "rows": 159223,
+    "columns": 41,
+    "sha256_before": "bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1",
+    "sha256_after": "bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1",
+    "unchanged": true
+  },
+  "workbook_preserved_during_recovery": true,
+  "stage9_report_preserved_during_recovery": true,
+  "interrupted_file_scan": "No unexpected zero-byte, temporary, partial, cache-replacement or lock files in relevant repository directories; intentional .gitkeep placeholders and prior backups preserved.",
+  "recovery_modified_files": [
+    "README.md",
+    "docs/INTERVIEW_TALKING_POINTS.md",
+    "docs/PROJECT_ARCHITECTURE.md",
+    "docs/PROJECT_STAGE_SUMMARY.md",
+    "docs/RECRUITER_WALKTHROUGH.md",
+    "docs/RESUME_PROJECT_ENTRY.md",
+    "reports/stage12_portfolio_packaging_report.txt",
+    "src/09_build_excel_workbook.py"
+  ],
+  "recovery_created_files": [
+    "reports/stage12_excel_recovery_validation.json"
+  ],
+  "committed": false,
+  "staged": false,
+  "head": "14e895ab845ad91ad79d1c9239e704f87ad05c0c",
+  "final_recovery_checks": {
+    "status": "PASS",
+    "relative_links_checked": 97,
+    "broken_relative_links": 0,
+    "baseline_files_preserved": 215,
+    "recovery_modified_files": 8,
+    "recovery_created_files": 1,
+    "unexpected_partial_files": 0,
+    "recovery_diff_check": "PASS",
+    "full_tree_diff_check": "Pre-existing blank line at EOF in src/01_validate_raw_data.py:119 preserved.",
+    "head_unchanged": true,
+    "no_staged_changes": true
+  }
+}

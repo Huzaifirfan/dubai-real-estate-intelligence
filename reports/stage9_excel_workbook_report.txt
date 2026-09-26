@@ -2,8 +2,8 @@ Dubai Real Estate Intelligence Platform
 Stage 9 - Excel Executive Analysis Workbook
 ============================================================================
 Status: SUCCESS
-Input CSV: data/processed/dld_transactions_2026_ytd_features.csv
-Output workbook: excel/Dubai_Real_Estate_Intelligence_2026_YTD.xlsx
+Input CSV: data\processed\dld_transactions_2026_ytd_features.csv
+Output workbook: excel\Dubai_Real_Estate_Intelligence_2026_YTD.xlsx
 Source encoding: utf-8-sig
 Source rows: 159,223
 Source columns: 41
@@ -17,7 +17,7 @@ Sample strata: 27; allocation range: 15–546
 Sample source row positions SHA-256: dfee07ff0724a2468c5898b0c95133bd92d49c0b3b372faa2087ef0ff56d5d6b
 Chart count: 6 total; 4 Executive Summary; 1 Monthly Analysis; 1 Area Analysis
 Formula cells: 68; internally evaluated and cached; Excel recalculates on open
-Workbook file size: 1,286,864 bytes (1.23 MB)
+Workbook file size: 1,286,869 bytes (1.23 MB)
 
 KPI values calculated from the full source:
   Sales Records: 119,549
@@ -87,13 +87,3 @@ All summaries use full-source records, with case-sensitive source categories.
 No naive Total Sales Value KPI, outlier removal, recommendations or forecasts.
 Sample decimals exceeding Excel precision remain original text; missing stays blank.
 No MySQL access, credentials, Power BI work or previous-stage modifications.
-
-Native Microsoft Excel validation (performed separately from the Python builder)
-Timestamp: 2026-09-23T14:36:08
-PASS: Microsoft Excel 16.112.4 opened the regenerated workbook read-only with display alerts enabled; no repair prompt or opening error occurred.
-PASS: Excel reported saved=True immediately after opening; all seven expected worksheets and four Executive Summary chart objects were present.
-PASS: The eight dashboard KPI values read from native Excel matched the full-source calculations, allowing normal numeric display precision.
-The native workbook was closed without saving. No native Excel validation changes were written to the generated file.
-PASS: Repeated freeze transitions and an intentionally duplicated selection were tested; the package validator accepts clean views and rejects duplicate selections.
-Final source SHA-256 after native validation: bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
-Source unchanged: YES. No additional manual Excel repair check is required; optional visual portfolio review remains available.
