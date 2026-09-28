@@ -1,0 +1,158 @@
+Dubai Real Estate Intelligence Platform
+STAGE 13 - GITHUB PUBLISHING + PORTFOLIO LAUNCH
+============================================================================
+Validation date: 26 September 2026
+Status: publication and annotated release tag verified; GitHub website actions
+for repository metadata, GitHub Release creation and profile pinning remain manual.
+Scope: post-publish verification, release tag and this publishing report only.
+
+REPOSITORY AND LOCAL GIT STATE
+Repository URL: https://github.com/Huzaifirfan/dubai-real-estate-intelligence
+Visibility: PUBLIC (verified through unauthenticated GitHub API and repository page).
+Default branch: main.
+Local branch: main; upstream: origin/main.
+Origin fetch/push: https://github.com/Huzaifirfan/dubai-real-estate-intelligence.git
+Repository and origin already existed; neither was recreated or duplicated.
+Initial working tree: clean; Stages 1-12 committed.
+Published main commit verified before Stage 13 report:
+55ef804efa6d5501f3bb5cf6372fe5ec39ac2311
+Initial main push: SUCCESS, completed manually by the owner and independently
+confirmed by matching local main, origin/main, git ls-remote and GitHub API.
+All 13 existing stage commits are preserved; no history rewrite or squash.
+GitHub CLI remains unavailable. No software was installed, no authentication
+credentials were requested or read, and this did not block Git-based publishing.
+
+LIVE PUBLICATION VALIDATION
+Unauthenticated GitHub API/page validation: PASS at 2026-09-26 07:00:33 UTC.
+Recursive remote tree returned completely, with no truncation.
+Required published paths verified:
+  README.md
+  docs/
+  excel/
+  powerbi/
+  sql/
+  src/
+  reports/
+  images/powerbi/
+README is visible on the public repository page. Raw README returned HTTP 200
+and exactly matches the committed local README.
+PBIP project verified at:
+  powerbi/Dubai_Real_Estate_Intelligence/Dubai_Real_Estate_Intelligence.pbip
+Existing Power BI project includes its report and semantic model definitions.
+No Power BI or Excel rebuild, refresh or analytical changes were performed.
+
+README AND PORTFOLIO CHECKS
+All 17 requested README sections are present and logically ordered.
+All 97 relative links across README and the five portfolio documents resolve
+to tracked files/directories with matching case. No README rewrite was needed.
+All four repository-relative screenshot links are present and correct.
+Three Mermaid flowcharts pass static checks for directions, quoted node labels
+and edges. Interactive Mermaid rendering was not independently executed.
+Existing author/profile placeholders are preserved; no personal links invented.
+
+SCREENSHOT VERIFICATION
+Each screenshot returned HTTP 200 with image/png content, a valid PNG signature
+and bytes/SHA-256 identical to the local committed image:
+  images/powerbi/executive_overview.png (100,519 bytes)
+  SHA-256: 9dc6d0da6fed834736b913a058cd271c2c86d7999e7493df9748b8f06e6d5dad
+  images/powerbi/market_trends.png (91,027 bytes)
+  SHA-256: 9fc30eb6ebf20ddce443e08620e4e394dbf6086e3b57589b6a2f71ba85907070
+  images/powerbi/area_intelligence.png (111,182 bytes)
+  SHA-256: f605a6140952e84e131cd81628f20bed6297854f427335be76c224d816be7b21
+  images/powerbi/property_pricing.png (91,354 bytes)
+  SHA-256: 806b552689f711ac01b231a957aacd095ce24706da6447047b852a83067f3629
+
+SECRET AND PUBLIC DATA CHECK
+The completed pre-publication audit is carried forward because the published
+commit matches the exact audited commit, 55ef804. It covered 223 tracked files,
+13 reachable commits and 224 unique Git blobs (15,241,370 bytes), plus all
+44 XML/text members in the current workbook.
+Result: no actual secrets detected in credential signatures, assignments,
+credential-bearing URLs, private-key markers and reviewed candidate matches.
+Password references read environment/configuration values rather than literals.
+No tracked .env, credential/private-key files, Office lock files or Python caches.
+Limit: an older corrupt workbook blob was scanned as raw bytes, but its compressed
+members could not be inspected. This is not a guarantee that all possible secrets
+can be detected. No actual credential blocker was identified.
+Ignored local .env contents were never opened or printed.
+The complete public remote tree confirms .env and bulk monthly/processed CSVs
+are absent. The sole published CSV is the documented intentional exception:
+  data/raw/dld_transactions_sample_2026_01.csv
+The existing Excel inspection sample is also an intentional portfolio artifact.
+The .gitignore probes protect .env variants, .venv, bulk raw/external/processed
+CSVs, temporary Office files and Python caches; nested Power BI cache rules remain.
+
+LARGE-FILE AUDIT
+No tracked file or reachable historical blob exceeds 50 MiB, approaches 100 MiB,
+or blocks a normal GitHub push. All expected portfolio artifacts are retained.
+Largest tracked file: data/raw/dld_transactions_sample_2026_01.csv
+  5,514,415 bytes (about 5.26 MiB).
+Largest generated text artifact: retained Power BI validation JSON schema
+  3,195,382 working-tree bytes (about 3.05 MiB).
+Current Excel workbook: 1,286,869 bytes (about 1.23 MiB).
+The four selected screenshots are each below 112,000 bytes.
+No Git LFS conversion, file removal or history rewrite was needed.
+
+RELEASE TAG
+Checked local tags and remote refs before creation: v1.0.0 did not exist.
+Created annotated tag: v1.0.0
+Tag message: Dubai Real Estate Intelligence Platform — Portfolio Release v1.0.0
+Tag object: 130049841658a0738e21edae1257218fbeda9cd3
+Target commit: 55ef804efa6d5501f3bb5cf6372fe5ec39ac2311
+Tag push: SUCCESS; git ls-remote --tags origin confirms both the tag object and
+its peeled target. The tag marks the validated portfolio before this report-only
+commit; main subsequently gains the publishing report. The tag is not moved.
+
+GITHUB METADATA
+Current description: unset. Current topics: none. Website: blank.
+No available repository-metadata write tool or GitHub CLI was used.
+Manual action: on the repository Code page, use the About settings gear.
+Description to enter exactly:
+End-to-end Dubai real estate analytics platform using Python, MySQL, SQL, Excel and Power BI on official Dubai Land Department transaction data.
+Topics to enter:
+data-analytics, power-bi, python, sql, mysql, excel, pandas, dax, power-query,
+dubai, real-estate, data-visualization, portfolio-project
+Website: leave blank; no verified portfolio website was provided.
+
+GITHUB RELEASE - MANUAL REMAINING ACTION
+Public GitHub API confirms no GitHub Release exists at validation time.
+An annotated Git tag has been published; a GitHub Release has not been created.
+Open https://github.com/Huzaifirfan/dubai-real-estate-intelligence/releases
+Choose Draft a new release; select the existing v1.0.0 tag.
+Title: Dubai Real Estate Intelligence Platform v1.0.0
+Paste the following release notes, then publish the release. Do not attach raw
+datasets or mark a production deployment; no production deployment is claimed.
+
+RELEASE NOTES TO PASTE
+Official Dubai Land Department (DLD) 2026 YTD transaction analysis covering
+159,223 final analytical records.
+
+- Python data validation, cleaning and feature engineering
+- MySQL and SQL business analysis
+- Excel executive workbook
+- Four-page Power BI dashboard with 21 DAX measures
+- GitHub portfolio documentation
+
+Data coverage is through 21 September 2026. September is a partial month.
+
+PROFILE PINNING
+Manual action: GitHub Profile -> Customize your pins -> select
+dubai-real-estate-intelligence. No automated pinning is claimed.
+
+SOURCE AND ARTIFACT PROTECTION
+All 223 pre-existing tracked files remain byte-identical to the continuation
+baseline, including README, analytical scripts, SQL, Excel and Power BI files.
+Only this Stage 13 report is added by the continuation.
+Protected source: data/processed/dld_transactions_2026_ytd_features.csv
+Source SHA-256 before: bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+Source SHA-256 after:  bb85cf21fa01480511257e3139061e78b9bbcc7bbe1d3b7cfe481bdcfc863db1
+Source unchanged: YES.
+No analytical logic, source dataset, SQL/MySQL, DAX, Power BI visual, cleaning
+rule or feature engineering change. No work beyond Stage 13.
+
+REPORT DELIVERY
+This report is the only intended Stage 13 file change.
+Commit message: Add Stage 13 GitHub publishing report
+The report commit is pushed to origin/main after review. Its resulting commit
+ID, remote delivery and clean working-tree status are verified after committing
+and reported in the completion response, without changing this report again.
