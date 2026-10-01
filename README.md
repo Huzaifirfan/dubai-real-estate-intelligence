@@ -213,8 +213,7 @@ Automated monthly ingestion, semantic area mapping, transaction-grain reconcilia
 ## Author / Portfolio
 
 - **Author:** HUZAIF IRFAN 
-- **GitHub profile:** To be added by the author
-- **LinkedIn profile:** To be added by the author
+- **LinkedIn profile:** [To be added by the author](https://www.linkedin.com/in/mir-huzaif-67709a316/?isSelfProfile=true)
 
 [Resume project entry](docs/RESUME_PROJECT_ENTRY.md) · [Interview talking points](docs/INTERVIEW_TALKING_POINTS.md) · [Recruiter walkthrough](docs/RECRUITER_WALKTHROUGH.md)
 
